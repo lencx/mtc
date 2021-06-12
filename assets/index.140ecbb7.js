@@ -1,0 +1,1 @@
+import{R as e}from"./vendor.5fed8572.js";function t(){return e.createElement("div",{className:"about-view"},e.createElement("img",{className:"pic",src:"https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"}))}export default t;
