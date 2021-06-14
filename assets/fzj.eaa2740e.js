@@ -45,6 +45,9 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,r=Object.prototype.ha
         id
         title
         bodyHTML
+        category {
+          name
+        }
         reactions(first: 100) {
           totalCount
           edges {
@@ -54,7 +57,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,r=Object.prototype.ha
             }
           }
         }
-        comments(first: 10) {
+        comments(first: 100) {
           edges {
             node {
               id
