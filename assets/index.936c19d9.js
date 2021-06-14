@@ -1,1 +1,0 @@
-import{R as a}from"./vendor.5fed8572.js";import{c as e}from"./fzj.a33f1ce5.js";const r=({className:r,avatar:s,name:t,onClick:c})=>a.createElement("div",{className:e("fzj-avatar",r),onClick:()=>{c&&c()}},a.createElement("img",{src:s}),a.createElement("span",null,t));export{r as A};
