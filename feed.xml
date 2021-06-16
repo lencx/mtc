@@ -5,6 +5,791 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[this 关键字详解]]></title>
+  <link>https://github.com/lencx/fzj/discussions/32</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/32</guid>
+  <pubDate>2021-06-16</pubDate>
+  <description><![CDATA[<h2>含义(Meaning)</h2>
+<blockquote>
+<p>在构造函数内部需要使用到<code>this</code>关键字。那么，<code>this</code>关键字到底是什么意思？<br>
+<code>this</code>指向当前的运行环境：在JavaScript中，所有的函数都是在某个运行环境中运行，<code>this</code>就是这个运行环境。对JavaScript语言来说，一切皆对象，运行的环境也是对象，所以可以理解为所有的函数总是在某个对象之中运行，<code>this</code>就指向这个对象。<em>但是JavaScript支持运行环境动态切换，也就是说，this的指向是动态的，没有办法可以事先确定到底指向哪个对象</em></p>
+<p>例：有一个函数<code>xOfVal</code>，同时充当<code>a</code>对象和<code>b</code>对象的<code>say</code>方法，用于打印当前运行环境中<code>x</code>变量的值。JavaScript允许函数<code>xOfVal</code>的运行环境动态切换，即一会属于<code>a</code>对象，一会属于<code>b</code>对象，这就需要靠<code>this</code>关键字来办到</p>
+</blockquote>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="function xOfVal() {console.log(this.x)}
+var a = {x: 5}
+var b = {x: 7}
+a.say = xOfVal
+b.say = xOfVal
+a.say() // 5
+b.say() // 7
+"><pre><span class="pl-k">function</span> <span class="pl-en">xOfVal</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span><span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">x</span><span class="pl-kos">)</span><span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-c1">x</span>: <span class="pl-c1">5</span><span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">b</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-c1">x</span>: <span class="pl-c1">7</span><span class="pl-kos">}</span>
+<span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-c1">say</span> <span class="pl-c1">=</span> <span class="pl-s1">xOfVal</span>
+<span class="pl-s1">b</span><span class="pl-kos">.</span><span class="pl-c1">say</span> <span class="pl-c1">=</span> <span class="pl-s1">xOfVal</span>
+<span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-en">say</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// 5</span>
+<span class="pl-s1">b</span><span class="pl-kos">.</span><span class="pl-en">say</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// 7</span></pre></div>
+<p>当<code>xOfVal</code>属于对象<code>a</code>时，<code>this</code>指向<code>a</code>；当<code>xOfVal</code>属于对象<code>b</code>时， <code>this</code>指向<code>b</code>，<em>因此打印出不同的值</em>。由于<code>this</code>的指向是可变的，所以可以手动切换运行环境，以达到某种特定的目的。</p>
+<p><em>结论</em>：<em><strong>如果一个函数在全局环境中运行，<code>this</code>就是指向顶层对象(浏览器中为<code>window</code>对象)；如果一个函数作为某个对象的方法运行，<code>this</code>就是指向那个对象。 可以近似认为，<code>this</code>事所有函数运行时的一个隐藏参数，决定了函数的运行环境。</strong></em></p>
+<h2>使用场合(Using The Occasion)</h2>
+<h3>全局环境(Global Context)</h3>
+<blockquote>
+<p>在全局环境中使用<code>this</code>，它指的时顶层对象window。</p>
+</blockquote>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="console.log(this === window) // true
+function fn() {
+    console.log(this === window)
+}
+fn() // true
+"><pre><span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-c">// true</span>
+<span class="pl-k">function</span> <span class="pl-en">fn</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-en">fn</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// true</span></pre></div>
+<p><em>结论</em>： <em><strong><code>this</code>不论是不是在函数内部，只要是在全局环境下运行，<code>this</code>就是指向全局对象<code>window</code></strong></em></p>
+<h3>构造函数(Constructor)</h3>
+<blockquote>
+<p>在构造函数中使用<code>this</code>，它指的是实例对象</p>
+</blockquote>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 构造函数A
+var A = function(x) {
+    // this指向实例对象
+    // 所以在构造函数内部定义`this.x`，就相当于定义实例对象有一个`x`属性
+    this.x = x
+}
+// `say`方法可以返回这个`x`属性
+A.prototype.say = function() {
+    return this.x
+}
+var a = new A(3)
+a.x // 3
+a.say() // 3
+"><pre><span class="pl-c">// 构造函数A</span>
+<span class="pl-k">var</span> <span class="pl-v">A</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-c">// this指向实例对象</span>
+    <span class="pl-c">// 所以在构造函数内部定义`this.x`，就相当于定义实例对象有一个`x`属性</span>
+    <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">x</span> <span class="pl-c1">=</span> <span class="pl-s1">x</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">// `say`方法可以返回这个`x`属性</span>
+<span class="pl-v">A</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-en">say</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">return</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">x</span>
+<span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">A</span><span class="pl-kos">(</span><span class="pl-c1">3</span><span class="pl-kos">)</span>
+<span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-c1">x</span> <span class="pl-c">// 3</span>
+<span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-en">say</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// 3</span></pre></div>
+<h3>对象方法(Object Method)</h3>
+<ul>
+<li>当<code>a</code>对象的方法被赋予<code>b</code>对象，该方法就变成了普通函数。其中的<code>this</code>就从指向<code>a</code>对象变成指向<code>b</code>对象。这就是<code>this</code>取决于运行时所在的对象的含义。<em>需要特别小心。如果将某个对象的方法赋值给另一个对象，会改变<code>this</code>的指向。</em></li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var a = {
+    // `prop`是`a`对象的属性
+    prop: 'hello',
+    // `f`是`a`对象的方法
+    f: function() {
+        return this.prop
+    }
+}
+a.f() // hello
+var b = new Object()
+b.prop = 'hello, lencx'
+// `f`是`a`对象的方法
+b.f = a.f
+// 如果在`b`对象上调用这个方法。`f`方法中的`this`就会指向`b`
+// 说明JavaScript函数的运行环境完全是动态绑定的，可以在运行时切换。
+b.f() // hello, lencx
+"><pre><span class="pl-k">var</span> <span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c">// `prop`是`a`对象的属性</span>
+    <span class="pl-c1">prop</span>: <span class="pl-s">'hello'</span><span class="pl-kos">,</span>
+    <span class="pl-c">// `f`是`a`对象的方法</span>
+    <span class="pl-en">f</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-k">return</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">prop</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-en">f</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// hello</span>
+<span class="pl-k">var</span> <span class="pl-s1">b</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">Object</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-s1">b</span><span class="pl-kos">.</span><span class="pl-c1">prop</span> <span class="pl-c1">=</span> <span class="pl-s">'hello, lencx'</span>
+<span class="pl-c">// `f`是`a`对象的方法</span>
+<span class="pl-s1">b</span><span class="pl-kos">.</span><span class="pl-c1">f</span> <span class="pl-c1">=</span> <span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-c1">f</span>
+<span class="pl-c">// 如果在`b`对象上调用这个方法。`f`方法中的`this`就会指向`b`</span>
+<span class="pl-c">// 说明JavaScript函数的运行环境完全是动态绑定的，可以在运行时切换。</span>
+<span class="pl-s1">b</span><span class="pl-kos">.</span><span class="pl-en">f</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// hello, lencx</span></pre></div>
+<ul>
+<li>如果不想改变<code>this</code>的指向，可以将<code>b.f</code>改写为</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="b.f = function() {
+    // `f`方法是在`a`对象下运行，所以`this`指向`a`
+    return a.f()
+}
+b.f() // hello
+"><pre><span class="pl-s1">b</span><span class="pl-kos">.</span><span class="pl-en">f</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-c">// `f`方法是在`a`对象下运行，所以`this`指向`a`</span>
+    <span class="pl-k">return</span> <span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-en">f</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">b</span><span class="pl-kos">.</span><span class="pl-en">f</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// hello</span></pre></div>
+<ul>
+<li>有时，某个方法位于多层对象的内部，这时如果为了简化书写，把该方法赋值给一个变量，往往会得到意想不到的结果。</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var a = {
+    b: {
+        prop: 'hello, lencx',
+        say: function() {
+            console.log(this.prop)
+        }
+    }
+}
+// `say`属于多层对象内部的一个方法。为求简写，将其赋值给`hello`变量
+var hello = a.b.say
+// 调用时，`this`指向全局对象(window)
+hello() // undefined
+// 为了避免这个问题，可以将`say`方法所在的对象赋值给`hello2`
+var hello2 = a.b
+// 调用时，`this`指向不变，即指向对象`b`
+hello2.say()
+"><pre><span class="pl-k">var</span> <span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">b</span>: <span class="pl-kos">{</span>
+        <span class="pl-c1">prop</span>: <span class="pl-s">'hello, lencx'</span><span class="pl-kos">,</span>
+        <span class="pl-en">say</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+            <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">prop</span><span class="pl-kos">)</span>
+        <span class="pl-kos">}</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">// `say`属于多层对象内部的一个方法。为求简写，将其赋值给`hello`变量</span>
+<span class="pl-k">var</span> <span class="pl-s1">hello</span> <span class="pl-c1">=</span> <span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-c1">b</span><span class="pl-kos">.</span><span class="pl-c1">say</span>
+<span class="pl-c">// 调用时，`this`指向全局对象(window)</span>
+<span class="pl-s1">hello</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// undefined</span>
+<span class="pl-c">// 为了避免这个问题，可以将`say`方法所在的对象赋值给`hello2`</span>
+<span class="pl-k">var</span> <span class="pl-s1">hello2</span> <span class="pl-c1">=</span> <span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-c1">b</span>
+<span class="pl-c">// 调用时，`this`指向不变，即指向对象`b`</span>
+<span class="pl-s1">hello2</span><span class="pl-kos">.</span><span class="pl-en">say</span><span class="pl-kos">(</span><span class="pl-kos">)</span></pre></div>
+<h3>箭头函数(Arrow functions)</h3>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var foo = (() =&gt; this)
+// 在全局环境中调用`foo`，`this`指向`window`
+console.log(foo() === window) // true
+var a = {}
+// 作为`a`对象的`fn`方法调用
+a.fn = foo
+console.log(a.fn() === window) // true
+// 使用`call`
+console.log(foo.call(a) === window) // true
+// 使用`bind`
+foo = foo.bind(a)
+console.log(foo() === window) // true
+"><pre><span class="pl-k">var</span> <span class="pl-s1">foo</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-smi">this</span><span class="pl-kos">)</span>
+<span class="pl-c">// 在全局环境中调用`foo`，`this`指向`window`</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">foo</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-c">// true</span>
+<span class="pl-k">var</span> <span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-kos">}</span>
+<span class="pl-c">// 作为`a`对象的`fn`方法调用</span>
+<span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-c1">fn</span> <span class="pl-c1">=</span> <span class="pl-s1">foo</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">a</span><span class="pl-kos">.</span><span class="pl-en">fn</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-c">// true</span>
+<span class="pl-c">// 使用`call`</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">foo</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-s1">a</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-c">// true</span>
+<span class="pl-c">// 使用`bind`</span>
+<span class="pl-s1">foo</span> <span class="pl-c1">=</span> <span class="pl-s1">foo</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-s1">a</span><span class="pl-kos">)</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">foo</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-c">// true</span></pre></div>
+<p><em>结论</em>：<em><strong>无论使用何种办法，<code>foo</code>方法的<code>this</code>指向都是创建时的指向(window)。这个结论同样适用于在其他函数内部创建的箭头函数。<code>this</code>指向创建它的对象。</strong></em></p>
+<p>例：</p>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var obj = {foo: function() {
+    var x = (() =&gt; this)
+    // var x = function() {
+    //     return this
+    // }
+    return x
+}}
+var fn = obj.foo()
+console.log(fn() === obj) // true
+// 但是请注意，如果将`foo`所在的对象赋值给一个变量`fn2`，而不是调用`foo`方法
+var fn2 = obj.foo
+// 然后调用该方法，则`this`指向`window`，因为它遵循所在的对象运行环境
+console.log(fn2()() === window) // true
+"><pre><span class="pl-k">var</span> <span class="pl-s1">obj</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-en">foo</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">var</span> <span class="pl-s1">x</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-smi">this</span><span class="pl-kos">)</span>
+    <span class="pl-c">// var x = function() {</span>
+    <span class="pl-c">//     return this</span>
+    <span class="pl-c">// }</span>
+    <span class="pl-k">return</span> <span class="pl-s1">x</span>
+<span class="pl-kos">}</span><span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">fn</span> <span class="pl-c1">=</span> <span class="pl-s1">obj</span><span class="pl-kos">.</span><span class="pl-en">foo</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">fn</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-s1">obj</span><span class="pl-kos">)</span> <span class="pl-c">// true</span>
+<span class="pl-c">// 但是请注意，如果将`foo`所在的对象赋值给一个变量`fn2`，而不是调用`foo`方法</span>
+<span class="pl-k">var</span> <span class="pl-s1">fn2</span> <span class="pl-c1">=</span> <span class="pl-s1">obj</span><span class="pl-kos">.</span><span class="pl-c1">foo</span>
+<span class="pl-c">// 然后调用该方法，则`this`指向`window`，因为它遵循所在的对象运行环境</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">fn2</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-c">// true</span></pre></div>
+<h3>对象定义新属性方法(Getter Or Setter)</h3>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="function sum() {
+    return this.x + this.y + this.z
+}
+var numObj = {
+    x: 3,
+    y: 5,
+    z: 7,
+    get average() {
+        return (this.x + this.y + this.z) / 3
+    }
+}
+Object.defineProperty(numObj, 'sum', {
+    get: sum,
+    enumerable: true,
+    configurable: true
+})
+console.log(numObj.average, numObj.sum) // 5 15
+"><pre><span class="pl-k">function</span> <span class="pl-en">sum</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">return</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">x</span> <span class="pl-c1">+</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">y</span> <span class="pl-c1">+</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">z</span>
+<span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">numObj</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">x</span>: <span class="pl-c1">3</span><span class="pl-kos">,</span>
+    <span class="pl-c1">y</span>: <span class="pl-c1">5</span><span class="pl-kos">,</span>
+    <span class="pl-c1">z</span>: <span class="pl-c1">7</span><span class="pl-kos">,</span>
+    <span class="pl-k">get</span> <span class="pl-en">average</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-k">return</span> <span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">x</span> <span class="pl-c1">+</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">y</span> <span class="pl-c1">+</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">z</span><span class="pl-kos">)</span> <span class="pl-c1">/</span> <span class="pl-c1">3</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-v">Object</span><span class="pl-kos">.</span><span class="pl-en">defineProperty</span><span class="pl-kos">(</span><span class="pl-s1">numObj</span><span class="pl-kos">,</span> <span class="pl-s">'sum'</span><span class="pl-kos">,</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">get</span>: <span class="pl-s1">sum</span><span class="pl-kos">,</span>
+    <span class="pl-c1">enumerable</span>: <span class="pl-c1">true</span><span class="pl-kos">,</span>
+    <span class="pl-c1">configurable</span>: <span class="pl-c1">true</span>
+<span class="pl-kos">}</span><span class="pl-kos">)</span>
+<span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">numObj</span><span class="pl-kos">.</span><span class="pl-c1">average</span><span class="pl-kos">,</span> <span class="pl-s1">numObj</span><span class="pl-kos">.</span><span class="pl-c1">sum</span><span class="pl-kos">)</span> <span class="pl-c">// 5 15</span></pre></div>
+<h3>Node.js</h3>
+<p>在node.js，<code>this</code>分成两种情况。在全局环境中，<code>this</code>指向全局对象<code>global</code>；在模块环境中，<code>this</code>指向<code>module.exports</code></p>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 全局环境中
+this === global // true
+// 模块环境中
+this === module.exports // true
+"><pre><span class="pl-c">// 全局环境中</span>
+<span class="pl-smi">this</span> <span class="pl-c1">===</span> <span class="pl-s1">global</span> <span class="pl-c">// true</span>
+<span class="pl-c">// 模块环境中</span>
+<span class="pl-smi">this</span> <span class="pl-c1">===</span> <span class="pl-smi">module</span><span class="pl-kos">.</span><span class="pl-c1">exports</span> <span class="pl-c">// true</span></pre></div>
+<h2>使用注意事项(Note)</h2>
+<h3>避免多层<code>this</code></h3>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var o = {
+    f1: function() {
+        console.log(this) // f1
+        var f2 = function() {
+            console.log(this) // window
+        }()
+    }
+}
+o.f1()
+// 解决办法:
+var o2 = {
+    f1: function() {
+        console.log(this) // f1
+        // 使用`that`对`this`进行固定
+        var that = this
+        var f2 = function() {
+            // 使用`that`代替原来的`this`
+            console.log(that) // f1
+        }()
+    }
+}
+o2.f1()
+"><pre><span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-en">f1</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">)</span> <span class="pl-c">// f1</span>
+        <span class="pl-k">var</span> <span class="pl-s1">f2</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+            <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">)</span> <span class="pl-c">// window</span>
+        <span class="pl-kos">}</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-en">f1</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-c">// 解决办法:</span>
+<span class="pl-k">var</span> <span class="pl-s1">o2</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-en">f1</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">)</span> <span class="pl-c">// f1</span>
+        <span class="pl-c">// 使用`that`对`this`进行固定</span>
+        <span class="pl-k">var</span> <span class="pl-s1">that</span> <span class="pl-c1">=</span> <span class="pl-smi">this</span>
+        <span class="pl-k">var</span> <span class="pl-s1">f2</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+            <span class="pl-c">// 使用`that`代替原来的`this`</span>
+            <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">that</span><span class="pl-kos">)</span> <span class="pl-c">// f1</span>
+        <span class="pl-kos">}</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">o2</span><span class="pl-kos">.</span><span class="pl-en">f1</span><span class="pl-kos">(</span><span class="pl-kos">)</span></pre></div>
+<h3>避免数组处理方法中的<code>this</code></h3>
+<p>数组的<code>map</code>, <code>reduce</code>, <code>some</code>, <code>filter</code>, <code>forEach</code>等方法，允许提供一个函数作为参数。这个函数内部不应该使用<code>this</code>。</p>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var o = {
+    a: 'hello',
+    b: ['lencx', 'a1', 'a2'],
+    fn: function() {
+        this.b.map(function(item) {
+            console.log(`${this.a}, ${item}`)
+        })
+    }
+}
+// undefined, lencx
+// undefined, a1
+// undefined, a2
+o.fn()
+// ------------------------------------------
+// 解决办法一：
+// 使用中间变量
+var o2 = {
+    a: 'hello',
+    b: ['lencx', 'a1', 'a2'],
+    fn: function() {
+        var that = this
+        this.b.map(function(item) {
+            console.log(`${that.a}, ${item}`)
+        })
+    }
+}
+// hello, lencx
+// hello, a1
+// hello, a2
+o2.f()
+// ------------------------------------------
+// 解决办法二：
+// 将`this`当作`map`方法的第二个参数，固定它的运行环境
+var o3 = {
+    a: 'hello',
+    b: ['lencx', 'a1', 'a2'],
+    fn: function() {
+        this.b.map(function(item) {
+            console.log(`${this.a}, ${item}`)
+        }, this)
+    }
+}
+// hello, lencx
+// hello, a1
+// hello, a2
+o3.fn()
+"><pre><span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">a</span>: <span class="pl-s">'hello'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">b</span>: <span class="pl-kos">[</span><span class="pl-s">'lencx'</span><span class="pl-kos">,</span> <span class="pl-s">'a1'</span><span class="pl-kos">,</span> <span class="pl-s">'a2'</span><span class="pl-kos">]</span><span class="pl-kos">,</span>
+    <span class="pl-en">fn</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">b</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-s1">item</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+            <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s">`<span class="pl-s1"><span class="pl-kos">${</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">a</span><span class="pl-kos">}</span></span>, <span class="pl-s1"><span class="pl-kos">${</span><span class="pl-s1">item</span><span class="pl-kos">}</span></span>`</span><span class="pl-kos">)</span>
+        <span class="pl-kos">}</span><span class="pl-kos">)</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">// undefined, lencx</span>
+<span class="pl-c">// undefined, a1</span>
+<span class="pl-c">// undefined, a2</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-en">fn</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-c">// ------------------------------------------</span>
+<span class="pl-c">// 解决办法一：</span>
+<span class="pl-c">// 使用中间变量</span>
+<span class="pl-k">var</span> <span class="pl-s1">o2</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">a</span>: <span class="pl-s">'hello'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">b</span>: <span class="pl-kos">[</span><span class="pl-s">'lencx'</span><span class="pl-kos">,</span> <span class="pl-s">'a1'</span><span class="pl-kos">,</span> <span class="pl-s">'a2'</span><span class="pl-kos">]</span><span class="pl-kos">,</span>
+    <span class="pl-en">fn</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-k">var</span> <span class="pl-s1">that</span> <span class="pl-c1">=</span> <span class="pl-smi">this</span>
+        <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">b</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-s1">item</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+            <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s">`<span class="pl-s1"><span class="pl-kos">${</span><span class="pl-s1">that</span><span class="pl-kos">.</span><span class="pl-c1">a</span><span class="pl-kos">}</span></span>, <span class="pl-s1"><span class="pl-kos">${</span><span class="pl-s1">item</span><span class="pl-kos">}</span></span>`</span><span class="pl-kos">)</span>
+        <span class="pl-kos">}</span><span class="pl-kos">)</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">// hello, lencx</span>
+<span class="pl-c">// hello, a1</span>
+<span class="pl-c">// hello, a2</span>
+<span class="pl-s1">o2</span><span class="pl-kos">.</span><span class="pl-en">f</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-c">// ------------------------------------------</span>
+<span class="pl-c">// 解决办法二：</span>
+<span class="pl-c">// 将`this`当作`map`方法的第二个参数，固定它的运行环境</span>
+<span class="pl-k">var</span> <span class="pl-s1">o3</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">a</span>: <span class="pl-s">'hello'</span><span class="pl-kos">,</span>
+    <span class="pl-c1">b</span>: <span class="pl-kos">[</span><span class="pl-s">'lencx'</span><span class="pl-kos">,</span> <span class="pl-s">'a1'</span><span class="pl-kos">,</span> <span class="pl-s">'a2'</span><span class="pl-kos">]</span><span class="pl-kos">,</span>
+    <span class="pl-en">fn</span>: <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">b</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-s1">item</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+            <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s">`<span class="pl-s1"><span class="pl-kos">${</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">a</span><span class="pl-kos">}</span></span>, <span class="pl-s1"><span class="pl-kos">${</span><span class="pl-s1">item</span><span class="pl-kos">}</span></span>`</span><span class="pl-kos">)</span>
+        <span class="pl-kos">}</span><span class="pl-kos">,</span> <span class="pl-smi">this</span><span class="pl-kos">)</span>
+    <span class="pl-kos">}</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">// hello, lencx</span>
+<span class="pl-c">// hello, a1</span>
+<span class="pl-c">// hello, a2</span>
+<span class="pl-s1">o3</span><span class="pl-kos">.</span><span class="pl-en">fn</span><span class="pl-kos">(</span><span class="pl-kos">)</span></pre></div>
+<h3>避免回调函数中的<code>this</code></h3>
+<blockquote>
+<p>回调函数中的<code>this</code>往往会改变指向，最好避免使用</p>
+</blockquote>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var o = new Object()
+o.f = function() {
+    console.log(this === o)
+}
+o.f() // true
+// `this`不再指向`o`对象，而是指向按钮的DOM对象
+// 因为`f`方法是在按钮对象的环境中被调用的
+document.querySelector('#btn').addEventListener('click', o.f)
+"><pre><span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">Object</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-en">f</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span> <span class="pl-c1">===</span> <span class="pl-s1">o</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-en">f</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// true</span>
+<span class="pl-c">// `this`不再指向`o`对象，而是指向按钮的DOM对象</span>
+<span class="pl-c">// 因为`f`方法是在按钮对象的环境中被调用的</span>
+<span class="pl-smi">document</span><span class="pl-kos">.</span><span class="pl-en">querySelector</span><span class="pl-kos">(</span><span class="pl-s">'#btn'</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">addEventListener</span><span class="pl-kos">(</span><span class="pl-s">'click'</span><span class="pl-kos">,</span> <span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">f</span><span class="pl-kos">)</span></pre></div>
+<h2>固定<code>this</code>的方法(Fixed this)</h2>
+<p><code>this</code>的动态切换，为JavaScript创造了巨大的灵活性，但也使编程变得困难和模糊。有时需要把<code>this</code>固定下来，避免出现意想不到的情况。JavaScript提供了<code>call</code>, <code>apply</code>, <code>bind</code>三个方法，来切换/固定<code>this</code>的指向。</p>
+<h3><code>call</code>方法</h3>
+<blockquote>
+<p>Syntax: function.call(thisArg, arg1, arg2, ...)<br>
+第一个参数<code>thisArg</code>就是<code>this</code>所要指向的对象，之后的参数<code>arg1, arg2, ...</code>则是函数调用时所需的参数。</p>
+</blockquote>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 例1:
+var o = {}
+var f = function () {
+    return this
+}
+f() === window // true
+f.call(o) === o // true
+// 例2:
+var num = 111
+var num2 = {num: 222}
+function sayNum() {
+    console.log(this.num)
+}
+sayNum.call() // 111
+sayNum.call(window) // 111
+sayNum.call(num2) // 222
+"><pre><span class="pl-c">// 例1:</span>
+<span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-en">f</span> <span class="pl-c1">=</span> <span class="pl-k">function</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">return</span> <span class="pl-smi">this</span>
+<span class="pl-kos">}</span>
+<span class="pl-en">f</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-smi">window</span> <span class="pl-c">// true</span>
+<span class="pl-en">f</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-s1">o</span><span class="pl-kos">)</span> <span class="pl-c1">===</span> <span class="pl-s1">o</span> <span class="pl-c">// true</span>
+<span class="pl-c">// 例2:</span>
+<span class="pl-k">var</span> <span class="pl-s1">num</span> <span class="pl-c1">=</span> <span class="pl-c1">111</span>
+<span class="pl-k">var</span> <span class="pl-s1">num2</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-c1">num</span>: <span class="pl-c1">222</span><span class="pl-kos">}</span>
+<span class="pl-k">function</span> <span class="pl-en">sayNum</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">num</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">sayNum</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// 111</span>
+<span class="pl-s1">sayNum</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-smi">window</span><span class="pl-kos">)</span> <span class="pl-c">// 111</span>
+<span class="pl-s1">sayNum</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-s1">num2</span><span class="pl-kos">)</span> <span class="pl-c">// 222</span></pre></div>
+<p><code>call</code>的应用：调用对象的原生方法</p>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var obj = {}
+obj.hasOwnProperty('map') // false
+obj.hasOwnProperty = function() {
+    return true
+}
+obj.hasOwnProperty('map') // true
+Object.prototype.hasOwnProperty.call(obj, 'map') // false
+"><pre><span class="pl-k">var</span> <span class="pl-s1">obj</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-kos">}</span>
+<span class="pl-s1">obj</span><span class="pl-kos">.</span><span class="pl-en">hasOwnProperty</span><span class="pl-kos">(</span><span class="pl-s">'map'</span><span class="pl-kos">)</span> <span class="pl-c">// false</span>
+<span class="pl-s1">obj</span><span class="pl-kos">.</span><span class="pl-en">hasOwnProperty</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">return</span> <span class="pl-c1">true</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">obj</span><span class="pl-kos">.</span><span class="pl-en">hasOwnProperty</span><span class="pl-kos">(</span><span class="pl-s">'map'</span><span class="pl-kos">)</span> <span class="pl-c">// true</span>
+<span class="pl-v">Object</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">hasOwnProperty</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-s1">obj</span><span class="pl-kos">,</span> <span class="pl-s">'map'</span><span class="pl-kos">)</span> <span class="pl-c">// false</span></pre></div>
+<p><code>hasOwnProperty</code>是<code>obj</code>对象继承的方法，如果这个方法一旦被覆盖，就得不到正确的结果。<code>call</code>方法则可以解决这个问题。它将<code>hasOwnProperty</code>方法的原始定义放到<code>obj</code>对象上执行，这样无论<code>obj</code>上有没有同名方法，都不会影响其结果。</p>
+<h3><code>apply</code>方法</h3>
+<blockquote>
+<p>Syntax: func.apply(thisArg, [argsArray])<br>
+<code>apply</code>方法与<code>call</code>类似，也是改变<code>this</code>指向，然后再调用该函数。唯一区别是，它接收一个数组作为函数执行时的参数。</p>
+</blockquote>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="function sum(x, y) {
+    console.log(x + y)
+}
+sum.call(null, 2, 4) // 6
+sum.apply(null, [2, 4]) // 6
+// --------------------------------------------------
+// 对字符串中的单个字符进行重复操作
+//Uncaught TypeError: &quot;abcd&quot;.map is not a function
+'abcd'.map(i =&gt; console.log(i))
+// aabbccdd
+Array.prototype.map.call('abcd', i =&gt; i+i).join('')
+"><pre><span class="pl-k">function</span> <span class="pl-en">sum</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">,</span> <span class="pl-s1">y</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">x</span> <span class="pl-c1">+</span> <span class="pl-s1">y</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">sum</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-c1">null</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">,</span> <span class="pl-c1">4</span><span class="pl-kos">)</span> <span class="pl-c">// 6</span>
+<span class="pl-s1">sum</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-c1">null</span><span class="pl-kos">,</span> <span class="pl-kos">[</span><span class="pl-c1">2</span><span class="pl-kos">,</span> <span class="pl-c1">4</span><span class="pl-kos">]</span><span class="pl-kos">)</span> <span class="pl-c">// 6</span>
+<span class="pl-c">// --------------------------------------------------</span>
+<span class="pl-c">// 对字符串中的单个字符进行重复操作</span>
+<span class="pl-c">//Uncaught TypeError: "abcd".map is not a function</span>
+<span class="pl-s">'abcd'</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-s1">i</span> <span class="pl-c1">=&gt;</span> <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span><span class="pl-kos">)</span>
+<span class="pl-c">// aabbccdd</span>
+<span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">map</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-s">'abcd'</span><span class="pl-kos">,</span> <span class="pl-s1">i</span> <span class="pl-c1">=&gt;</span> <span class="pl-s1">i</span><span class="pl-c1">+</span><span class="pl-s1">i</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">join</span><span class="pl-kos">(</span><span class="pl-s">''</span><span class="pl-kos">)</span></pre></div>
+<h4>应用(Use)</h4>
+<ul>
+<li>找出数组中最大/最小的元素</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var a = [4, 7, 3, 9, 11, 1]
+Math.max.apply(null, a) // 11
+Math.min.apply(null, a) // 1
+"><pre><span class="pl-k">var</span> <span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-kos">[</span><span class="pl-c1">4</span><span class="pl-kos">,</span> <span class="pl-c1">7</span><span class="pl-kos">,</span> <span class="pl-c1">3</span><span class="pl-kos">,</span> <span class="pl-c1">9</span><span class="pl-kos">,</span> <span class="pl-c1">11</span><span class="pl-kos">,</span> <span class="pl-c1">1</span><span class="pl-kos">]</span>
+<span class="pl-v">Math</span><span class="pl-kos">.</span><span class="pl-c1">max</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-c1">null</span><span class="pl-kos">,</span> <span class="pl-s1">a</span><span class="pl-kos">)</span> <span class="pl-c">// 11</span>
+<span class="pl-v">Math</span><span class="pl-kos">.</span><span class="pl-c1">min</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-c1">null</span><span class="pl-kos">,</span> <span class="pl-s1">a</span><span class="pl-kos">)</span> <span class="pl-c">// 1</span></pre></div>
+<ul>
+<li>将数组的空元素变为<code>undefined</code>(数组遍历会跳过空元素，但是不会跳过undefined)</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="Array.apply(null, [1, 2, , 3]) // [1, 2, undefined, 3]
+"><pre><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-c1">null</span><span class="pl-kos">,</span> <span class="pl-kos">[</span><span class="pl-c1">1</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">,</span> <span class="pl-kos">,</span> <span class="pl-c1">3</span><span class="pl-kos">]</span><span class="pl-kos">)</span> <span class="pl-c">// [1, 2, undefined, 3]</span></pre></div>
+<ul>
+<li>转换类似数组的对象(被处理的对象必须有<code>length</code>属性，以及相对应的数字键)</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 例1:
+var o = {
+    0: 1,
+    1: 3,
+    length: 2
+}
+Array.prototype.slice.apply(o) // [1, 3]
+// 例2:
+var o2 = {
+    0: 1,
+    1: 3
+}
+Array.prototype.slice.apply(o2) // []
+// 例3:
+var o3 = {
+    0: 1,
+    1: 3,
+    length: 4
+}
+Array.prototype.slice.apply(o3) // [1, 3, empty × 2]
+// 例4:
+var o4 = {
+    1: 1,
+    a: 3,
+    length: 2
+}
+Array.prototype.slice.apply(o4) // [empty, 1]
+"><pre><span class="pl-c">// 例1:</span>
+<span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">0</span>: <span class="pl-c1">1</span><span class="pl-kos">,</span>
+    <span class="pl-c1">1</span>: <span class="pl-c1">3</span><span class="pl-kos">,</span>
+    <span class="pl-c1">length</span>: <span class="pl-c1">2</span>
+<span class="pl-kos">}</span>
+<span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-s1">o</span><span class="pl-kos">)</span> <span class="pl-c">// [1, 3]</span>
+<span class="pl-c">// 例2:</span>
+<span class="pl-k">var</span> <span class="pl-s1">o2</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">0</span>: <span class="pl-c1">1</span><span class="pl-kos">,</span>
+    <span class="pl-c1">1</span>: <span class="pl-c1">3</span>
+<span class="pl-kos">}</span>
+<span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-s1">o2</span><span class="pl-kos">)</span> <span class="pl-c">// []</span>
+<span class="pl-c">// 例3:</span>
+<span class="pl-k">var</span> <span class="pl-s1">o3</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">0</span>: <span class="pl-c1">1</span><span class="pl-kos">,</span>
+    <span class="pl-c1">1</span>: <span class="pl-c1">3</span><span class="pl-kos">,</span>
+    <span class="pl-c1">length</span>: <span class="pl-c1">4</span>
+<span class="pl-kos">}</span>
+<span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-s1">o3</span><span class="pl-kos">)</span> <span class="pl-c">// [1, 3, empty × 2]</span>
+<span class="pl-c">// 例4:</span>
+<span class="pl-k">var</span> <span class="pl-s1">o4</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">1</span>: <span class="pl-c1">1</span><span class="pl-kos">,</span>
+    <span class="pl-c1">a</span>: <span class="pl-c1">3</span><span class="pl-kos">,</span>
+    <span class="pl-c1">length</span>: <span class="pl-c1">2</span>
+<span class="pl-kos">}</span>
+<span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-s1">o4</span><span class="pl-kos">)</span> <span class="pl-c">// [empty, 1]</span></pre></div>
+<ul>
+<li>绑定回调函数的对象(之前<a href="#%E9%81%BF%E5%85%8D%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0%E4%B8%AD%E7%9A%84this">绑定按钮点击事件</a>的例子)</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var o = new Object()
+o.f = function() {
+    console.log(this === o)
+}
+// `apply`或者`call`方法不仅绑定函数执行时所在的对象，还会立即执行函数。因此要把绑定语句写在一个函数体内。
+var foo = function() {
+    // o.f.call(o)
+    o.f.apply(o)
+}
+// true
+document.querySelector('#btn').addEventListener('click', foo)
+"><pre><span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">Object</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-en">f</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span> <span class="pl-c1">===</span> <span class="pl-s1">o</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">// `apply`或者`call`方法不仅绑定函数执行时所在的对象，还会立即执行函数。因此要把绑定语句写在一个函数体内。</span>
+<span class="pl-k">var</span> <span class="pl-en">foo</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-c">// o.f.call(o)</span>
+    <span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">f</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-s1">o</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-c">// true</span>
+<span class="pl-smi">document</span><span class="pl-kos">.</span><span class="pl-en">querySelector</span><span class="pl-kos">(</span><span class="pl-s">'#btn'</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">addEventListener</span><span class="pl-kos">(</span><span class="pl-s">'click'</span><span class="pl-kos">,</span> <span class="pl-en">foo</span><span class="pl-kos">)</span></pre></div>
+<h3><code>bind</code>方法</h3>
+<blockquote>
+<p>Syntax: fun.bind(thisArg[, arg1[, arg2[, ...]]])</p>
+</blockquote>
+<ul>
+<li><code>bind</code>方法用于将函数体内的<code>this</code>绑定到某个对象，然后返回一个新函数。</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var o = new Object()
+o.name = 'lencx'
+o.say = function() {
+    console.log(this.name)
+}
+o.say() // lencx
+var o2 = new Object()
+o2.name = 'len'
+o2.say = o.say
+o2.say() // len
+o2.say = o.say.bind(o)
+o2.say() // lencx
+"><pre><span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">Object</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">name</span> <span class="pl-c1">=</span> <span class="pl-s">'lencx'</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-en">say</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">name</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-en">say</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// lencx</span>
+<span class="pl-k">var</span> <span class="pl-s1">o2</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-v">Object</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<span class="pl-s1">o2</span><span class="pl-kos">.</span><span class="pl-c1">name</span> <span class="pl-c1">=</span> <span class="pl-s">'len'</span>
+<span class="pl-s1">o2</span><span class="pl-kos">.</span><span class="pl-c1">say</span> <span class="pl-c1">=</span> <span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">say</span>
+<span class="pl-s1">o2</span><span class="pl-kos">.</span><span class="pl-en">say</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// len</span>
+<span class="pl-s1">o2</span><span class="pl-kos">.</span><span class="pl-c1">say</span> <span class="pl-c1">=</span> <span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">say</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-s1">o</span><span class="pl-kos">)</span>
+<span class="pl-s1">o2</span><span class="pl-kos">.</span><span class="pl-en">say</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// lencx</span></pre></div>
+<ul>
+<li><code>bind</code>除了可以绑定<code>this</code>以外，还可以绑定原函数的参数</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var sum = function(x, y) {
+    return x * this.a + y * this.b
+}
+var nums = {
+    a: 3,
+    b: 4
+}
+var newSum = sum.bind(nums, 3)
+newSum(3)
+"><pre><span class="pl-k">var</span> <span class="pl-en">sum</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">,</span> <span class="pl-s1">y</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">return</span> <span class="pl-s1">x</span> <span class="pl-c1">*</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">a</span> <span class="pl-c1">+</span> <span class="pl-s1">y</span> <span class="pl-c1">*</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">b</span>
+<span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">nums</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span>
+    <span class="pl-c1">a</span>: <span class="pl-c1">3</span><span class="pl-kos">,</span>
+    <span class="pl-c1">b</span>: <span class="pl-c1">4</span>
+<span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">newSum</span> <span class="pl-c1">=</span> <span class="pl-en">sum</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-s1">nums</span><span class="pl-kos">,</span> <span class="pl-c1">3</span><span class="pl-kos">)</span>
+<span class="pl-s1">newSum</span><span class="pl-kos">(</span><span class="pl-c1">3</span><span class="pl-kos">)</span></pre></div>
+<h4>注意事项(Note)</h4>
+<ul>
+<li>每次绑定都返回一个新函数</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 点击事件绑定`bind`方法生成的一个匿名函数。会导致无法取消绑定。
+element.addEventListener('click', o.say.bind(o))
+// 因此下面的代码无效
+element.removeEventListener('click', o.say.bind(o))
+// 正确解法：
+var _say = o.say.bind(o)
+element.addEventListener('click', _say)
+element.removeEventListener('click', _say)
+"><pre><span class="pl-c">// 点击事件绑定`bind`方法生成的一个匿名函数。会导致无法取消绑定。</span>
+<span class="pl-s1">element</span><span class="pl-kos">.</span><span class="pl-en">addEventListener</span><span class="pl-kos">(</span><span class="pl-s">'click'</span><span class="pl-kos">,</span> <span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">say</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-s1">o</span><span class="pl-kos">)</span><span class="pl-kos">)</span>
+<span class="pl-c">// 因此下面的代码无效</span>
+<span class="pl-s1">element</span><span class="pl-kos">.</span><span class="pl-en">removeEventListener</span><span class="pl-kos">(</span><span class="pl-s">'click'</span><span class="pl-kos">,</span> <span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">say</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-s1">o</span><span class="pl-kos">)</span><span class="pl-kos">)</span>
+<span class="pl-c">// 正确解法：</span>
+<span class="pl-k">var</span> <span class="pl-s1">_say</span> <span class="pl-c1">=</span> <span class="pl-s1">o</span><span class="pl-kos">.</span><span class="pl-c1">say</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-s1">o</span><span class="pl-kos">)</span>
+<span class="pl-s1">element</span><span class="pl-kos">.</span><span class="pl-en">addEventListener</span><span class="pl-kos">(</span><span class="pl-s">'click'</span><span class="pl-kos">,</span> <span class="pl-s1">_say</span><span class="pl-kos">)</span>
+<span class="pl-s1">element</span><span class="pl-kos">.</span><span class="pl-en">removeEventListener</span><span class="pl-kos">(</span><span class="pl-s">'click'</span><span class="pl-kos">,</span> <span class="pl-s1">_say</span><span class="pl-kos">)</span></pre></div>
+<ul>
+<li><code>bind</code>方法的兼容(Polyfill)</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+if (!Function.prototype.bind) {
+  Function.prototype.bind = function(oThis) {
+    if (typeof this !== 'function') {
+      // closest thing possible to the ECMAScript 5
+      // internal IsCallable function
+      throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
+    }
+    var aArgs   = Array.prototype.slice.call(arguments, 1),
+        fToBind = this,
+        fNOP    = function() {},
+        fBound  = function() {
+          return fToBind.apply(this instanceof fNOP
+                 ? this
+                 : oThis,
+                 aArgs.concat(Array.prototype.slice.call(arguments)));
+        };
+    if (this.prototype) {
+      // Function.prototype doesn't have a prototype property
+      fNOP.prototype = this.prototype;
+    }
+    fBound.prototype = new fNOP();
+    return fBound;
+  };
+}
+"><pre><span class="pl-c">// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind</span>
+<span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-c1">!</span><span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">bind</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-en">bind</span> <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-s1">oThis</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-k">typeof</span> <span class="pl-smi">this</span> <span class="pl-c1">!==</span> <span class="pl-s">'function'</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+      <span class="pl-c">// closest thing possible to the ECMAScript 5</span>
+      <span class="pl-c">// internal IsCallable function</span>
+      <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-v">TypeError</span><span class="pl-kos">(</span><span class="pl-s">'Function.prototype.bind - what is trying to be bound is not callable'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-kos">}</span>
+    <span class="pl-k">var</span> <span class="pl-s1">aArgs</span>   <span class="pl-c1">=</span> <span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-smi">arguments</span><span class="pl-kos">,</span> <span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">,</span>
+        <span class="pl-s1">fToBind</span> <span class="pl-c1">=</span> <span class="pl-smi">this</span><span class="pl-kos">,</span>
+        <span class="pl-en">fNOP</span>    <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span><span class="pl-kos">}</span><span class="pl-kos">,</span>
+        <span class="pl-en">fBound</span>  <span class="pl-c1">=</span> <span class="pl-k">function</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+          <span class="pl-k">return</span> <span class="pl-s1">fToBind</span><span class="pl-kos">.</span><span class="pl-en">apply</span><span class="pl-kos">(</span><span class="pl-smi">this</span> <span class="pl-k">instanceof</span> <span class="pl-en">fNOP</span>
+                 ? <span class="pl-smi">this</span>
+                 : <span class="pl-s1">oThis</span><span class="pl-kos">,</span>
+                 <span class="pl-s1">aArgs</span><span class="pl-kos">.</span><span class="pl-en">concat</span><span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-smi">arguments</span><span class="pl-kos">)</span><span class="pl-kos">)</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+        <span class="pl-kos">}</span><span class="pl-kos">;</span>
+    <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+      <span class="pl-c">// Function.prototype doesn't have a prototype property</span>
+      <span class="pl-en">fNOP</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span> <span class="pl-c1">=</span> <span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">;</span>
+    <span class="pl-kos">}</span>
+    <span class="pl-en">fBound</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span> <span class="pl-c1">=</span> <span class="pl-k">new</span> <span class="pl-en">fNOP</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-k">return</span> <span class="pl-en">fBound</span><span class="pl-kos">;</span>
+  <span class="pl-kos">}</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span></pre></div>
+<ul>
+<li>结合<code>call</code>方法使用</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="[1, 2, 3].slice(0, 1) // [1]
+// 等同
+Array.prototype.slice.call([1, 2, 3], 0, 1) // [1]
+// `call`方法实质是调用`Function.prototype.call`方法
+var slice = Function.prototype.call.bind(Array.prototype.slice)
+slice([1, 2, 3], 0, 1) // [1]
+"><pre><span class="pl-kos">[</span><span class="pl-c1">1</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">,</span> <span class="pl-c1">3</span><span class="pl-kos">]</span><span class="pl-kos">.</span><span class="pl-en">slice</span><span class="pl-kos">(</span><span class="pl-c1">0</span><span class="pl-kos">,</span> <span class="pl-c1">1</span><span class="pl-kos">)</span> <span class="pl-c">// [1]</span>
+<span class="pl-c">// 等同</span>
+<span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">.</span><span class="pl-en">call</span><span class="pl-kos">(</span><span class="pl-kos">[</span><span class="pl-c1">1</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">,</span> <span class="pl-c1">3</span><span class="pl-kos">]</span><span class="pl-kos">,</span> <span class="pl-c1">0</span><span class="pl-kos">,</span> <span class="pl-c1">1</span><span class="pl-kos">)</span> <span class="pl-c">// [1]</span>
+<span class="pl-c">// `call`方法实质是调用`Function.prototype.call`方法</span>
+<span class="pl-k">var</span> <span class="pl-s1">slice</span> <span class="pl-c1">=</span> <span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">call</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">slice</span><span class="pl-kos">)</span>
+<span class="pl-s1">slice</span><span class="pl-kos">(</span><span class="pl-kos">[</span><span class="pl-c1">1</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">,</span> <span class="pl-c1">3</span><span class="pl-kos">]</span><span class="pl-kos">,</span> <span class="pl-c1">0</span><span class="pl-kos">,</span> <span class="pl-c1">1</span><span class="pl-kos">)</span> <span class="pl-c">// [1]</span></pre></div>
+<ul>
+<li>利用<code>bind</code>方法，将<code>[1, 2, 3].slice(0, 1)</code>变成了<code>slice([1, 2, 3], 0, 1)</code>的形式。这种改变也可以应用到其他数组方法。</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="var pop = Function.prototype.call.bind(Array.prototype.pop)
+var push = Function.prototype.call.bind(Array.prototype.push)
+var shift = Function.prototype.call.bind(Array.prototype.shift)
+var map = Function.prototype.call.bind(Array.prototype.map)
+// ...
+var a = [1, 2, 3]
+pop(a) // [1, 2]
+push(a, 5) // [1, 2, 5]
+shift(a) // [2, 5]
+map(a, i =&gt; i+1) // [3, 6]
+"><pre><span class="pl-k">var</span> <span class="pl-s1">pop</span> <span class="pl-c1">=</span> <span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">call</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">pop</span><span class="pl-kos">)</span>
+<span class="pl-k">var</span> <span class="pl-s1">push</span> <span class="pl-c1">=</span> <span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">call</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">push</span><span class="pl-kos">)</span>
+<span class="pl-k">var</span> <span class="pl-s1">shift</span> <span class="pl-c1">=</span> <span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">call</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">shift</span><span class="pl-kos">)</span>
+<span class="pl-k">var</span> <span class="pl-s1">map</span> <span class="pl-c1">=</span> <span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">call</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">map</span><span class="pl-kos">)</span>
+<span class="pl-c">// ...</span>
+<span class="pl-k">var</span> <span class="pl-s1">a</span> <span class="pl-c1">=</span> <span class="pl-kos">[</span><span class="pl-c1">1</span><span class="pl-kos">,</span> <span class="pl-c1">2</span><span class="pl-kos">,</span> <span class="pl-c1">3</span><span class="pl-kos">]</span>
+<span class="pl-s1">pop</span><span class="pl-kos">(</span><span class="pl-s1">a</span><span class="pl-kos">)</span> <span class="pl-c">// [1, 2]</span>
+<span class="pl-s1">push</span><span class="pl-kos">(</span><span class="pl-s1">a</span><span class="pl-kos">,</span> <span class="pl-c1">5</span><span class="pl-kos">)</span> <span class="pl-c">// [1, 2, 5]</span>
+<span class="pl-s1">shift</span><span class="pl-kos">(</span><span class="pl-s1">a</span><span class="pl-kos">)</span> <span class="pl-c">// [2, 5]</span>
+<span class="pl-s1">map</span><span class="pl-kos">(</span><span class="pl-s1">a</span><span class="pl-kos">,</span> <span class="pl-s1">i</span> <span class="pl-c1">=&gt;</span> <span class="pl-s1">i</span><span class="pl-c1">+</span><span class="pl-c1">1</span><span class="pl-kos">)</span> <span class="pl-c">// [3, 6]</span></pre></div>
+<ul>
+<li>将<code>Function.prototype.call</code>绑定到<code>Function.prototype.bind</code>对象，<code>bind</code>的调用形式也可以被改写</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="function foo() {
+    console.log(this.name)
+}
+var o = {name: 'lencx'}
+var bind = Function.prototype.call.bind(Function.prototype.bind)
+bind(foo, o)() // lencx
+"><pre><span class="pl-k">function</span> <span class="pl-en">foo</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+    <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-smi">this</span><span class="pl-kos">.</span><span class="pl-c1">name</span><span class="pl-kos">)</span>
+<span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">o</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-c1">name</span>: <span class="pl-s">'lencx'</span><span class="pl-kos">}</span>
+<span class="pl-k">var</span> <span class="pl-s1">bind</span> <span class="pl-c1">=</span> <span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">call</span><span class="pl-kos">.</span><span class="pl-en">bind</span><span class="pl-kos">(</span><span class="pl-v">Function</span><span class="pl-kos">.</span><span class="pl-c1">prototype</span><span class="pl-kos">.</span><span class="pl-c1">bind</span><span class="pl-kos">)</span>
+<span class="pl-s1">bind</span><span class="pl-kos">(</span><span class="pl-s1">foo</span><span class="pl-kos">,</span> <span class="pl-s1">o</span><span class="pl-kos">)</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c">// lencx</span></pre></div>
+<h2>参考资料</h2>
+<ul>
+<li>MDN Web Docs:
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this" rel="nofollow">this</a>,</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty" rel="nofollow">defineProperty</a>,</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call" rel="nofollow">call</a>,</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind" rel="nofollow">bind</a>,</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply" rel="nofollow">apply</a></li>
+</ul>
+</li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[WebGL系列]]></title>
   <link>https://github.com/lencx/fzj/discussions/6</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/6</guid>
@@ -610,190 +1395,6 @@ registry = &quot;git://crates.rustcc.cn/crates.io-index&quot;
 <li><a href="https://mirrors.ustc.edu.cn" rel="nofollow">中国科学技术大学开源软件镜像</a> - 是 Debian, Ubuntu, Fedora, Archlinux, CentOS 等多个发行版的官方源。目前是中国大陆高校访问量最大，收录最全的开源软件镜像。</li>
 <li><a href="https://mirrors.sjtug.sjtu.edu.cn" rel="nofollow">上海交通大学 Linux 用户组 软件源镜像服务</a></li>
 <li><a href="https://rustcc.cn" rel="nofollow">Rust语言中文社区</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[终端插件汇总]]></title>
-  <link>https://github.com/lencx/fzj/discussions/27</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/27</guid>
-  <pubDate>2021-06-14</pubDate>
-  <description><![CDATA[<ul>
-<li>
-<p><a href="https://github.com/microsoft/terminal">«win» Windows Terminal</a> - The new Windows Terminal and the original Windows console host, all in the same place!</p>
-</li>
-<li>
-<p><a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a> - Oh My Zsh will not make you a 10x developer...but you may feel like one.</p>
-<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="# install
-sh -c &quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;
-# or
-sh -c &quot;$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)&quot;
-"><pre><span class="pl-c"><span class="pl-c">#</span> install</span>
-sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
-<span class="pl-c"><span class="pl-c">#</span> or</span>
-sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
-<ul>
-<li><a href="https://github.com/zsh-users/antigen">antigen</a> - The plugin manager for zsh.</li>
-<li><a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> - Fish-like autosuggestions for zsh.</li>
-<li><a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a> - Fish shell like syntax highlighting for Zsh.</li>
-<li><a href="https://github.com/zsh-users/zsh-history-substring-search">history-substring-search</a> - <g-emoji class="g-emoji" alias="tropical_fish" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f420.png">🐠</g-emoji> ZSH port of Fish history search (up arrow)</li>
-</ul>
-<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="# @see: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-# step1:
-# 1.
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-# 2.
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-# 3.
-git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
-# step2: ~/.zshrc
-plugins=(
-  [plugins...]
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-  history-substring-search
-)
-"><pre><span class="pl-c"><span class="pl-c">#</span> @see: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md</span>
-<span class="pl-c"><span class="pl-c">#</span> step1:</span>
-<span class="pl-c"><span class="pl-c">#</span> 1.</span>
-git clone https://github.com/zsh-users/zsh-autosuggestions <span class="pl-smi">${ZSH_CUSTOM<span class="pl-k">:-</span>~<span class="pl-k">/</span>.oh-my-zsh<span class="pl-k">/</span>custom}</span>/plugins/zsh-autosuggestions
-<span class="pl-c"><span class="pl-c">#</span> 2.</span>
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="pl-smi">${ZSH_CUSTOM<span class="pl-k">:-</span>~<span class="pl-k">/</span>.oh-my-zsh<span class="pl-k">/</span>custom}</span>/plugins/zsh-syntax-highlighting
-<span class="pl-c"><span class="pl-c">#</span> 3.</span>
-git clone https://github.com/zsh-users/zsh-history-substring-search <span class="pl-smi">${ZSH_CUSTOM<span class="pl-k">:-</span>~<span class="pl-k">/</span>.oh-my-zsh<span class="pl-k">/</span>custom}</span>/plugins/zsh-history-substring-search
-<span class="pl-c"><span class="pl-c">#</span> step2: ~/.zshrc</span>
-plugins=(
-  [plugins...]
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-  history-substring-search
-)</pre></div>
-<ul>
-<li><a href="https://github.com/sobolevn/wakatime-zsh-plugin">wakatime</a> - <g-emoji class="g-emoji" alias="clock3" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f552.png">🕒</g-emoji>Track how much time you have spent in your terminal!</li>
-</ul>
-<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="# preinstall
-# step1:
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-# step2:
-sudo python get-pip.py
-############
-# @see: https://wakatime.com/terminal
-# step1:
-sudo pip install wakatime
-# step2:
-cd ~/.oh-my-zsh/custom/plugins &amp;&amp; git clone https://github.com/sobolevn/wakatime-zsh-plugin.git wakatime
-# step3:
-# add `wakatime` to the list of `plugins` in your `~/.zshrc` file
-# step4:
-# Make sure your `API key` is in your `~/.wakatime.cfg` file.
-"><pre><span class="pl-c"><span class="pl-c">#</span> preinstall</span>
-<span class="pl-c"><span class="pl-c">#</span> step1:</span>
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-<span class="pl-c"><span class="pl-c">#</span> step2:</span>
-sudo python get-pip.py
-<span class="pl-c"><span class="pl-c">#</span>###########</span>
-<span class="pl-c"><span class="pl-c">#</span> @see: https://wakatime.com/terminal</span>
-<span class="pl-c"><span class="pl-c">#</span> step1:</span>
-sudo pip install wakatime
-<span class="pl-c"><span class="pl-c">#</span> step2:</span>
-<span class="pl-c1">cd</span> <span class="pl-k">~</span>/.oh-my-zsh/custom/plugins <span class="pl-k">&amp;&amp;</span> git clone https://github.com/sobolevn/wakatime-zsh-plugin.git wakatime
-<span class="pl-c"><span class="pl-c">#</span> step3:</span>
-<span class="pl-c"><span class="pl-c">#</span> add `wakatime` to the list of `plugins` in your `~/.zshrc` file</span>
-<span class="pl-c"><span class="pl-c">#</span> step4:</span>
-<span class="pl-c"><span class="pl-c">#</span> Make sure your `API key` is in your `~/.wakatime.cfg` file.</span></pre></div>
-</li>
-<li>
-<p><a href="https://github.com/rupa/z">z</a> - jump around.</p>
-</li>
-<li>
-<p><a href="https://github.com/cli/cli">GitHub CLI</a> - GitHub’s official command line tool.</p>
-</li>
-<li>
-<p><a href="https://asciinema.org" rel="nofollow">asciinema</a> - Record and share your terminal sessions, the right way.</p>
-</li>
-<li>
-<p><a href="https://github.com/sharkdp/bat">bat</a> - A cat(1) clone with wings.</p>
-</li>
-<li>
-<p><a href="https://github.com/dylanaraps/fff">fff</a> - <g-emoji class="g-emoji" alias="file_folder" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c1.png">📁</g-emoji> A simple file manager written in bash.</p>
-</li>
-<li>
-<p><a href="https://github.com/tmux/tmux">tmux</a> - is a terminal multiplexer.</p>
-</li>
-<li>
-<p><a href="https://github.com/jonas/tig">tig</a> - Text-mode interface for git.</p>
-</li>
-<li>
-<p><a href="https://github.com/starship/starship">starship</a> - <g-emoji class="g-emoji" alias="comet" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2604.png">☄</g-emoji><g-emoji class="g-emoji" alias="milky_way" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30c.png">🌌️</g-emoji> The minimal, blazing-fast, and infinitely customizable prompt for any shell!</p>
-<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="curl -fsSL https://starship.rs/install.sh | bash
-vi ~/.zshrc
-eval &quot;$(starship init zsh)&quot;
-"><pre>curl -fsSL https://starship.rs/install.sh <span class="pl-k">|</span> bash
-vi <span class="pl-k">~</span>/.zshrc
-<span class="pl-c1">eval</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>starship init zsh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
-</li>
-<li>
-<p><a href="https://github.com/kornelski/cavif">cavif</a> - PNG/JPEG to AVIF converter.</p>
-</li>
-<li>
-<p><a href="https://github.com/BurntSushi/ripgrep">ripgrep</a> - ripgrep recursively searches directories for a regex pattern.</p>
-</li>
-<li>
-<p><a href="https://github.com/sharkdp/fd">fd</a> - A simple, fast and user-friendly alternative to 'find'</p>
-</li>
-<li>
-<p><a href="https://github.com/ogham/exa">exa</a> - A modern version of ‘ls’.</p>
-</li>
-<li>
-<p><a href="https://github.com/Peltoche/lsd">lsd</a> - The next gen ls command.</p>
-</li>
-<li>
-<p><a href="https://github.com/sharkdp/hexyl">hexyl</a> - A command-line hex viewer.</p>
-</li>
-<li>
-<p><a href="https://github.com/BurntSushi/xsv">xsv</a> - A fast CSV command line toolkit written in Rust.</p>
-</li>
-<li>
-<p><a href="https://github.com/wfxr/csview">csview</a> - <g-emoji class="g-emoji" alias="fax" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e0.png">📠</g-emoji> A high performance csv viewer with cjk/emoji support.</p>
-</li>
-<li>
-<p><a href="https://github.com/nivekuil/rip">rip(Rm ImProved)</a> - A safe and ergonomic alternative to rm.</p>
-</li>
-<li>
-<p><a href="https://github.com/vmchale/tin-summer">The Tin Summer</a> - Find build artifacts that are taking up disk space.</p>
-</li>
-<li>
-<p><a href="https://github.com/saschagrunert/git-journal">git-journal</a> - <g-emoji class="g-emoji" alias="book" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png">📖</g-emoji> The Git Commit Message and Changelog Generation Framework.</p>
-</li>
-<li>
-<p><a href="https://gitlab.com/timvisee/ffsend" rel="nofollow">ffsend</a> - <g-emoji class="g-emoji" alias="mailbox_with_mail" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ec.png">📬</g-emoji> Easily and securely share files from the command line. A fully featured Firefox Send client.</p>
-</li>
-<li>
-<p><a href="https://github.com/XAMPPRocky/tokei">Tokei</a> - Count your code, quickly.</p>
-</li>
-<li>
-<p><a href="https://github.com/sharkdp/hyperfine">hyperfine</a> - A command-line benchmarking tool.</p>
-</li>
-<li>
-<p><a href="https://github.com/nerdypepper/eva">eva</a> - a calculator REPL, similar to bc(1)</p>
-</li>
-<li>
-<p><a href="https://github.com/RazrFalcon/svgcleaner">svgcleaner</a> - svgcleaner could help you to clean up your SVG files from the unnecessary data.</p>
-</li>
-<li>
-<p><a href="https://github.com/watchexec/watchexec">watchexec</a> - Executes commands in response to file modifications.</p>
-</li>
-<li>
-<p><a href="https://github.com/dalance/procs">procs</a> - A modern replacement for ps written in Rust.</p>
-</li>
-<li>
-<p><a href="https://github.com/cli/cli">GitHub CLI</a> - GitHub’s official command line tool.</p>
-</li>
-<li>
-<p><a href="https://github.com/alacritty/alacritty">Alacritty</a> - A cross-platform, GPU-accelerated terminal emulator.</p>
-</li>
-<li>
-<p><a href="https://github.com/willdoescode/nat">nat</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji>the 'ls' replacement you never knew you needed<g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji></p>
-</li>
 </ul>]]></description>
 </item>
 
