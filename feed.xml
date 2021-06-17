@@ -5,6 +5,86 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[词汇表 - 中英文对照]]></title>
+  <link>https://github.com/lencx/fzj/discussions/34</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/34</guid>
+  <pubDate>2021-06-17</pubDate>
+  <description><![CDATA[<table role="table">
+<thead>
+<tr>
+<th>中文</th>
+<th>英文</th>
+<th>缩写</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>应用程序接口</td>
+<td>Application Programming Interfaces</td>
+<td>API</td>
+</tr>
+<tr>
+<td>用户界面</td>
+<td>User Interface</td>
+<td></td>
+</tr>
+<tr>
+<td>解释</td>
+<td>interpret</td>
+<td></td>
+</tr>
+<tr>
+<td>编译</td>
+<td>compile</td>
+<td></td>
+</tr>
+<tr>
+<td>即时编译</td>
+<td>just-in-time compiling</td>
+<td></td>
+</tr>
+<tr>
+<td>服务器端</td>
+<td>server-side</td>
+<td></td>
+</tr>
+<tr>
+<td>客户端</td>
+<td>client-side</td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></description>
+</item>
+<item>
+  <title><![CDATA[TODO]]></title>
+  <link>https://github.com/lencx/fzj/discussions/20</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
+  <pubDate>2021-06-17</pubDate>
+  <description><![CDATA[<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API" rel="nofollow">WebRTC 学习</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="918242444" data-permission-text="Title is private" data-url="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard" href="https://github.com/lencx/vite-plugin-rsw/issues/9">lencx/vite-plugin-rsw#9</a> - rsw插件模板生成</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[JavaScript 系列]]></title>
+  <link>https://github.com/lencx/fzj/discussions/33</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/33</guid>
+  <pubDate>2021-06-17</pubDate>
+  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
+<hr>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 是什么？可以做什么？</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 构成 JavaScript 的 “砖块” - 常见类型的代码块，如条件语句、循环、函数及事件等。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 对象初始 - 对象的设计思想和语法，如何创建对象等。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 异步 JavaScript - 怎样使用异步来有效处理潜在的阻塞操作，比如从服务器上获取资源。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 客户端 Web API</li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[this 关键字详解]]></title>
   <link>https://github.com/lencx/fzj/discussions/32</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/32</guid>
@@ -844,20 +924,10 @@ bind(foo, o)() // lencx
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[TODO]]></title>
-  <link>https://github.com/lencx/fzj/discussions/20</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
-  <pubDate>2021-06-16</pubDate>
-  <description><![CDATA[<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="918242444" data-permission-text="Title is private" data-url="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard" href="https://github.com/lencx/vite-plugin-rsw/issues/9">lencx/vite-plugin-rsw#9</a> - rsw插件模板生成</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[技术名词解释（一）]]></title>
+  <title><![CDATA[技术名词解释 - 云服务]]></title>
   <link>https://github.com/lencx/fzj/discussions/31</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/31</guid>
-  <pubDate>2021-06-16</pubDate>
+  <pubDate>2021-06-17</pubDate>
   <description><![CDATA[<h2>云计算</h2>
 <p>云计算（英语：cloud computing），也被意译为网络计算，是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机各种终端和其他设备，使用服务商提供的电脑基建作计算和资源。</p>
 <p>云计算是指在云中运行工作负载，而云是一种能够抽象、汇集和共享整个网络中的可扩展资源的 IT 环境。云计算和云本身都不属于技术的范畴。</p>
@@ -1332,69 +1402,6 @@ try {
 <li><a href="https://rustwasm.github.io/wasm-pack" rel="nofollow">wasm-pack</a></li>
 <li><a href="https://webassembly.org" rel="nofollow">wasm</a> - webAssembly的简称</li>
 <li><a href="https://vitejs.dev" rel="nofollow">vite</a> - 下一代前端构建工具</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[在路上..🏃🏻‍♂️.]]></title>
-  <link>https://github.com/lencx/fzj/discussions/29</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/29</guid>
-  <pubDate>2021-06-14</pubDate>
-  <description><![CDATA[<p><g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> 在迷茫，消极，思考中寻找自己的人生...</p>]]></description>
-</item>
-<item>
-  <title><![CDATA[Rust国内镜像]]></title>
-  <link>https://github.com/lencx/fzj/discussions/28</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/28</guid>
-  <pubDate>2021-06-14</pubDate>
-  <description><![CDATA[<p>macOS: <code>~/.cargo/config</code></p>
-<div class="highlight highlight-source-toml position-relative" data-snippet-clipboard-copy-content="[source.crates-io]
-registry = &quot;https://github.com/rust-lang/crates.io-index&quot;
-
-# 替换成你偏好的镜像源
-replace-with = 'sjtu'
-
-# 清华大学
-[source.tuna]
-registry = &quot;https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git&quot;
-
-# 中国科学技术大学
-[source.ustc]
-registry = &quot;git://mirrors.ustc.edu.cn/crates.io-index&quot;
-
-# 上海交通大学
-[source.sjtu]
-registry = &quot;https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index&quot;
-
-# rustcc社区
-[source.rustcc]
-registry = &quot;git://crates.rustcc.cn/crates.io-index&quot;
-"><pre>[<span class="pl-en">source</span>.<span class="pl-en">crates-io</span>]
-<span class="pl-smi">registry</span> = <span class="pl-s"><span class="pl-pds">"</span>https://github.com/rust-lang/crates.io-index<span class="pl-pds">"</span></span>
-
-<span class="pl-c"><span class="pl-c">#</span> 替换成你偏好的镜像源</span>
-<span class="pl-smi">replace-with</span> = <span class="pl-s"><span class="pl-pds">'</span>sjtu<span class="pl-pds">'</span></span>
-
-<span class="pl-c"><span class="pl-c">#</span> 清华大学</span>
-[<span class="pl-en">source</span>.<span class="pl-en">tuna</span>]
-<span class="pl-smi">registry</span> = <span class="pl-s"><span class="pl-pds">"</span>https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git<span class="pl-pds">"</span></span>
-
-<span class="pl-c"><span class="pl-c">#</span> 中国科学技术大学</span>
-[<span class="pl-en">source</span>.<span class="pl-en">ustc</span>]
-<span class="pl-smi">registry</span> = <span class="pl-s"><span class="pl-pds">"</span>git://mirrors.ustc.edu.cn/crates.io-index<span class="pl-pds">"</span></span>
-
-<span class="pl-c"><span class="pl-c">#</span> 上海交通大学</span>
-[<span class="pl-en">source</span>.<span class="pl-en">sjtu</span>]
-<span class="pl-smi">registry</span> = <span class="pl-s"><span class="pl-pds">"</span>https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index<span class="pl-pds">"</span></span>
-
-<span class="pl-c"><span class="pl-c">#</span> rustcc社区</span>
-[<span class="pl-en">source</span>.<span class="pl-en">rustcc</span>]
-<span class="pl-smi">registry</span> = <span class="pl-s"><span class="pl-pds">"</span>git://crates.rustcc.cn/crates.io-index<span class="pl-pds">"</span></span></pre></div>
-<hr>
-<ul>
-<li><a href="https://mirrors.tuna.tsinghua.edu.cn" rel="nofollow">清华大学开源软件镜像站</a> - 清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 团队负责维护。</li>
-<li><a href="https://mirrors.ustc.edu.cn" rel="nofollow">中国科学技术大学开源软件镜像</a> - 是 Debian, Ubuntu, Fedora, Archlinux, CentOS 等多个发行版的官方源。目前是中国大陆高校访问量最大，收录最全的开源软件镜像。</li>
-<li><a href="https://mirrors.sjtug.sjtu.edu.cn" rel="nofollow">上海交通大学 Linux 用户组 软件源镜像服务</a></li>
-<li><a href="https://rustcc.cn" rel="nofollow">Rust语言中文社区</a></li>
 </ul>]]></description>
 </item>
 
