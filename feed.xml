@@ -5,6 +5,24 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[TODO]]></title>
+  <link>https://github.com/lencx/fzj/discussions/20</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
+  <pubDate>2021-06-18</pubDate>
+  <description><![CDATA[<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API" rel="nofollow">WebRTC 学习</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
+</ul>
+<h3>开源</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <code>xc-app</code> - <a href="https://github.com/lencx/create-xc-app/issues/1" data-hovercard-type="issue" data-hovercard-url="/lencx/create-xc-app/issues/1/hovercard">#1 脚手架优化</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[词汇表 - 中英文对照]]></title>
   <link>https://github.com/lencx/fzj/discussions/34</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/34</guid>
@@ -55,19 +73,6 @@
 </tr>
 </tbody>
 </table>]]></description>
-</item>
-<item>
-  <title><![CDATA[TODO]]></title>
-  <link>https://github.com/lencx/fzj/discussions/20</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
-  <pubDate>2021-06-17</pubDate>
-  <description><![CDATA[<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API" rel="nofollow">WebRTC 学习</a></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="918242444" data-permission-text="Title is private" data-url="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard" href="https://github.com/lencx/vite-plugin-rsw/issues/9">lencx/vite-plugin-rsw#9</a> - rsw插件模板生成</li>
-</ul>]]></description>
 </item>
 <item>
   <title><![CDATA[JavaScript 系列]]></title>
