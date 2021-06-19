@@ -8,7 +8,7 @@
   <title><![CDATA[TODO]]></title>
   <link>https://github.com/lencx/fzj/discussions/20</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
-  <pubDate>2021-06-18</pubDate>
+  <pubDate>2021-06-19</pubDate>
   <description><![CDATA[<ul class="contains-task-list">
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
@@ -17,8 +17,8 @@
 </ul>
 <h3>开源</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <code>xc-app</code> - <a href="https://github.com/lencx/create-xc-app/issues/1" data-hovercard-type="issue" data-hovercard-url="/lencx/create-xc-app/issues/1/hovercard">#1 脚手架优化</a></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>xc-app</code> - <a href="https://github.com/lencx/create-xc-app/issues/1" data-hovercard-type="issue" data-hovercard-url="/lencx/create-xc-app/issues/1/hovercard">#1 脚手架优化</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
 </ul>]]></description>
 </item>
