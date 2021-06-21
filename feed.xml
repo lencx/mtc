@@ -5,6 +5,25 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[JavaScript 系列]]></title>
+  <link>https://github.com/lencx/fzj/discussions/33</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/33</guid>
+  <pubDate>2021-06-21</pubDate>
+  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
+<hr>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 是什么？可以做什么？
+<ul>
+<li><a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch1.md">[You Don't Know JS] What Is JavaScript?</a></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 构成 JavaScript 的 “砖块” - 常见类型的代码块，如条件语句、循环、函数及事件等。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 对象初始 - 对象的设计思想和语法，如何创建对象等。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 异步 JavaScript - 怎样使用异步来有效处理潜在的阻塞操作，比如从服务器上获取资源。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 客户端 Web API</li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[TODO]]></title>
   <link>https://github.com/lencx/fzj/discussions/20</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
@@ -73,21 +92,6 @@
 </tr>
 </tbody>
 </table>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/33</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/33</guid>
-  <pubDate>2021-06-17</pubDate>
-  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
-<hr>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 是什么？可以做什么？</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 构成 JavaScript 的 “砖块” - 常见类型的代码块，如条件语句、循环、函数及事件等。</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 对象初始 - 对象的设计思想和语法，如何创建对象等。</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 异步 JavaScript - 怎样使用异步来有效处理潜在的阻塞操作，比如从服务器上获取资源。</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 客户端 Web API</li>
-</ul>]]></description>
 </item>
 <item>
   <title><![CDATA[this 关键字详解]]></title>
