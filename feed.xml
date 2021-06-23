@@ -5,6 +5,70 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[lencx 的 vscode 配置]]></title>
+  <link>https://github.com/lencx/fzj/discussions/41</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/41</guid>
+  <pubDate>2021-06-23</pubDate>
+  <description><![CDATA[<h2>Theme</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple" rel="nofollow">Shades of Purple</a> - <g-emoji class="g-emoji" alias="unicorn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f984.png">🦄</g-emoji> A professional theme suite with hand-picked &amp; bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme" rel="nofollow">Material Icon Theme</a> - Material Design Icons for Visual Studio Code</li>
+</ul>
+<h2>Terminal</h2>
+<ul>
+<li><a href="https://ohmyz.sh" rel="nofollow">Oh My Zsh</a> - Unleash your terminal like never before.</li>
+<li><a href="https://github.com/starship/starship">starship</a> - <g-emoji class="g-emoji" alias="comet" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2604.png">☄</g-emoji><g-emoji class="g-emoji" alias="milky_way" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30c.png">🌌️</g-emoji> The minimal, blazing-fast, and infinitely customizable prompt for any shell!</li>
+</ul>
+<h2>Extensions</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree" rel="nofollow">Todo Tree</a> - Show TODO, FIXME, etc. comment tags in a tree view</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview" rel="nofollow">Image preview</a> - Shows image preview in the gutter and on hover</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview" rel="nofollow">Svg Preview</a> - Preview for Svg files</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[通用 - 组件 & 库]]></title>
+  <link>https://github.com/lencx/fzj/discussions/36</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/36</guid>
+  <pubDate>2021-06-23</pubDate>
+  <description><![CDATA[<h2>slider</h2>
+<ul>
+<li><a href="https://github.com/naver/egjs-flicking">@egjs/flicking</a> - <g-emoji class="g-emoji" alias="carousel_horse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a0.png">🎠</g-emoji> <g-emoji class="g-emoji" alias="recycle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/267b.png">♻️</g-emoji> Everyday 30 million people experience. It's reliable, flexible and extendable carousel.</li>
+</ul>
+<h2>library</h2>
+<ul>
+<li><a href="https://github.com/zenorocha/clipboard.js">clipboard.js</a> - <g-emoji class="g-emoji" alias="scissors" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2702.png">✂️</g-emoji> Modern copy to clipboard. No Flash. Just 3kb gzipped <g-emoji class="g-emoji" alias="clipboard" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png">📋</g-emoji></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[React系列]]></title>
+  <link>https://github.com/lencx/fzj/discussions/35</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/35</guid>
+  <pubDate>2021-06-23</pubDate>
+  <description><![CDATA[<h2>Hooks</h2>
+<ul>
+<li><a href="https://github.com/rehooks/awesome-react-hooks">awesome-react-hooks</a> - Awesome React Hooks</li>
+<li><a href="https://github.com/streamich/react-use">react-use</a>- React Hooks — <g-emoji class="g-emoji" alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji></li>
+</ul>
+
+<h2>Components</h2>
+<ul>
+<li><a href="https://github.com/brillout/awesome-react-components"><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Absolutely Awesome React Components &amp; Libraries</a> - Curated List of React Components &amp; Libraries.</li>
+<li><a href="https://github.com/JedWatson/react-select">react-select</a> - The Select Component for React.js</li>
+<li><a href="https://github.com/fkhadra/react-toastify">react-toastify</a> - React notification made easy <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> !</li>
+<li><a href="https://github.com/atlassian/react-beautiful-dnd">react-beautiful-dnd</a> - Beautiful and accessible drag and drop for lists with React.</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[网站性能优化系列]]></title>
+  <link>https://github.com/lencx/fzj/discussions/39</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/39</guid>
+  <pubDate>2021-06-23</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[WebAssembly 系列]]></title>
   <link>https://github.com/lencx/fzj/discussions/22</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/22</guid>
@@ -75,26 +139,6 @@
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback" rel="nofollow">[MDN] requestIdleCallback</a></li>
 <li><a href="https://developers.google.com/web/updates/2015/08/using-requestidlecallback" rel="nofollow">Using requestIdleCallback</a></li>
 <li><a href="https://docs.w3cub.com/dom/window/requestidlecallback" rel="nofollow">[W3cubDocs] window.requestIdleCallback</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[组件系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/36</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/36</guid>
-  <pubDate>2021-06-22</pubDate>
-  <description><![CDATA[<h2>slider</h2>
-<ul>
-<li><a href="https://github.com/naver/egjs-flicking">@egjs/flicking</a> - <g-emoji class="g-emoji" alias="carousel_horse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a0.png">🎠</g-emoji> <g-emoji class="g-emoji" alias="recycle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/267b.png">♻️</g-emoji> Everyday 30 million people experience. It's reliable, flexible and extendable carousel.</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[React系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/35</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/35</guid>
-  <pubDate>2021-06-22</pubDate>
-  <description><![CDATA[<h2>Hooks</h2>
-<ul>
-<li><a href="https://github.com/rehooks/awesome-react-hooks">awesome-react-hooks</a> - Awesome React Hooks</li>
 </ul>]]></description>
 </item>
 <item>
@@ -969,60 +1013,6 @@ bind(foo, o)() // lencx
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply" rel="nofollow">apply</a></li>
 </ul>
 </li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[WebGL系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/6</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/6</guid>
-  <pubDate>2021-06-16</pubDate>
-  <description><![CDATA[<h2>Guide</h2>
-<ul>
-<li>Modern WebGL tutorials that teach WebGL from basic principles
-<ul>
-<li><a href="https://webglfundamentals.org" rel="nofollow">WebGL Fundamentals</a></li>
-<li><a href="https://webgl2fundamentals.org" rel="nofollow">WebGL2 Fundamentals</a></li>
-</ul>
-</li>
-</ul>
-<h2>Open Source</h2>
-<ul>
-<li><a href="https://github.com/oframe/ogl">ogl</a> - Minimal WebGL Library</li>
-<li><a href="https://github.com/oasis-engine/engine">oasis-engine</a> - Oasis Engine is a web-first and mobile-first high-performance real-time development platform.</li>
-<li><a href="https://github.com/deepkolos/three-platformize">three-platformize</a> - 一个让 THREE 平台化的项目，目前已适配微信，淘宝，头条小程序，微信小游戏</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[React状态管理]]></title>
-  <link>https://github.com/lencx/fzj/discussions/11</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/11</guid>
-  <pubDate>2021-06-16</pubDate>
-  <description><![CDATA[<h2>Open Source</h2>
-<ul>
-<li><a href="https://github.com/facebookexperimental/recoil">recoil</a> - Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.</li>
-<li><a href="https://github.com/reduxjs/react-redux">react-redux</a> - Official React bindings for Redux.
-<ul>
-<li><a href="https://github.com/reduxjs/redux-toolkit">@reduxjs/toolkit</a> - The official, opinionated, batteries-included toolset for efficient Redux development</li>
-</ul>
-</li>
-<li><a href="https://github.com/mobxjs/mobx">mobx</a> - Simple, scalable state management.</li>
-<li><a href="https://github.com/dvajs/dva">dva</a> -  <g-emoji class="g-emoji" alias="seedling" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f331.png">🌱</g-emoji> React and redux based, lightweight and elm-style framework. (Inspired by elm and choo)
-<ul>
-<li><a href="https://github.com/umijs/plugins/tree/master/packages/plugin-model">@umijs/plugin-model</a> -A simple state management solution based on hooks (can be replacement of dva in some cases).</li>
-</ul>
-</li>
-<li><a href="https://github.com/immerjs/immer">immer</a> - Create the next immutable state by mutating the current one.</li>
-<li><a href="https://github.com/jamiebuilds/unstated-next">unstated-next</a> - 200 bytes to never think about React state management libraries ever again.</li>
-<li><a href="https://github.com/effector/effector">effector</a> - The state manager <g-emoji class="g-emoji" alias="comet" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2604.png">☄️</g-emoji></li>
-<li><a href="https://github.com/pmndrs/valtio">valtio</a> - <g-emoji class="g-emoji" alias="pill" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f48a.png">💊</g-emoji> Valtio makes proxy-state simple for React and Vanilla.</li>
-<li><a href="https://github.com/ctrlplusb/easy-peasy">easy-peasy</a> - Vegetarian friendly state for React.</li>
-<li><a href="https://github.com/diegohaz/constate">constate</a> - React Context + State</li>
-<li><a href="https://github.com/RisingStack/react-easy-state">react-easy-state</a> - Simple React state management. Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> and ES6 Proxies.</li>
-<li><a href="https://github.com/lostpebble/pullstate">pullstate</a> - Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!</li>
-</ul>
-<h2>Browser Extension</h2>
-<ul>
-<li><a href="https://github.com/reduxjs/redux-devtools">Redux DevTools</a> - DevTools for Redux with hot reloading, action replay, and customizable UI.</li>
 </ul>]]></description>
 </item>
 
