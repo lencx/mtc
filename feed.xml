@@ -5,84 +5,10 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
-  <title><![CDATA[欢迎来到《浮之静》社区]]></title>
-  <link>https://github.com/lencx/fzj/discussions/2</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/2</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
-<p><strong>源于前端，但不止于前端</strong></p>
-<p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>]]></description>
-</item>
-<item>
-  <title><![CDATA[Web 开发指南]]></title>
-  <link>https://github.com/lencx/fzj/discussions/8</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/8</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<h2>Guide</h2>
-<ul>
-<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
-<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
-<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
-<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
-<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
-<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
-<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
-<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
-<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
-<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
-<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
-</ul>
-<h2>Frame</h2>
-<ul>
-<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces</li>
-<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework</li>
-<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
-<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
-<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
-</ul>
-<h2>Surveys</h2>
-<ul>
-<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
-</ul>
-<h2>Blog</h2>
-<ul>
-<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
-<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
-<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
-<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
-<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
-<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[TODO]]></title>
-  <link>https://github.com/lencx/fzj/discussions/20</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API" rel="nofollow">WebRTC 学习</a></li>
-</ul>
-<h3>开源</h3>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://github.com/Privoce/SocialRSS">SocialRSS</a> 开发</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>xc-app</code> - <a href="https://github.com/lencx/create-xc-app/issues/1" data-hovercard-type="issue" data-hovercard-url="/lencx/create-xc-app/issues/1/hovercard">#1 脚手架优化</a></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
-</ul>]]></description>
-</item>
-<item>
   <title><![CDATA[WebAssembly 系列]]></title>
   <link>https://github.com/lencx/fzj/discussions/22</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/22</guid>
-  <pubDate>2021-06-24</pubDate>
+  <pubDate>2021-06-25</pubDate>
   <description><![CDATA[<h2>Guide</h2>
 <ul>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/WebAssembly" rel="nofollow">MDN WebAssembly</a></li>
@@ -126,8 +52,9 @@
 <li><a href="https://github.com/lencx/rsw-node">rsw-node</a> - <g-emoji class="g-emoji" alias="white_circle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26aa.png">⚪️</g-emoji>  <code>wasm-pack build</code> executed in remote deployment</li>
 <li><a href="https://github.com/GoogleChromeLabs/wasi-fs-access">wasi-fs-access</a> - This is a demo shell powered by WebAssembly, WASI, Asyncify and File System Access API.</li>
 <li><a href="https://ffmpegwasm.github.io" rel="nofollow">FFMPEG.WASM</a> - ffmpeg.wasm is a pure WebAssembly / JavaScript port of FFmpeg. It enables video &amp; audio record, convert and stream right inside browsers.</li>
-<li><a href="https://github.com/ColinEberhardt/wasm-rust-chip8">A WebAssembly CHIP-8 Emulator</a> - A WebAssembly CHIP-8 emulator written with Rust</li>
-<li><a href="https://bbodi.github.io/notecalc3" rel="nofollow">NoteCalc is a handy notepad with a smart builtin calculator.</a></li>
+<li><a href="https://github.com/ColinEberhardt/wasm-rust-chip8">wasm-rust-chip8</a> - A WebAssembly CHIP-8 emulator written with Rust</li>
+<li><a href="https://bbodi.github.io/notecalc3" rel="nofollow">NoteCalc</a> -  is a handy notepad with a smart builtin calculator.</li>
+<li><a href="https://github.com/PaddiM8/kalker">Kalker/kalk</a> - is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals</li>
 <li><a href="https://github.com/torch2424/wasmboy">wasmboy</a> - Game Boy / Game Boy Color Emulator Library, <g-emoji class="g-emoji" alias="video_game" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ae.png">🎮</g-emoji>   written for WebAssembly using AssemblyScript. <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  Demos built with Preact and Svelte. <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji></li>
 <li><a href="https://github.com/38/plotters">Plotters</a> - A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>   <g-emoji class="g-emoji" alias="chart_with_upwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c8.png">📈</g-emoji>  <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji></li>
 <li><a href="https://github.com/tomaka/redshirt">redshirt</a> - The redshirt operating system is an experiment to build some kind of operating-system-like environment where executables are all in Wasm and are loaded from an IPFS-like decentralized network.</li>
@@ -154,6 +81,242 @@
 <li><a href="https://v8.dev/docs/wasm-compilation-pipeline" rel="nofollow">[V8] WebAssembly compilation pipeline</a></li>
 <li><a href="https://pspdfkit.com/blog/2018/optimize-webassembly-startup-performance/" rel="nofollow">Optimizing WebAssembly Startup Time</a></li>
 <li><a href="https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/wasm/" rel="nofollow">Bringing You Up to Speed on How Compiling WebAssembly is Faster</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
+  <link>https://github.com/lencx/fzj/discussions/42</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
+  <pubDate>2021-06-25</pubDate>
+  <description><![CDATA[<blockquote>
+<p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
+</blockquote>
+<h2><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">目录 (Table of contents)</a></h2>
+<p><code>I BACKGROUND</code></p>
+<ol>
+<li>Before you buy the book</li>
+<li>FAQ: book and supplementary material</li>
+<li>History and evolution of JavaScript</li>
+<li>New JavaScript features</li>
+<li>FAQ: JavaScript</li>
+</ol>
+<p><code>II FIRST STEPS</code></p>
+<ol start="6">
+<li>Using JavaScript: the big picture</li>
+<li>Syntax</li>
+<li>Consoles: interactive JavaScript command lines</li>
+<li>Assertion API</li>
+<li>Getting started with quizzes and exercises</li>
+</ol>
+<p><code>III VARIABLES AND VALUES</code></p>
+<ol start="11">
+<li>Variables and assignment</li>
+<li>Values</li>
+<li>Operators</li>
+</ol>
+<p><code>IV PRIMITIVE VALUES</code></p>
+<ol start="14">
+<li>The non-values <code>undefined</code> and <code>null</code></li>
+<li>Booleans</li>
+<li>Numbers</li>
+<li>Math</li>
+<li>Bigints – arbitrary-precision integers [ES2020] (advanced)</li>
+<li>Unicode – a brief introduction (advanced)</li>
+<li>Strings</li>
+<li>Using template literals and tagged templates</li>
+<li>Symbols</li>
+</ol>
+<p><code>V CONTROL FLOW AND DATA FLOW</code></p>
+<ol start="23">
+<li>Control flow statements</li>
+<li>Exception handling</li>
+<li>Callable values</li>
+<li>Evaluating code dynamically: <code>eval()</code>, <code>new Function()</code> (advanced)</li>
+</ol>
+<p><code>VI MODULARITY</code></p>
+<ol start="27">
+<li>Modules</li>
+<li>Single objects</li>
+<li>Prototype chains and classes</li>
+</ol>
+<p><code>VII COLLECTIONS</code></p>
+<ol start="30">
+<li>Synchronous iteration</li>
+<li>Arrays (<code>Array</code>)</li>
+<li>Typed Arrays: handling binary data (advanced)</li>
+<li>Maps (<code>Map</code>)</li>
+<li>WeakMaps (<code>WeakMap</code>) (advanced)</li>
+<li>Sets (<code>Set</code>)</li>
+<li>WeakSets (<code>WeakSet</code>) (advanced)</li>
+<li>Destructuring</li>
+<li>Synchronous generators (advanced)</li>
+</ol>
+<p><code>VIII ASYNCHRONICITY</code></p>
+<ol start="39">
+<li>Asynchronous programming in JavaScript</li>
+<li>Promises for asynchronous programming [ES6]</li>
+<li>Async functions</li>
+<li>Asynchronous iteration</li>
+</ol>
+<p><code>IX MORE STANDARD LIBRARY</code></p>
+<ol start="43">
+<li>Regular expressions (<code>RegExp</code>)</li>
+<li>Dates (<code>Date</code>)</li>
+<li>Creating and parsing JSON (<code>JSON</code>)</li>
+</ol>]]></description>
+</item>
+<item>
+  <title><![CDATA[JavaScript 系列]]></title>
+  <link>https://github.com/lencx/fzj/discussions/33</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/33</guid>
+  <pubDate>2021-06-25</pubDate>
+  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
+<hr>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 是什么？可以做什么？
+<ul>
+<li><a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch1.md">[You Don't Know JS] What Is JavaScript?</a></li>
+<li><a href="https://exploringjs.com/impatient-js/ch_history.html" rel="nofollow">History and evolution of JavaScript</a></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 构成 JavaScript 的 “砖块” - 常见类型的代码块，如条件语句、循环、函数及事件等。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 对象初始 - 对象的设计思想和语法，如何创建对象等。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 异步 JavaScript - 怎样使用异步来有效处理潜在的阻塞操作，比如从服务器上获取资源。</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 客户端 Web API</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[macOS 系列]]></title>
+  <link>https://github.com/lencx/fzj/discussions/23</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/23</guid>
+  <pubDate>2021-06-25</pubDate>
+  <description><![CDATA[<h2>APP</h2>
+<ul>
+<li><a href="https://github.com/jaywcjlove/awesome-mac">Awesome Mac</a> -  Now we have become very big, Different from the original idea. Collect premium software in various categories.</li>
+<li><a href="https://www.mediaatelier.com/CheatSheet" rel="nofollow">CheatSheet</a> - Know your short cuts</li>
+<li><a href="https://xnipapp.com/" rel="nofollow">Xnip</a> - Handy Screenshot App for Mac</li>
+<li><a href="https://github.com/ripperhe/Bob">Bob</a> - Bob 是一款 Mac 端翻译软件，支持划词翻译、截图翻译以及手动输入翻译。</li>
+<li><a href="https://github.com/gbammc/Thor">thor</a> - Switch the right application ASAP.</li>
+<li><a href="https://getkap.co" rel="nofollow">Kap</a> - An open-source screen recorder built with web technology</li>
+<li><a href="https://imageoptim.com/mac" rel="nofollow">ImageOptim</a> - Removes bloated metadata. Saves disk space &amp; bandwidth by compressing images without losing quality.</li>
+<li><a href="https://setapp.com/apps/istat-menus" rel="nofollow">iStat Menus</a> - An advanced system monitor for your menubar.</li>
+<li><a href="https://iterm2.com/" rel="nofollow">iTerm2</a> - iTerm2 is a replacement for Terminal and the successor to iTerm.</li>
+<li><a href="https://maccy.app/" rel="nofollow">Maccy</a> - Clipboard manager for macOS which does one job - keep your copy history at hand. Period.</li>
+<li><a href="https://github.com/dwarvesf/hidden">Hidden Bar</a> - An ultra-light MacOS utility that helps hide menu bar icons</li>
+<li><a href="https://github.com/rxhanson/Rectangle">Rectangle</a> - Move and resize windows on macOS with keyboard shortcuts and snap areas.</li>
+<li><a href="https://dropoverapp.com/" rel="nofollow">Dropover</a> - Dropover is a utility that makes it easier to manage and move content between folders, applications, windows and workspaces using Drag and Drop.</li>
+</ul>
+<h2>Keyboard Shortcuts</h2>
+<table role="table">
+<thead>
+<tr>
+<th>键名</th>
+<th>符号</th>
+<th>键名</th>
+<th>符号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Command</td>
+<td>⌘</td>
+<td>Option</td>
+<td>⌥</td>
+</tr>
+<tr>
+<td>Ctrl</td>
+<td>⌃</td>
+<td>Shift</td>
+<td>⇧</td>
+</tr>
+<tr>
+<td>Tab</td>
+<td>⇥</td>
+<td>Delete</td>
+<td>⌫</td>
+</tr>
+<tr>
+<td>Enter</td>
+<td>⏎</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></description>
+</item>
+<item>
+  <title><![CDATA[Web 开发指南]]></title>
+  <link>https://github.com/lencx/fzj/discussions/8</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/8</guid>
+  <pubDate>2021-06-25</pubDate>
+  <description><![CDATA[<h2>Guide</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
+<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
+<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
+<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
+<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
+<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
+<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
+<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
+<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
+<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
+<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
+</ul>
+<h2>Frame</h2>
+<ul>
+<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces</li>
+<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework</li>
+<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
+<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
+<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
+</ul>
+<h2>Surveys</h2>
+<ul>
+<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
+</ul>
+<h2>Blog</h2>
+<ul>
+<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
+<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
+<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
+<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
+<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
+<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[欢迎来到《浮之静》社区]]></title>
+  <link>https://github.com/lencx/fzj/discussions/2</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/2</guid>
+  <pubDate>2021-06-25</pubDate>
+  <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
+<p><strong>源于前端，但不止于前端</strong></p>
+<p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>]]></description>
+</item>
+<item>
+  <title><![CDATA[TODO]]></title>
+  <link>https://github.com/lencx/fzj/discussions/20</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
+  <pubDate>2021-06-25</pubDate>
+  <description><![CDATA[<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API" rel="nofollow">WebRTC 学习</a></li>
+</ul>
+<h3>开源</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://github.com/Privoce/SocialRSS">SocialRSS</a> 开发</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>xc-app</code> - <a href="https://github.com/lencx/create-xc-app/issues/1" data-hovercard-type="issue" data-hovercard-url="/lencx/create-xc-app/issues/1/hovercard">#1 脚手架优化</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
 </ul>]]></description>
 </item>
 <item>
@@ -209,45 +372,6 @@
 <li><a href="https://github.com/JedWatson/react-select">react-select</a> - The Select Component for React.js</li>
 <li><a href="https://github.com/fkhadra/react-toastify">react-toastify</a> - React notification made easy <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> !</li>
 <li><a href="https://github.com/atlassian/react-beautiful-dnd">react-beautiful-dnd</a> - Beautiful and accessible drag and drop for lists with React.</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[网站性能优化系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/39</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/39</guid>
-  <pubDate>2021-06-23</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[关于 requestIdleCallback]]></title>
-  <link>https://github.com/lencx/fzj/discussions/38</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/38</guid>
-  <pubDate>2021-06-22</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback" rel="nofollow">[MDN] requestIdleCallback</a></li>
-<li><a href="https://developers.google.com/web/updates/2015/08/using-requestidlecallback" rel="nofollow">Using requestIdleCallback</a></li>
-<li><a href="https://docs.w3cub.com/dom/window/requestidlecallback" rel="nofollow">[W3cubDocs] window.requestIdleCallback</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/33</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/33</guid>
-  <pubDate>2021-06-21</pubDate>
-  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
-<hr>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 是什么？可以做什么？
-<ul>
-<li><a href="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch1.md">[You Don't Know JS] What Is JavaScript?</a></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 构成 JavaScript 的 “砖块” - 常见类型的代码块，如条件语句、循环、函数及事件等。</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 对象初始 - 对象的设计思想和语法，如何创建对象等。</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 异步 JavaScript - 怎样使用异步来有效处理潜在的阻塞操作，比如从服务器上获取资源。</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 客户端 Web API</li>
 </ul>]]></description>
 </item>
 
