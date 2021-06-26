@@ -5,6 +5,88 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
+  <link>https://github.com/lencx/fzj/discussions/42</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
+  <pubDate>2021-06-26</pubDate>
+  <description><![CDATA[<blockquote>
+<p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
+</blockquote>
+<h2><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">目录 (Table of contents)</a></h2>
+<p><code>I BACKGROUND</code></p>
+<ol>
+<li>Before you buy the book</li>
+<li>FAQ: book and supplementary material</li>
+<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-924178" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=924178">History and evolution of JavaScript</a></li>
+<li>New JavaScript features</li>
+<li>FAQ: JavaScript</li>
+</ol>
+<p><code>II FIRST STEPS</code></p>
+<ol start="6">
+<li>Using JavaScript: the big picture</li>
+<li>Syntax</li>
+<li>Consoles: interactive JavaScript command lines</li>
+<li>Assertion API</li>
+<li>Getting started with quizzes and exercises</li>
+</ol>
+<p><code>III VARIABLES AND VALUES</code></p>
+<ol start="11">
+<li>Variables and assignment</li>
+<li>Values</li>
+<li>Operators</li>
+</ol>
+<p><code>IV PRIMITIVE VALUES</code></p>
+<ol start="14">
+<li>The non-values <code>undefined</code> and <code>null</code></li>
+<li>Booleans</li>
+<li>Numbers</li>
+<li>Math</li>
+<li>Bigints – arbitrary-precision integers [ES2020] (advanced)</li>
+<li>Unicode – a brief introduction (advanced)</li>
+<li>Strings</li>
+<li>Using template literals and tagged templates</li>
+<li>Symbols</li>
+</ol>
+<p><code>V CONTROL FLOW AND DATA FLOW</code></p>
+<ol start="23">
+<li>Control flow statements</li>
+<li>Exception handling</li>
+<li>Callable values</li>
+<li>Evaluating code dynamically: <code>eval()</code>, <code>new Function()</code> (advanced)</li>
+</ol>
+<p><code>VI MODULARITY</code></p>
+<ol start="27">
+<li>Modules</li>
+<li>Single objects</li>
+<li>Prototype chains and classes</li>
+</ol>
+<p><code>VII COLLECTIONS</code></p>
+<ol start="30">
+<li>Synchronous iteration</li>
+<li>Arrays (<code>Array</code>)</li>
+<li>Typed Arrays: handling binary data (advanced)</li>
+<li>Maps (<code>Map</code>)</li>
+<li>WeakMaps (<code>WeakMap</code>) (advanced)</li>
+<li>Sets (<code>Set</code>)</li>
+<li>WeakSets (<code>WeakSet</code>) (advanced)</li>
+<li>Destructuring</li>
+<li>Synchronous generators (advanced)</li>
+</ol>
+<p><code>VIII ASYNCHRONICITY</code></p>
+<ol start="39">
+<li>Asynchronous programming in JavaScript</li>
+<li>Promises for asynchronous programming [ES6]</li>
+<li>Async functions</li>
+<li>Asynchronous iteration</li>
+</ol>
+<p><code>IX MORE STANDARD LIBRARY</code></p>
+<ol start="43">
+<li>Regular expressions (<code>RegExp</code>)</li>
+<li>Dates (<code>Date</code>)</li>
+<li>Creating and parsing JSON (<code>JSON</code>)</li>
+</ol>]]></description>
+</item>
+<item>
   <title><![CDATA[WebAssembly 系列]]></title>
   <link>https://github.com/lencx/fzj/discussions/22</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/22</guid>
@@ -82,88 +164,6 @@
 <li><a href="https://pspdfkit.com/blog/2018/optimize-webassembly-startup-performance/" rel="nofollow">Optimizing WebAssembly Startup Time</a></li>
 <li><a href="https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/wasm/" rel="nofollow">Bringing You Up to Speed on How Compiling WebAssembly is Faster</a></li>
 </ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
-  <link>https://github.com/lencx/fzj/discussions/42</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<blockquote>
-<p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
-</blockquote>
-<h2><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">目录 (Table of contents)</a></h2>
-<p><code>I BACKGROUND</code></p>
-<ol>
-<li>Before you buy the book</li>
-<li>FAQ: book and supplementary material</li>
-<li>History and evolution of JavaScript</li>
-<li>New JavaScript features</li>
-<li>FAQ: JavaScript</li>
-</ol>
-<p><code>II FIRST STEPS</code></p>
-<ol start="6">
-<li>Using JavaScript: the big picture</li>
-<li>Syntax</li>
-<li>Consoles: interactive JavaScript command lines</li>
-<li>Assertion API</li>
-<li>Getting started with quizzes and exercises</li>
-</ol>
-<p><code>III VARIABLES AND VALUES</code></p>
-<ol start="11">
-<li>Variables and assignment</li>
-<li>Values</li>
-<li>Operators</li>
-</ol>
-<p><code>IV PRIMITIVE VALUES</code></p>
-<ol start="14">
-<li>The non-values <code>undefined</code> and <code>null</code></li>
-<li>Booleans</li>
-<li>Numbers</li>
-<li>Math</li>
-<li>Bigints – arbitrary-precision integers [ES2020] (advanced)</li>
-<li>Unicode – a brief introduction (advanced)</li>
-<li>Strings</li>
-<li>Using template literals and tagged templates</li>
-<li>Symbols</li>
-</ol>
-<p><code>V CONTROL FLOW AND DATA FLOW</code></p>
-<ol start="23">
-<li>Control flow statements</li>
-<li>Exception handling</li>
-<li>Callable values</li>
-<li>Evaluating code dynamically: <code>eval()</code>, <code>new Function()</code> (advanced)</li>
-</ol>
-<p><code>VI MODULARITY</code></p>
-<ol start="27">
-<li>Modules</li>
-<li>Single objects</li>
-<li>Prototype chains and classes</li>
-</ol>
-<p><code>VII COLLECTIONS</code></p>
-<ol start="30">
-<li>Synchronous iteration</li>
-<li>Arrays (<code>Array</code>)</li>
-<li>Typed Arrays: handling binary data (advanced)</li>
-<li>Maps (<code>Map</code>)</li>
-<li>WeakMaps (<code>WeakMap</code>) (advanced)</li>
-<li>Sets (<code>Set</code>)</li>
-<li>WeakSets (<code>WeakSet</code>) (advanced)</li>
-<li>Destructuring</li>
-<li>Synchronous generators (advanced)</li>
-</ol>
-<p><code>VIII ASYNCHRONICITY</code></p>
-<ol start="39">
-<li>Asynchronous programming in JavaScript</li>
-<li>Promises for asynchronous programming [ES6]</li>
-<li>Async functions</li>
-<li>Asynchronous iteration</li>
-</ol>
-<p><code>IX MORE STANDARD LIBRARY</code></p>
-<ol start="43">
-<li>Regular expressions (<code>RegExp</code>)</li>
-<li>Dates (<code>Date</code>)</li>
-<li>Creating and parsing JSON (<code>JSON</code>)</li>
-</ol>]]></description>
 </item>
 <item>
   <title><![CDATA[JavaScript 系列]]></title>
