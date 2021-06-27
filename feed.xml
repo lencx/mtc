@@ -5,6 +5,143 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[欢迎来到《浮之静》社区]]></title>
+  <link>https://github.com/lencx/fzj/discussions/2</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/2</guid>
+  <pubDate>2021-06-27</pubDate>
+  <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
+<p><strong>源于前端，但不止于前端</strong></p>
+<p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>
+<h2>推荐系列</h2>
+<ul>
+<li><a href="https://github.com/lencx/fzj/discussions/23" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/23/hovercard">macOS 系列</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/8" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/8/hovercard">Web 开发指南</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/22" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/22/hovercard">WebAssembly 系列</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/27" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/27/hovercard">终端命令行系列</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/5/hovercard">CSS 系列</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[追随过的大佬]]></title>
+  <link>https://github.com/lencx/fzj/discussions/43</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/43</guid>
+  <pubDate>2021-06-27</pubDate>
+  <description><![CDATA[<h2>GitHub</h2>
+<blockquote>
+<p>排名不分先后</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/torvalds">Linus Torvalds</a></li>
+<li><a href="https://github.com/BrendanEich">Brendan Eich</a> - Founder &amp; CEO, Brave Software. Created JavaScript. Co-founded Mozilla and Firefox.</li>
+<li><a href="https://github.com/sindresorhus">Sindre Sorhus</a> - Full-Time Open-Sourcerer. Wants more empathy &amp; kindness in open source. Focuses on Swift &amp; JavaScript. Makes macOS apps, CLI tools, npm packages. Likes unicorns</li>
+<li><a href="https://github.com/tj">TJ Holowaychuk</a> - I'm the founder and solo developer of Apex Software. I've written hundreds of open-source projects for the JavaScript and Go communities.</li>
+<li><a href="https://github.com/LeaVerou">Lea Verou</a> - Elected <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/w3ctag/hovercard" href="https://github.com/w3ctag">@w3ctag</a> member, CSS WG Invited Expert, HCI researcher at MIT CSAIL. Founder of many open source projects, PrismJS probably being the most popular one.</li>
+<li><a href="https://github.com/gaearon">Dan Abramov</a></li>
+<li><a href="https://github.com/ry">Ryan Dahl</a></li>
+<li><a href="https://github.com/linclark">Lin Clark</a></li>
+<li><a href="https://github.com/isaacs">isaacs</a> - Principal Engineer at GitHub npm inventor, founder npm, Inc. Former Node BDFL. All opinions are my own. Literally all of them. I own them all. He/him</li>
+<li><a href="https://github.com/wesbos">Wes Bos</a> - I create courses that make learning things like JavaScript easy and fun <g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji></li>
+<li><a href="https://github.com/zeke">Zeke Sikelianos</a> - Friendly open-source person localizing <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/github/hovercard" href="https://github.com/github">@github</a>, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/nodejs/hovercard" href="https://github.com/nodejs">@nodejs</a>, and <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/electron/hovercard" href="https://github.com/electron">@electron</a>. Previously <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/npm/hovercard" href="https://github.com/npm">@npm</a> and <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/heroku/hovercard" href="https://github.com/heroku">@heroku</a></li>
+<li><a href="https://github.com/sdras">Sarah Drasner</a> - I make tools for developers, projects, and am on the Vue.js core team.</li>
+<li><a href="https://github.com/sokra">Tobias Koppers</a> - Author of webpack</li>
+<li><a href="https://github.com/TheLarkInn">Sean Larkin</a> - Technical Program Manager <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/microsoft/hovercard" href="https://github.com/microsoft">@microsoft</a> for <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/MicrosoftEdge/hovercard" href="https://github.com/MicrosoftEdge">@MicrosoftEdge</a>. Javascript, webpack, Typescript. <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/webpack/hovercard" href="https://github.com/webpack">@webpack</a> core team. <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/angular/hovercard" href="https://github.com/angular">@angular</a> cli core team.</li>
+<li><a href="https://github.com/jlord">Jessica Lord</a> - Urban designer turned open source developer. Shared knowledge champion <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji></li>
+<li><a href="https://github.com/toddmotto">Todd Motto</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> UltimateCourses.com <g-emoji class="g-emoji" alias="bug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png">🐛</g-emoji> Google Developer Expert <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji></li>
+<li><a href="https://github.com/addyosmani">Addy Osmani</a> - Engineering Manager at Google working on Chrome &amp; Web Platform</li>
+<li><a href="https://github.com/getify">Kyle Simpson</a> - I like to explore JS and FP techniques. Helping build a culture of engineering excellence for my employer.</li>
+<li><a href="https://github.com/douglascrockford">Douglas Crockford</a> - I was born in Frostbite Falls, Minnesota. I left when I was 6 months old because it was too damn cold. My latest book is <em>How JavaScript Works</em>.</li>
+<li><a href="https://github.com/jeresig">John Resig</a> - Chief Architect at <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/Khan/hovercard" href="https://github.com/Khan">@Khan</a></li>
+<li><a href="https://github.com/developit">Jason Miller</a> - Making the web faster at <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/google/hovercard" href="https://github.com/google">@google</a>. Creator of <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/preactjs/hovercard" href="https://github.com/preactjs">@preactjs</a>.</li>
+<li><a href="https://github.com/FezVrasta">Federico Zivolo</a> - UX Engineer/Front-End Engineer. Creator of bootstrap-material-design and Popper.js. Open Source addicted.</li>
+<li><a href="https://github.com/jwasham">John Washam</a> - Software Development Engineer at Amazon</li>
+<li><a href="https://github.com/mxstbr">Max Stoiber</a> - Co-Founder, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/graphcdn/hovercard" href="https://github.com/graphcdn">@graphcdn</a> <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Previously <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/gatsbyjs/hovercard" href="https://github.com/gatsbyjs">@gatsbyjs</a>, before that <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/github/hovercard" href="https://github.com/github">@github</a> after they acquired <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/withspectrum/hovercard" href="https://github.com/withspectrum">@withspectrum</a>. <g-emoji class="g-emoji" alias="v" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/270c.png">✌️</g-emoji> Speciality coffee geek, boulderer and skier</li>
+<li><a href="https://github.com/posva">Eduardo San Martin Morote</a> - Member of the <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/vuejs/hovercard" href="https://github.com/vuejs">@vuejs</a> core team Speaker, trainer. From <g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji>, lives in <g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji></li>
+<li><a href="https://github.com/nzakas">Nicholas C. Zakas</a></li>
+<li><a href="https://github.com/rauschma">Axel Rauschmayer</a></li>
+<li><a href="https://github.com/crnacura">Mary Lou</a></li>
+<li><a href="https://github.com/alexcrichton"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Alex Crichton</a></li>
+<li><a href="https://github.com/BurntSushi"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Andrew Gallant</a></li>
+<li><a href="https://github.com/yoshuawuyts"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Yoshua Wuyts</a> - calm computing. he/they</li>
+<li><a href="https://github.com/kornelski"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Kornel</a> - Rust, image compression, web performance.</li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://github.com/ruanyf">Ruan YiFeng</a> - Stay Focused, Keep Shipping. Build Early, Build Always. Improve yourself, Write solid/simple/stupid code.</li>
+<li><a href="https://github.com/justjavac">迷渡</a> - Creator of vscode-deno. Currently a contributor to Deno <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/denoland/hovercard" href="https://github.com/denoland">@denoland</a>.</li>
+<li><a href="https://github.com/yyx990803">Evan You</a></li>
+<li><a href="https://github.com/haoel">Hao Chen</a> - 芝兰生于空谷，不以无人而不芳。</li>
+<li><a href="https://github.com/afc163">afc163</a> - Life is a box of chaos</li>
+<li><a href="https://github.com/sorrycc">chencheng (云谦)</a> - Front-end developer at alipay, creator of <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/umijs/hovercard" href="https://github.com/umijs">@umijs</a>, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/dvajs/hovercard" href="https://github.com/dvajs">@dvajs</a>, father, roadhog, babel-plugin-import...</li>
+<li><a href="https://github.com/peng-zhihui">稚晖</a> - 野生钢铁侠本侠。</li>
+<li><a href="https://github.com/phodal">Phodal Huang</a> - 待我代码编成，娶你为妻可好</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[macOS 系列]]></title>
+  <link>https://github.com/lencx/fzj/discussions/23</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/23</guid>
+  <pubDate>2021-06-27</pubDate>
+  <description><![CDATA[<h2>APP</h2>
+<ul>
+<li><a href="https://github.com/jaywcjlove/awesome-mac">Awesome Mac</a> -  Now we have become very big, Different from the original idea. Collect premium software in various categories.</li>
+<li><a href="https://github.com/serhii-londar/open-source-mac-os-apps">Awesome macOS open source applications</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Awesome list of open source applications for macOS.</li>
+<li><a href="https://www.mediaatelier.com/CheatSheet" rel="nofollow">CheatSheet</a> - Know your short cuts</li>
+<li><a href="https://xnipapp.com/" rel="nofollow">Xnip</a> - Handy Screenshot App for Mac</li>
+<li><a href="https://github.com/ripperhe/Bob">Bob</a> - Bob 是一款 Mac 端翻译软件，支持划词翻译、截图翻译以及手动输入翻译。</li>
+<li><a href="https://github.com/gbammc/Thor">thor</a> - Switch the right application ASAP.</li>
+<li><a href="https://getkap.co" rel="nofollow">Kap</a> - An open-source screen recorder built with web technology</li>
+<li><a href="https://imageoptim.com/mac" rel="nofollow">ImageOptim</a> - Removes bloated metadata. Saves disk space &amp; bandwidth by compressing images without losing quality.</li>
+<li><a href="https://setapp.com/apps/istat-menus" rel="nofollow">iStat Menus</a> - An advanced system monitor for your menubar.</li>
+<li><a href="https://iterm2.com/" rel="nofollow">iTerm2</a> - iTerm2 is a replacement for Terminal and the successor to iTerm.</li>
+<li><a href="https://maccy.app/" rel="nofollow">Maccy</a> - Clipboard manager for macOS which does one job - keep your copy history at hand. Period.</li>
+<li><a href="https://github.com/dwarvesf/hidden">Hidden Bar</a> - An ultra-light MacOS utility that helps hide menu bar icons</li>
+<li><a href="https://github.com/rxhanson/Rectangle">Rectangle</a> - Move and resize windows on macOS with keyboard shortcuts and snap areas.</li>
+<li><a href="https://dropoverapp.com/" rel="nofollow">Dropover</a> - Dropover is a utility that makes it easier to manage and move content between folders, applications, windows and workspaces using Drag and Drop.</li>
+<li><a href="https://github.com/sindresorhus/System-Color-Picker">System Color Picker</a> - The macOS color picker as an app with more features</li>
+<li><a href="https://iina.io" rel="nofollow">IINA</a> - The modern media player for macOS.</li>
+<li><a href="https://github.com/pock/pock">Pock</a> - Widgets manager for MacBook Touch Bar</li>
+<li><a href="https://github.com/mas-cli/mas">mas</a> - <g-emoji class="g-emoji" alias="package" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji> Mac App Store command line interface</li>
+</ul>
+<h2>Keyboard Shortcuts</h2>
+<table role="table">
+<thead>
+<tr>
+<th>键名</th>
+<th>符号</th>
+<th>键名</th>
+<th>符号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Command</td>
+<td>⌘</td>
+<td>Option</td>
+<td>⌥</td>
+</tr>
+<tr>
+<td>Ctrl</td>
+<td>⌃</td>
+<td>Shift</td>
+<td>⇧</td>
+</tr>
+<tr>
+<td>Tab</td>
+<td>⇥</td>
+<td>Delete</td>
+<td>⌫</td>
+</tr>
+<tr>
+<td>Enter</td>
+<td>⏎</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></description>
+</item>
+<item>
   <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
   <link>https://github.com/lencx/fzj/discussions/42</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
@@ -186,65 +323,6 @@
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[macOS 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/23</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/23</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<h2>APP</h2>
-<ul>
-<li><a href="https://github.com/jaywcjlove/awesome-mac">Awesome Mac</a> -  Now we have become very big, Different from the original idea. Collect premium software in various categories.</li>
-<li><a href="https://www.mediaatelier.com/CheatSheet" rel="nofollow">CheatSheet</a> - Know your short cuts</li>
-<li><a href="https://xnipapp.com/" rel="nofollow">Xnip</a> - Handy Screenshot App for Mac</li>
-<li><a href="https://github.com/ripperhe/Bob">Bob</a> - Bob 是一款 Mac 端翻译软件，支持划词翻译、截图翻译以及手动输入翻译。</li>
-<li><a href="https://github.com/gbammc/Thor">thor</a> - Switch the right application ASAP.</li>
-<li><a href="https://getkap.co" rel="nofollow">Kap</a> - An open-source screen recorder built with web technology</li>
-<li><a href="https://imageoptim.com/mac" rel="nofollow">ImageOptim</a> - Removes bloated metadata. Saves disk space &amp; bandwidth by compressing images without losing quality.</li>
-<li><a href="https://setapp.com/apps/istat-menus" rel="nofollow">iStat Menus</a> - An advanced system monitor for your menubar.</li>
-<li><a href="https://iterm2.com/" rel="nofollow">iTerm2</a> - iTerm2 is a replacement for Terminal and the successor to iTerm.</li>
-<li><a href="https://maccy.app/" rel="nofollow">Maccy</a> - Clipboard manager for macOS which does one job - keep your copy history at hand. Period.</li>
-<li><a href="https://github.com/dwarvesf/hidden">Hidden Bar</a> - An ultra-light MacOS utility that helps hide menu bar icons</li>
-<li><a href="https://github.com/rxhanson/Rectangle">Rectangle</a> - Move and resize windows on macOS with keyboard shortcuts and snap areas.</li>
-<li><a href="https://dropoverapp.com/" rel="nofollow">Dropover</a> - Dropover is a utility that makes it easier to manage and move content between folders, applications, windows and workspaces using Drag and Drop.</li>
-</ul>
-<h2>Keyboard Shortcuts</h2>
-<table role="table">
-<thead>
-<tr>
-<th>键名</th>
-<th>符号</th>
-<th>键名</th>
-<th>符号</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Command</td>
-<td>⌘</td>
-<td>Option</td>
-<td>⌥</td>
-</tr>
-<tr>
-<td>Ctrl</td>
-<td>⌃</td>
-<td>Shift</td>
-<td>⇧</td>
-</tr>
-<tr>
-<td>Tab</td>
-<td>⇥</td>
-<td>Delete</td>
-<td>⌫</td>
-</tr>
-<tr>
-<td>Enter</td>
-<td>⏎</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>]]></description>
-</item>
-<item>
   <title><![CDATA[Web 开发指南]]></title>
   <link>https://github.com/lencx/fzj/discussions/8</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/8</guid>
@@ -285,16 +363,6 @@
 <li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
 <li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
 </ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[欢迎来到《浮之静》社区]]></title>
-  <link>https://github.com/lencx/fzj/discussions/2</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/2</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
-<p><strong>源于前端，但不止于前端</strong></p>
-<p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>]]></description>
 </item>
 <item>
   <title><![CDATA[TODO]]></title>
@@ -353,25 +421,6 @@
 <h2>library</h2>
 <ul>
 <li><a href="https://github.com/zenorocha/clipboard.js">clipboard.js</a> - <g-emoji class="g-emoji" alias="scissors" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2702.png">✂️</g-emoji> Modern copy to clipboard. No Flash. Just 3kb gzipped <g-emoji class="g-emoji" alias="clipboard" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png">📋</g-emoji></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[React 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/35</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/35</guid>
-  <pubDate>2021-06-24</pubDate>
-  <description><![CDATA[<h2>Hooks</h2>
-<ul>
-<li><a href="https://github.com/rehooks/awesome-react-hooks">awesome-react-hooks</a> - Awesome React Hooks</li>
-<li><a href="https://github.com/streamich/react-use">react-use</a>- React Hooks — <g-emoji class="g-emoji" alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji></li>
-</ul>
-
-<h2>Components</h2>
-<ul>
-<li><a href="https://github.com/brillout/awesome-react-components"><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Absolutely Awesome React Components &amp; Libraries</a> - Curated List of React Components &amp; Libraries.</li>
-<li><a href="https://github.com/JedWatson/react-select">react-select</a> - The Select Component for React.js</li>
-<li><a href="https://github.com/fkhadra/react-toastify">react-toastify</a> - React notification made easy <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> !</li>
-<li><a href="https://github.com/atlassian/react-beautiful-dnd">react-beautiful-dnd</a> - Beautiful and accessible drag and drop for lists with React.</li>
 </ul>]]></description>
 </item>
 
