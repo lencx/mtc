@@ -5,28 +5,420 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
+  <link>https://github.com/lencx/fzj/discussions/42</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
+  <pubDate>2021-06-28</pubDate>
+  <description><![CDATA[<blockquote>
+<p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
+</blockquote>
+<h2><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">目录 (Table of contents)</a></h2>
+<p><code>I BACKGROUND</code></p>
+<ol>
+<li>Before you buy the book</li>
+<li>FAQ: book and supplementary material</li>
+<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-924178" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=924178">History and evolution of JavaScript</a></li>
+<li>New JavaScript features</li>
+<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-932038" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=932038">FAQ: JavaScript</a></li>
+</ol>
+<p><code>II FIRST STEPS</code></p>
+<ol start="6">
+<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-932104" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=932104">Using JavaScript: the big picture</a></li>
+<li>Syntax</li>
+<li>Consoles: interactive JavaScript command lines</li>
+<li>Assertion API</li>
+<li>Getting started with quizzes and exercises</li>
+</ol>
+<p><code>III VARIABLES AND VALUES</code></p>
+<ol start="11">
+<li>Variables and assignment</li>
+<li>Values</li>
+<li>Operators</li>
+</ol>
+<p><code>IV PRIMITIVE VALUES</code></p>
+<ol start="14">
+<li>The non-values <code>undefined</code> and <code>null</code></li>
+<li>Booleans</li>
+<li>Numbers</li>
+<li>Math</li>
+<li>Bigints – arbitrary-precision integers [ES2020] (advanced)</li>
+<li>Unicode – a brief introduction (advanced)</li>
+<li>Strings</li>
+<li>Using template literals and tagged templates</li>
+<li>Symbols</li>
+</ol>
+<p><code>V CONTROL FLOW AND DATA FLOW</code></p>
+<ol start="23">
+<li>Control flow statements</li>
+<li>Exception handling</li>
+<li>Callable values</li>
+<li>Evaluating code dynamically: <code>eval()</code>, <code>new Function()</code> (advanced)</li>
+</ol>
+<p><code>VI MODULARITY</code></p>
+<ol start="27">
+<li>Modules</li>
+<li>Single objects</li>
+<li>Prototype chains and classes</li>
+</ol>
+<p><code>VII COLLECTIONS</code></p>
+<ol start="30">
+<li>Synchronous iteration</li>
+<li>Arrays (<code>Array</code>)</li>
+<li>Typed Arrays: handling binary data (advanced)</li>
+<li>Maps (<code>Map</code>)</li>
+<li>WeakMaps (<code>WeakMap</code>) (advanced)</li>
+<li>Sets (<code>Set</code>)</li>
+<li>WeakSets (<code>WeakSet</code>) (advanced)</li>
+<li>Destructuring</li>
+<li>Synchronous generators (advanced)</li>
+</ol>
+<p><code>VIII ASYNCHRONICITY</code></p>
+<ol start="39">
+<li>Asynchronous programming in JavaScript</li>
+<li>Promises for asynchronous programming [ES6]</li>
+<li>Async functions</li>
+<li>Asynchronous iteration</li>
+</ol>
+<p><code>IX MORE STANDARD LIBRARY</code></p>
+<ol start="43">
+<li>Regular expressions (<code>RegExp</code>)</li>
+<li>Dates (<code>Date</code>)</li>
+<li>Creating and parsing JSON (<code>JSON</code>)</li>
+</ol>]]></description>
+</item>
+<item>
+  <title><![CDATA[组件解耦的一些思考]]></title>
+  <link>https://github.com/lencx/fzj/discussions/45</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/45</guid>
+  <pubDate>2021-06-28</pubDate>
+  <description><![CDATA[<blockquote>
+<p>自前端三大框架 ( <a href="https://vuejs.org" rel="nofollow">Vue</a> , <a href="https://reactjs.org" rel="nofollow">React</a> , <a href="https://angular.io" rel="nofollow">Angular</a> ) 以及后起之秀 <a href="https://svelte.dev" rel="nofollow">Svelte</a> 出现之后，各种组件，轮子。大家都没少造过，一些大公司或者有精力的人，在研究 <code>LowCode</code> 或 <code>NoCode</code>，也有一些落地或者具体方案。</p>
+</blockquote>
+<h2>背景</h2>
+<p>但就我自身经历及接触项目而言，项目还是停留在如何编写组件的层次上，简单的实现一些复用。一些历史项目因为需求的迭代，功能在不断增加，写代码的人员也在不断更替，交接。就会导致最后的接手项目的人痛苦不堪，<del>重构？不现实，时间不够，之前的需求也不清楚。继续保持？就面临着怎么去在原项目之上继续迭代。</del> 进退两难...</p>
+<p>在之前的需求毫不知情的情况下，如何完成需求功能的迭代，UI 改版？只能通过全局搜索一些关键词，关键字去一步步向上 debug 源码。如果代码中牵扯过多的业务逻辑，就完全懵逼了，没人知道之前的需求是什么?_?!!!</p>
+<p>以 React 为例，因为每个人都有自己对组件的理解，不同的人站在不同的维度去封装，就导致最后的项目结构，代码结构也是千差万别。</p>
+<ul>
+<li><code>无状态组件</code>: 不涉及过多状态交互，很容易实现，大家的思路都差不多。</li>
+<li><code>有状态组件</code>: 一旦涉及到状态，业务逻辑，交互。一个组件就变得不再可控。每个人的风格也都体现的淋漓尽致！
+<ul>
+<li>组件内发起请求，各种请求，大量接口相互依赖。如果涉及到多个接口并行，后一个接口依赖上一个接口的返回值，写法又是各有特色。</li>
+<li>出现大量的业务逻辑分支，根据业务 <code>return</code> 出不同的组件 ╥﹏╥</li>
+<li>直接在组件内实现一个或多个子组件 (ノへ￣、)</li>
+<li>子组件上挂载着大量的 <code>props</code>，属性有时候多到令人发指，有数据，方法，状态，自定义的 xxx，各种传递。 o(╥﹏╥)o</li>
+<li>欢迎大家继续补充吐槽...</li>
+</ul>
+</li>
+</ul>
+<h2>思考</h2>
+<p>我对数据的理解，它既贴近于业务层，也耦合着交互层，如果不能很好的分离组织这三层，很可能牵一发而动全身。所以数据是核心，既是业务的核心，也是组件的核心。</p>
+<ul>
+<li>数据，业务逻辑，交互都会影响最终需要渲染的UI视图。</li>
+<li>编写组件时，首先分析业务需求，对组件进行分层。大致分为<code>数据 (DataSource)</code>，<code>交互 (Action)</code>，<code>UI视图 (View)</code>三层。
+<ul>
+<li><strong>数据处理 (Handle)</strong>: 承载着核心业务逻辑，对数据进行格式化输出，供 UI 组件进行标准化接收，一般以 <code>function</code> 形式存在。</li>
+<li><strong>副作用 (Effect)</strong>: 以我目前接触到的场景，主要还是以事件修改组件状态，更新数据及UI视图为主。所以事件及状态变更可能会同时出现在 <code>数据处理</code> 和 <code>UI 视图</code> 中。在数据处理中，<code>调用 (Call)</code> 方法；在 UI 中，<code>绑定 (Bind)</code> 事件及状态。UI 层尽量不直接处理或少处理源数据。</li>
+</ul>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/123594281-16ec3a80-d822-11eb-91e1-b2510590e26d.png"><img width="420" src="https://user-images.githubusercontent.com/16164244/123594281-16ec3a80-d822-11eb-91e1-b2510590e26d.png" alt="组件拆分原则" style="max-width:100%;"></a></p>
+<h2>举例</h2>
+<ul>
+<li>业务中常会有这样一种需求，用户可以动态的新增删除一个列表，因为每次需要处理的数据，和展示的 UI 形式都是不确定的。可能我们每次做需求时都实现一次代码，或者把新增和删除方法提取出来，实现部分复用。以 <code>React Hook</code> 为例：</li>
+</ul>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="/* hooks/useDataOP.js */
+import { useState, useEffect } from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import cloneDeep from 'lodash/cloneDeep';
+
+// 使用Symbol作为数据的唯一key
+const safeKey = Symbol('tid');
+
+// 格式化源数据
+const opFmtData = (data) =&gt; {
+  return cloneDeep(data).map((i) =&gt; {
+    i[safeKey] = uuidv4();
+    return i;
+  });
+};
+
+/**
+ * useDataOP
+ * @author lencx
+ * @param rawData - 源数据
+ */
+export default function useDataOP(rawData = []) {
+  const [opData, setData] = useState([]);
+  const [opType, setType] = useState(null);
+  const [isOk, setOk] = useState(true);
+
+  // 数据初始化
+  useEffect(() =&gt; {
+    if (Array.isArray(rawData)) {
+      if (rawData.length &gt; 0) {
+        const data = opFmtData(rawData);
+        setData(data);
+      }
+      setOk(true);
+    } else {
+      setOk(false);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  if (!isOk) return console.error('Parameter must be an array!');
+
+  /**
+   * 新增
+   * @param data - 新增的数据对象
+   */
+  const opAdd = (data = {}) =&gt; {
+    const result = [...opData, { [safeKey]: uuidv4(), ...data }];
+    setData(result);
+    setType('add');
+    return result;
+  };
+
+  /**
+   * 删除
+   * @param value - 需要删除的值，如果为字符串或数字时，需要配合key使用。
+   *   如果value为对象，则为需要删除的记录，通过safeKey查找删除。
+   * @param key - 默认为id，选填，可省略
+   */
+  const opRemove = (value, key = 'id') =&gt; {
+    let result;
+    if (typeof value === 'string' || typeof value === 'number') {
+      result = opData.filter((i) =&gt; i[key] !== value);
+    } else {
+      result = opData.filter((i) =&gt; i[safeKey] !== value[safeKey]);
+    }
+    setData(result);
+    setType('remove');
+    return result;
+  };
+
+  /**
+   * 排序
+   * @param startIndex - 当前位置
+   * @param endIndex - 目标位置
+   */
+  const opReorder = (startIndex, endIndex) =&gt; {
+    const result = Array.from(opData);
+    const [removed] = result.splice(startIndex, 1);
+    result.splice(endIndex, 0, removed);
+    setData(result);
+    setType('reorder');
+    return result;
+  };
+
+  return {
+    opData,
+    opType,
+    opAdd,
+    opRemove,
+    opReorder,
+    opRawData: rawData,
+    opSafeKey: safeKey,
+  };
+}
+"><pre><span class="pl-c">/* hooks/useDataOP.js */</span>
+<span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-s1">useState</span><span class="pl-kos">,</span> <span class="pl-s1">useEffect</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'react'</span><span class="pl-kos">;</span>
+<span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-s1">v4</span> <span class="pl-k">as</span> <span class="pl-s1">uuidv4</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'uuid'</span><span class="pl-kos">;</span>
+<span class="pl-k">import</span> <span class="pl-s1">cloneDeep</span> <span class="pl-k">from</span> <span class="pl-s">'lodash/cloneDeep'</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// 使用Symbol作为数据的唯一key</span>
+<span class="pl-k">const</span> <span class="pl-s1">safeKey</span> <span class="pl-c1">=</span> <span class="pl-v">Symbol</span><span class="pl-kos">(</span><span class="pl-s">'tid'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// 格式化源数据</span>
+<span class="pl-k">const</span> <span class="pl-en">opFmtData</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">data</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+  <span class="pl-k">return</span> <span class="pl-en">cloneDeep</span><span class="pl-kos">(</span><span class="pl-s1">data</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">uuidv4</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-k">return</span> <span class="pl-s1">i</span><span class="pl-kos">;</span>
+  <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span><span class="pl-kos">;</span>
+
+<span class="pl-c">/**</span>
+<span class="pl-c"> * useDataOP</span>
+<span class="pl-c"> * <span class="pl-k">@author</span> lencx</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> rawData - 源数据</span>
+<span class="pl-c"> */</span>
+<span class="pl-k">export</span> <span class="pl-k">default</span> <span class="pl-k">function</span> <span class="pl-en">useDataOP</span><span class="pl-kos">(</span><span class="pl-s1">rawData</span> <span class="pl-c1">=</span> <span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">opData</span><span class="pl-kos">,</span> <span class="pl-s1">setData</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">opType</span><span class="pl-kos">,</span> <span class="pl-s1">setType</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-c1">null</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">isOk</span><span class="pl-kos">,</span> <span class="pl-s1">setOk</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-c1">true</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+
+  <span class="pl-c">// 数据初始化</span>
+  <span class="pl-en">useEffect</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-en">isArray</span><span class="pl-kos">(</span><span class="pl-s1">rawData</span><span class="pl-kos">)</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+      <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-s1">rawData</span><span class="pl-kos">.</span><span class="pl-c1">length</span> <span class="pl-c1">&gt;</span> <span class="pl-c1">0</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+        <span class="pl-k">const</span> <span class="pl-s1">data</span> <span class="pl-c1">=</span> <span class="pl-en">opFmtData</span><span class="pl-kos">(</span><span class="pl-s1">rawData</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+        <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">data</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+      <span class="pl-kos">}</span>
+      <span class="pl-s1">setOk</span><span class="pl-kos">(</span><span class="pl-c1">true</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-kos">}</span> <span class="pl-k">else</span> <span class="pl-kos">{</span>
+      <span class="pl-s1">setOk</span><span class="pl-kos">(</span><span class="pl-c1">false</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-kos">}</span>
+    <span class="pl-c">// eslint-disable-next-line react-hooks/exhaustive-deps</span>
+  <span class="pl-kos">}</span><span class="pl-kos">,</span> <span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+
+  <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-c1">!</span><span class="pl-s1">isOk</span><span class="pl-kos">)</span> <span class="pl-k">return</span> <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">error</span><span class="pl-kos">(</span><span class="pl-s">'Parameter must be an array!'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+
+  <span class="pl-c">/**</span>
+<span class="pl-c">   * 新增</span>
+<span class="pl-c">   * <span class="pl-k">@param</span> data - 新增的数据对象</span>
+<span class="pl-c">   */</span>
+  <span class="pl-k">const</span> <span class="pl-en">opAdd</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">data</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-kos">}</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-k">const</span> <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-kos">[</span>...<span class="pl-s1">opData</span><span class="pl-kos">,</span> <span class="pl-kos">{</span> <span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span>: <span class="pl-en">uuidv4</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">,</span> ...<span class="pl-s1">data</span> <span class="pl-kos">}</span><span class="pl-kos">]</span><span class="pl-kos">;</span>
+    <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-s1">setType</span><span class="pl-kos">(</span><span class="pl-s">'add'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-k">return</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
+  <span class="pl-kos">}</span><span class="pl-kos">;</span>
+
+  <span class="pl-c">/**</span>
+<span class="pl-c">   * 删除</span>
+<span class="pl-c">   * <span class="pl-k">@param</span> value - 需要删除的值，如果为字符串或数字时，需要配合key使用。</span>
+<span class="pl-c">   *   如果value为对象，则为需要删除的记录，通过safeKey查找删除。</span>
+<span class="pl-c">   * <span class="pl-k">@param</span> key - 默认为id，选填，可省略</span>
+<span class="pl-c">   */</span>
+  <span class="pl-k">const</span> <span class="pl-en">opRemove</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">value</span><span class="pl-kos">,</span> <span class="pl-s1">key</span> <span class="pl-c1">=</span> <span class="pl-s">'id'</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-k">let</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
+    <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-k">typeof</span> <span class="pl-s1">value</span> <span class="pl-c1">===</span> <span class="pl-s">'string'</span> <span class="pl-c1">||</span> <span class="pl-k">typeof</span> <span class="pl-s1">value</span> <span class="pl-c1">===</span> <span class="pl-s">'number'</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+      <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-s1">opData</span><span class="pl-kos">.</span><span class="pl-en">filter</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">key</span><span class="pl-kos">]</span> <span class="pl-c1">!==</span> <span class="pl-s1">value</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-kos">}</span> <span class="pl-k">else</span> <span class="pl-kos">{</span>
+      <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-s1">opData</span><span class="pl-kos">.</span><span class="pl-en">filter</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span> <span class="pl-c1">!==</span> <span class="pl-s1">value</span><span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-kos">}</span>
+    <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-s1">setType</span><span class="pl-kos">(</span><span class="pl-s">'remove'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-k">return</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
+  <span class="pl-kos">}</span><span class="pl-kos">;</span>
+
+  <span class="pl-c">/**</span>
+<span class="pl-c">   * 排序</span>
+<span class="pl-c">   * <span class="pl-k">@param</span> startIndex - 当前位置</span>
+<span class="pl-c">   * <span class="pl-k">@param</span> endIndex - 目标位置</span>
+<span class="pl-c">   */</span>
+  <span class="pl-k">const</span> <span class="pl-en">opReorder</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">startIndex</span><span class="pl-kos">,</span> <span class="pl-s1">endIndex</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-k">const</span> <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-en">from</span><span class="pl-kos">(</span><span class="pl-s1">opData</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">removed</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-s1">result</span><span class="pl-kos">.</span><span class="pl-en">splice</span><span class="pl-kos">(</span><span class="pl-s1">startIndex</span><span class="pl-kos">,</span> <span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-s1">result</span><span class="pl-kos">.</span><span class="pl-en">splice</span><span class="pl-kos">(</span><span class="pl-s1">endIndex</span><span class="pl-kos">,</span> <span class="pl-c1">0</span><span class="pl-kos">,</span> <span class="pl-s1">removed</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-s1">setType</span><span class="pl-kos">(</span><span class="pl-s">'reorder'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-k">return</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
+  <span class="pl-kos">}</span><span class="pl-kos">;</span>
+
+  <span class="pl-k">return</span> <span class="pl-kos">{</span>
+    opData<span class="pl-kos">,</span>
+    opType<span class="pl-kos">,</span>
+    opAdd<span class="pl-kos">,</span>
+    opRemove<span class="pl-kos">,</span>
+    opReorder<span class="pl-kos">,</span>
+    <span class="pl-c1">opRawData</span>: <span class="pl-s1">rawData</span><span class="pl-kos">,</span>
+    <span class="pl-c1">opSafeKey</span>: <span class="pl-s1">safeKey</span><span class="pl-kos">,</span>
+  <span class="pl-kos">}</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span></pre></div>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 使用useDataOP
+import React, { useState } from 'react';
+import useDataOP from '@/hooks/useDataOP';
+
+export default () =&gt; {
+  const { opData, opAdd, opRemove, opReorder, opSafeKey } = useDataOP([]);
+  const [count, setCount] = useState(1);
+
+  const handleAdd = () =&gt; {
+    setCount(count+1);
+    opAdd({ name: `test${count}` });
+  }
+  return (
+    &lt;div&gt;
+      &lt;button onClick={handleAdd}&gt;Add&lt;/button&gt;
+      {opData.map((i, idx) =&gt; {
+        return (
+          &lt;div key={i[opSafeKey]}&gt;
+            &lt;span&gt;Name: {i.name}&lt;/span&gt;
+            {' '}
+            &lt;button onClick={() =&gt; opRemove(i)}&gt;Remove&lt;/button&gt;
+            &lt;button onClick={() =&gt; opReorder(idx, idx-1)}&gt;Up+1&lt;/button&gt;
+            &lt;button onClick={() =&gt; opReorder(idx, idx+1)}&gt;Down-1&lt;/button&gt;
+          &lt;/div&gt;
+        )
+      })}
+    &lt;/div&gt;
+  );
+}
+"><pre><span class="pl-c">// 使用useDataOP</span>
+<span class="pl-k">import</span> <span class="pl-v">React</span><span class="pl-kos">,</span> <span class="pl-kos">{</span> <span class="pl-s1">useState</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'react'</span><span class="pl-kos">;</span>
+<span class="pl-k">import</span> <span class="pl-s1">useDataOP</span> <span class="pl-k">from</span> <span class="pl-s">'@/hooks/useDataOP'</span><span class="pl-kos">;</span>
+
+<span class="pl-k">export</span> <span class="pl-k">default</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+  <span class="pl-k">const</span> <span class="pl-kos">{</span> opData<span class="pl-kos">,</span> opAdd<span class="pl-kos">,</span> opRemove<span class="pl-kos">,</span> opReorder<span class="pl-kos">,</span> opSafeKey <span class="pl-kos">}</span> <span class="pl-c1">=</span> <span class="pl-en">useDataOP</span><span class="pl-kos">(</span><span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">count</span><span class="pl-kos">,</span> <span class="pl-s1">setCount</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+
+  <span class="pl-k">const</span> <span class="pl-en">handleAdd</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-s1">setCount</span><span class="pl-kos">(</span><span class="pl-s1">count</span><span class="pl-c1">+</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+    <span class="pl-en">opAdd</span><span class="pl-kos">(</span><span class="pl-kos">{</span> <span class="pl-c1">name</span>: <span class="pl-s">`test<span class="pl-s1"><span class="pl-kos">${</span><span class="pl-s1">count</span><span class="pl-kos">}</span></span>`</span> <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+  <span class="pl-kos">}</span>
+  <span class="pl-k">return</span> <span class="pl-kos">(</span>
+    <span class="pl-c1">&lt;</span><span class="pl-ent">div</span><span class="pl-c1">&gt;</span>
+      <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-en">handleAdd</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Add<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
+      <span class="pl-kos">{</span><span class="pl-s1">opData</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">,</span> <span class="pl-s1">idx</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+        <span class="pl-k">return</span> <span class="pl-kos">(</span>
+          <span class="pl-c1">&lt;</span><span class="pl-ent">div</span> <span class="pl-c1">key</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">opSafeKey</span><span class="pl-kos">]</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>
+            <span class="pl-c1">&lt;</span><span class="pl-ent">span</span><span class="pl-c1">&gt;</span>Name: <span class="pl-kos">{</span><span class="pl-s1">i</span><span class="pl-kos">.</span><span class="pl-c1">name</span><span class="pl-kos">}</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">span</span><span class="pl-c1">&gt;</span>
+            <span class="pl-kos">{</span><span class="pl-s">' '</span><span class="pl-kos">}</span>
+            <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-en">opRemove</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Remove<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
+            <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-en">opReorder</span><span class="pl-kos">(</span><span class="pl-s1">idx</span><span class="pl-kos">,</span> <span class="pl-s1">idx</span><span class="pl-c1">-</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Up+1<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
+            <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-en">opReorder</span><span class="pl-kos">(</span><span class="pl-s1">idx</span><span class="pl-kos">,</span> <span class="pl-s1">idx</span><span class="pl-c1">+</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Down-1<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
+          <span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">div</span><span class="pl-c1">&gt;</span>
+        <span class="pl-kos">)</span>
+      <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">}</span>
+    <span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">div</span><span class="pl-c1">&gt;</span>
+  <span class="pl-kos">)</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span></pre></div>
+<h2>总结</h2>
+<p>数据与 UI 的解耦，其实就意味着业务逻辑与 UI 组件视图的解耦。当组件要跨平台，或者 UI 大换肤时，我们只需要实现标准的数据接收组件就可以了。业务功能对应的其实就是一个个数据处理函数和 UI 组件的组合，通过事件去触发或者绑定一些状态。当数据处理或组件不满足需求的时候，我们只需要去扩展对应的函数或组件。</p>]]></description>
+</item>
+<item>
   <title><![CDATA[欢迎来到《浮之静》社区]]></title>
   <link>https://github.com/lencx/fzj/discussions/2</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/2</guid>
-  <pubDate>2021-06-27</pubDate>
+  <pubDate>2021-06-28</pubDate>
   <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
 <p><strong>源于前端，但不止于前端</strong></p>
 <p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>
 <h2>推荐系列</h2>
 <ul>
-<li><a href="https://github.com/lencx/fzj/discussions/23" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/23/hovercard">macOS 系列</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/8" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/8/hovercard">Web 开发指南</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/44" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/44/hovercard">阅读打卡</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/43" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/43/hovercard">Following 系列</a></li>
 <li><a href="https://github.com/lencx/fzj/discussions/22" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/22/hovercard">WebAssembly 系列</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/23" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/23/hovercard">macOS 系列</a></li>
 <li><a href="https://github.com/lencx/fzj/discussions/27" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/27/hovercard">终端命令行系列</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/8" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/8/hovercard">Web 开发指南</a></li>
 <li><a href="https://github.com/lencx/fzj/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/5/hovercard">CSS 系列</a></li>
+<li><a href="https://github.com/lencx/fzj/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/33/hovercard">JavaScript 系列</a></li>
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[追随过的大佬]]></title>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/fzj/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/44</guid>
+  <pubDate>2021-06-28</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow">How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[Following 系列]]></title>
   <link>https://github.com/lencx/fzj/discussions/43</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/43</guid>
-  <pubDate>2021-06-27</pubDate>
+  <pubDate>2021-06-28</pubDate>
   <description><![CDATA[<h2>GitHub</h2>
 <blockquote>
 <p>排名不分先后</p>
@@ -140,88 +532,6 @@
 </tr>
 </tbody>
 </table>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
-  <link>https://github.com/lencx/fzj/discussions/42</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
-  <pubDate>2021-06-26</pubDate>
-  <description><![CDATA[<blockquote>
-<p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
-</blockquote>
-<h2><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">目录 (Table of contents)</a></h2>
-<p><code>I BACKGROUND</code></p>
-<ol>
-<li>Before you buy the book</li>
-<li>FAQ: book and supplementary material</li>
-<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-924178" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=924178">History and evolution of JavaScript</a></li>
-<li>New JavaScript features</li>
-<li>FAQ: JavaScript</li>
-</ol>
-<p><code>II FIRST STEPS</code></p>
-<ol start="6">
-<li>Using JavaScript: the big picture</li>
-<li>Syntax</li>
-<li>Consoles: interactive JavaScript command lines</li>
-<li>Assertion API</li>
-<li>Getting started with quizzes and exercises</li>
-</ol>
-<p><code>III VARIABLES AND VALUES</code></p>
-<ol start="11">
-<li>Variables and assignment</li>
-<li>Values</li>
-<li>Operators</li>
-</ol>
-<p><code>IV PRIMITIVE VALUES</code></p>
-<ol start="14">
-<li>The non-values <code>undefined</code> and <code>null</code></li>
-<li>Booleans</li>
-<li>Numbers</li>
-<li>Math</li>
-<li>Bigints – arbitrary-precision integers [ES2020] (advanced)</li>
-<li>Unicode – a brief introduction (advanced)</li>
-<li>Strings</li>
-<li>Using template literals and tagged templates</li>
-<li>Symbols</li>
-</ol>
-<p><code>V CONTROL FLOW AND DATA FLOW</code></p>
-<ol start="23">
-<li>Control flow statements</li>
-<li>Exception handling</li>
-<li>Callable values</li>
-<li>Evaluating code dynamically: <code>eval()</code>, <code>new Function()</code> (advanced)</li>
-</ol>
-<p><code>VI MODULARITY</code></p>
-<ol start="27">
-<li>Modules</li>
-<li>Single objects</li>
-<li>Prototype chains and classes</li>
-</ol>
-<p><code>VII COLLECTIONS</code></p>
-<ol start="30">
-<li>Synchronous iteration</li>
-<li>Arrays (<code>Array</code>)</li>
-<li>Typed Arrays: handling binary data (advanced)</li>
-<li>Maps (<code>Map</code>)</li>
-<li>WeakMaps (<code>WeakMap</code>) (advanced)</li>
-<li>Sets (<code>Set</code>)</li>
-<li>WeakSets (<code>WeakSet</code>) (advanced)</li>
-<li>Destructuring</li>
-<li>Synchronous generators (advanced)</li>
-</ol>
-<p><code>VIII ASYNCHRONICITY</code></p>
-<ol start="39">
-<li>Asynchronous programming in JavaScript</li>
-<li>Promises for asynchronous programming [ES6]</li>
-<li>Async functions</li>
-<li>Asynchronous iteration</li>
-</ol>
-<p><code>IX MORE STANDARD LIBRARY</code></p>
-<ol start="43">
-<li>Regular expressions (<code>RegExp</code>)</li>
-<li>Dates (<code>Date</code>)</li>
-<li>Creating and parsing JSON (<code>JSON</code>)</li>
-</ol>]]></description>
 </item>
 <item>
   <title><![CDATA[WebAssembly 系列]]></title>
@@ -385,42 +695,6 @@
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[lencx 的 vscode 配置]]></title>
-  <link>https://github.com/lencx/fzj/discussions/41</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/41</guid>
-  <pubDate>2021-06-23</pubDate>
-  <description><![CDATA[<h2>Theme</h2>
-<ul>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple" rel="nofollow">Shades of Purple</a> - <g-emoji class="g-emoji" alias="unicorn" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f984.png">🦄</g-emoji> A professional theme suite with hand-picked &amp; bold shades of purple for your VS Code editor and terminal apps. One of the excellent, most downloaded, and top-rated VSCode Themes on the marketplace. Part of VSCode.pro course.</li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme" rel="nofollow">Material Icon Theme</a> - Material Design Icons for Visual Studio Code</li>
-</ul>
-<h2>Terminal</h2>
-<ul>
-<li><a href="https://ohmyz.sh" rel="nofollow">Oh My Zsh</a> - Unleash your terminal like never before.</li>
-<li><a href="https://github.com/starship/starship">starship</a> - <g-emoji class="g-emoji" alias="comet" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2604.png">☄</g-emoji><g-emoji class="g-emoji" alias="milky_way" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30c.png">🌌️</g-emoji> The minimal, blazing-fast, and infinitely customizable prompt for any shell!</li>
-</ul>
-<h2>Extensions</h2>
-<ul>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree" rel="nofollow">Todo Tree</a> - Show TODO, FIXME, etc. comment tags in a tree view</li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview" rel="nofollow">Image preview</a> - Shows image preview in the gutter and on hover</li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview" rel="nofollow">Svg Preview</a> - Preview for Svg files</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[通用 - 组件 & 库]]></title>
-  <link>https://github.com/lencx/fzj/discussions/36</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/36</guid>
-  <pubDate>2021-06-23</pubDate>
-  <description><![CDATA[<h2>slider</h2>
-<ul>
-<li><a href="https://github.com/naver/egjs-flicking">@egjs/flicking</a> - <g-emoji class="g-emoji" alias="carousel_horse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a0.png">🎠</g-emoji> <g-emoji class="g-emoji" alias="recycle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/267b.png">♻️</g-emoji> Everyday 30 million people experience. It's reliable, flexible and extendable carousel.</li>
-</ul>
-<h2>library</h2>
-<ul>
-<li><a href="https://github.com/zenorocha/clipboard.js">clipboard.js</a> - <g-emoji class="g-emoji" alias="scissors" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2702.png">✂️</g-emoji> Modern copy to clipboard. No Flash. Just 3kb gzipped <g-emoji class="g-emoji" alias="clipboard" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png">📋</g-emoji></li>
 </ul>]]></description>
 </item>
 
