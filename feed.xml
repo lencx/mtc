@@ -5,10 +5,65 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[Web 开发指南]]></title>
+  <link>https://github.com/lencx/fzj/discussions/8</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/8</guid>
+  <pubDate>2021-06-29</pubDate>
+  <description><![CDATA[<h2>Guide</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
+<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
+<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
+<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
+<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
+<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
+<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
+<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
+<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
+<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
+<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
+<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
+</ul>
+<h2>Frame</h2>
+<ul>
+<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces</li>
+<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework</li>
+<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
+<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
+<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
+</ul>
+<h2>UI</h2>
+<h3>React</h3>
+<ul>
+<li><a href="https://github.com/mui-org/material-ui">Material-UI</a> - Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.</li>
+<li><a href="https://github.com/ant-design/ant-design">Ant Design</a> - An enterprise-class UI design language and React UI library.</li>
+<li><a href="https://github.com/chakra-ui/chakra-ui">Chakra UI</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Simple, Modular &amp; Accessible UI Components for your React Applications</li>
+</ul>
+<h3>Vue</h3>
+<ul>
+<li><a href="https://github.com/vuetifyjs/vuetify">Vuetify</a> - <g-emoji class="g-emoji" alias="dragon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f409.png">🐉</g-emoji> Material Component Framework for Vue</li>
+<li><a href="https://github.com/youzan/vant">Vant</a> - Lightweight Mobile UI Components built on Vue</li>
+</ul>
+<h2>Surveys</h2>
+<ul>
+<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
+</ul>
+<h2>Blog</h2>
+<ul>
+<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
+<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
+<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
+<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
+<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
+<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
   <link>https://github.com/lencx/fzj/discussions/42</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
-  <pubDate>2021-06-28</pubDate>
+  <pubDate>2021-06-29</pubDate>
   <description><![CDATA[<blockquote>
 <p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
 </blockquote>
@@ -85,6 +140,23 @@
 <li>Dates (<code>Date</code>)</li>
 <li>Creating and parsing JSON (<code>JSON</code>)</li>
 </ol>]]></description>
+</item>
+<item>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/fzj/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/44</guid>
+  <pubDate>2021-06-29</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow">Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow">How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
 </item>
 <item>
   <title><![CDATA[组件解耦的一些思考]]></title>
@@ -399,22 +471,6 @@ export default () =&gt; {
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[阅读打卡]]></title>
-  <link>https://github.com/lencx/fzj/discussions/44</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/44</guid>
-  <pubDate>2021-06-28</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
-<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
-<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
-<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
-<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow">How To Write a Programming Book</a></li>
-<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
-</ul>]]></description>
-</item>
-<item>
   <title><![CDATA[Following 系列]]></title>
   <link>https://github.com/lencx/fzj/discussions/43</link>
   <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/43</guid>
@@ -630,48 +686,6 @@ export default () =&gt; {
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> JavaScript 对象初始 - 对象的设计思想和语法，如何创建对象等。</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 异步 JavaScript - 怎样使用异步来有效处理潜在的阻塞操作，比如从服务器上获取资源。</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 客户端 Web API</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[Web 开发指南]]></title>
-  <link>https://github.com/lencx/fzj/discussions/8</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/8</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<h2>Guide</h2>
-<ul>
-<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
-<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
-<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
-<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
-<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
-<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
-<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
-<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
-<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
-<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
-<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
-<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
-</ul>
-<h2>Frame</h2>
-<ul>
-<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces</li>
-<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework</li>
-<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
-<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
-<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
-</ul>
-<h2>Surveys</h2>
-<ul>
-<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
-</ul>
-<h2>Blog</h2>
-<ul>
-<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
-<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
-<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
-<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
-<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
-<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
 </ul>]]></description>
 </item>
 <item>
