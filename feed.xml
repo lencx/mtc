@@ -5,10 +5,48 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[欢迎来到《浮之静》社区]]></title>
+  <link>https://github.com/lencx/z/discussions/2</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/2</guid>
+  <pubDate>2021-07-01</pubDate>
+  <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
+<p><strong>学无止境</strong></p>
+<p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
+<h2>仓库历史</h2>
+<blockquote>
+<p>这个仓库经历过数次大改版，从换名到换技术栈...</p>
+</blockquote>
+<h3>2021.07.01 - 至今</h3>
+<p><strong><code>z</code></strong> -【<g-emoji class="g-emoji" alias="part_alternation_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/303d.png">〽️</g-emoji> 浮之静 - 学无止境】<br>
+取<code>fzj</code>的中间字母，<code>z</code>是一个很有意思的字母，像弹簧，蓄力愈久，反弹的力量就愈大。很符合 «浮之静» 之本意。</p>
+<h3>2021.05.24 - 2021.07.01</h3>
+<p><strong><code>fzj</code></strong> - 【<g-emoji class="g-emoji" alias="ocean" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30a.png">🌊</g-emoji> 浮之静 - 源于前端，但不止于前端】<br>
+技术栈 - <code>vite + react + github discussions api</code></p>
+<h3>2021.05.23 - 2021.05.24</h3>
+<p><strong><code>sea</code></strong> -【<g-emoji class="g-emoji" alias="ocean" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30a.png">🌊</g-emoji> 学海无涯】<br>
+技术栈 - <code>vitepress</code></p>
+<h3>2020.08.23 - 2021.05.17</h3>
+<p><strong><code>mtc</code></strong> - 【My tools &amp; config, and awesome lists】<br>
+技术栈 - <code>vuepress</code>，<code>v2.0</code> 基于 <code>vitepress</code></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>
+<h2>推荐系列</h2>
+<ul>
+<li><a href="https://github.com/lencx/z/discussions/44" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/44/hovercard">阅读打卡</a></li>
+<li><a href="https://github.com/lencx/z/discussions/43" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/43/hovercard">Following 系列</a></li>
+<li><a href="https://github.com/lencx/z/discussions/22" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/22/hovercard">WebAssembly 系列</a></li>
+<li><a href="https://github.com/lencx/z/discussions/23" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/23/hovercard">macOS 系列</a></li>
+<li><a href="https://github.com/lencx/z/discussions/27" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/27/hovercard">终端命令行系列</a></li>
+<li><a href="https://github.com/lencx/z/discussions/8" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/8/hovercard">Web 开发指南</a></li>
+<li><a href="https://github.com/lencx/z/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/5/hovercard">CSS 系列</a></li>
+<li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript 系列</a></li>
+<li><a href="https://github.com/lencx/z/discussions/16" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/16/hovercard">在线编辑器系列</a></li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
-  <link>https://github.com/lencx/fzj/discussions/42</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/42</guid>
-  <pubDate>2021-06-30</pubDate>
+  <link>https://github.com/lencx/z/discussions/42</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/42</guid>
+  <pubDate>2021-07-01</pubDate>
   <description><![CDATA[<blockquote>
 <p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
 </blockquote>
@@ -17,13 +55,13 @@
 <ol>
 <li>Before you buy the book</li>
 <li>FAQ: book and supplementary material</li>
-<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-924178" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=924178">History and evolution of JavaScript</a></li>
+<li><a href="https://github.com/lencx/z/discussions/42#discussioncomment-924178" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/42/hovercard?comment_id=924178">History and evolution of JavaScript</a></li>
 <li>New JavaScript features</li>
-<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-932038" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=932038">FAQ: JavaScript</a></li>
+<li><a href="https://github.com/lencx/z/discussions/42#discussioncomment-932038" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/42/hovercard?comment_id=932038">FAQ: JavaScript</a></li>
 </ol>
 <p><code>II FIRST STEPS</code></p>
 <ol start="6">
-<li><a href="https://github.com/lencx/fzj/discussions/42#discussioncomment-932104" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/42/hovercard?comment_id=932104">Using JavaScript: the big picture</a></li>
+<li><a href="https://github.com/lencx/z/discussions/42#discussioncomment-932104" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/42/hovercard?comment_id=932104">Using JavaScript: the big picture</a></li>
 <li>Syntax</li>
 <li>Consoles: interactive JavaScript command lines</li>
 <li>Assertion API</li>
@@ -87,10 +125,107 @@
 </ol>]]></description>
 </item>
 <item>
-  <title><![CDATA[JavaScript 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/33</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/33</guid>
-  <pubDate>2021-06-30</pubDate>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/z/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
+  <pubDate>2021-07-01</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
+<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
+<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[在线编辑器系列]]></title>
+  <link>https://github.com/lencx/z/discussions/16</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/16</guid>
+  <pubDate>2021-07-01</pubDate>
+  <description><![CDATA[<h2>Editor</h2>
+<ul>
+<li><a href="https://copilot.github.com/">Copilot</a> - Your AI pair programmer. With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.</li>
+<li><a href="https://codesandbox.io/" rel="nofollow">CodeSandbox: Online Code Editor and IDE for Rapid Web Development</a> - CodeSandbox is an online code editor and prototyping tool that makes creating and sharing web apps faster</li>
+<li><a href="https://codepen.io/" rel="nofollow">CodePen</a> - An online code editor, learning environment, and community for front-end web development using HTML, CSS and JavaScript code snippets, projects, and web applications.</li>
+<li><a href="https://utopia.app/" rel="nofollow">Utopia</a> - Utopia is a production-grade online coding and design tool for React that reads and writes code you’ll want to commit.</li>
+<li><a href="https://jsbin.com/" rel="nofollow">JS Bin - Collaborative JavaScript Debugging</a> - A live pastebin for HTML, CSS &amp; JavaScript and a range of processors, including SCSS, CoffeeScript, Jade and more...</li>
+<li><a href="https://jsfiddle.net/" rel="nofollow">JSFiddle - Code Playground</a> - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</li>
+<li><a href="https://stackblitz.com/" rel="nofollow">StackBlitz</a> - The online code editor for web apps. Powered by Visual Studio Code.</li>
+</ul>
+<h2>Browser Cookie</h2>
+<ul>
+<li><a href="https://github.com/ETCExtensions/Edit-This-Cookie">EditThisCookie</a> - EditThisCookie is the famous Google Chrome/Chromium extension for editing cookies</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[Web 开发指南]]></title>
+  <link>https://github.com/lencx/z/discussions/8</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/8</guid>
+  <pubDate>2021-07-01</pubDate>
+  <description><![CDATA[<h2>Guide</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
+<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
+<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
+<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
+<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
+<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
+<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
+<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
+<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
+<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
+<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
+<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
+<li><a href="https://github.com/dexteryy/spellbook-of-modern-webdev">Spellbook of Modern Web Dev</a> - A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development</li>
+</ul>
+<h2>Frame</h2>
+<ul>
+<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces</li>
+<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework</li>
+<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
+<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
+<li><a href="https://www.solidjs.com" rel="nofollow">Solid</a> - Solid is a purely reactive library. It was designed from the ground up with a reactive core. It's influenced by reactive principles developed by previous libraries.</li>
+<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
+</ul>
+<h2>UI</h2>
+<h3>React</h3>
+<ul>
+<li><a href="https://github.com/mui-org/material-ui">Material-UI</a> - Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.</li>
+<li><a href="https://github.com/ant-design/ant-design">Ant Design</a> - An enterprise-class UI design language and React UI library.</li>
+<li><a href="https://github.com/chakra-ui/chakra-ui">Chakra UI</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Simple, Modular &amp; Accessible UI Components for your React Applications</li>
+</ul>
+<h3>Vue</h3>
+<ul>
+<li><a href="https://github.com/vuetifyjs/vuetify">Vuetify</a> - <g-emoji class="g-emoji" alias="dragon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f409.png">🐉</g-emoji> Material Component Framework for Vue</li>
+<li><a href="https://github.com/youzan/vant">Vant</a> - Lightweight Mobile UI Components built on Vue</li>
+</ul>
+<h2>Surveys</h2>
+<ul>
+<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
+</ul>
+<h2>Blog</h2>
+<ul>
+<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
+<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
+<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
+<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
+<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
+<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[JavaScript Series]]></title>
+  <link>https://github.com/lencx/z/discussions/33</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
+  <pubDate>2021-07-01</pubDate>
   <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
 <hr>
 <h2>JavaScript</h2>
@@ -110,28 +245,10 @@
 ]]></description>
 </item>
 <item>
-  <title><![CDATA[阅读打卡]]></title>
-  <link>https://github.com/lencx/fzj/discussions/44</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/44</guid>
-  <pubDate>2021-06-30</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
-<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow">Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
-<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
-<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
-<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
-<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
-<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow">How To Write a Programming Book</a></li>
-<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[WebAssembly 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/22</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/22</guid>
-  <pubDate>2021-06-30</pubDate>
+  <title><![CDATA[WebAssembly Series]]></title>
+  <link>https://github.com/lencx/z/discussions/22</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/22</guid>
+  <pubDate>2021-07-01</pubDate>
   <description><![CDATA[<h2>Guide</h2>
 <ul>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/WebAssembly" rel="nofollow">MDN WebAssembly</a></li>
@@ -209,64 +326,9 @@
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[Web 开发指南]]></title>
-  <link>https://github.com/lencx/fzj/discussions/8</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/8</guid>
-  <pubDate>2021-06-29</pubDate>
-  <description><![CDATA[<h2>Guide</h2>
-<ul>
-<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
-<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
-<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
-<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
-<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
-<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
-<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
-<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
-<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
-<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
-<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
-<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
-<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
-</ul>
-<h2>Frame</h2>
-<ul>
-<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces</li>
-<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework</li>
-<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
-<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
-<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
-</ul>
-<h2>UI</h2>
-<h3>React</h3>
-<ul>
-<li><a href="https://github.com/mui-org/material-ui">Material-UI</a> - Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.</li>
-<li><a href="https://github.com/ant-design/ant-design">Ant Design</a> - An enterprise-class UI design language and React UI library.</li>
-<li><a href="https://github.com/chakra-ui/chakra-ui">Chakra UI</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Simple, Modular &amp; Accessible UI Components for your React Applications</li>
-</ul>
-<h3>Vue</h3>
-<ul>
-<li><a href="https://github.com/vuetifyjs/vuetify">Vuetify</a> - <g-emoji class="g-emoji" alias="dragon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f409.png">🐉</g-emoji> Material Component Framework for Vue</li>
-<li><a href="https://github.com/youzan/vant">Vant</a> - Lightweight Mobile UI Components built on Vue</li>
-</ul>
-<h2>Surveys</h2>
-<ul>
-<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
-</ul>
-<h2>Blog</h2>
-<ul>
-<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
-<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
-<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
-<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
-<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
-<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
-</ul>]]></description>
-</item>
-<item>
   <title><![CDATA[组件解耦的一些思考]]></title>
-  <link>https://github.com/lencx/fzj/discussions/45</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/45</guid>
+  <link>https://github.com/lencx/z/discussions/45</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/45</guid>
   <pubDate>2021-06-28</pubDate>
   <description><![CDATA[<blockquote>
 <p>自前端三大框架 ( <a href="https://vuejs.org" rel="nofollow">Vue</a> , <a href="https://reactjs.org" rel="nofollow">React</a> , <a href="https://angular.io" rel="nofollow">Angular</a> ) 以及后起之秀 <a href="https://svelte.dev" rel="nofollow">Svelte</a> 出现之后，各种组件，轮子。大家都没少造过，一些大公司或者有精力的人，在研究 <code>LowCode</code> 或 <code>NoCode</code>，也有一些落地或者具体方案。</p>
@@ -555,31 +617,10 @@ export default () =&gt; {
 <p>数据与 UI 的解耦，其实就意味着业务逻辑与 UI 组件视图的解耦。当组件要跨平台，或者 UI 大换肤时，我们只需要实现标准的数据接收组件就可以了。业务功能对应的其实就是一个个数据处理函数和 UI 组件的组合，通过事件去触发或者绑定一些状态。当数据处理或组件不满足需求的时候，我们只需要去扩展对应的函数或组件。</p>]]></description>
 </item>
 <item>
-  <title><![CDATA[欢迎来到《浮之静》社区]]></title>
-  <link>https://github.com/lencx/fzj/discussions/2</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/2</guid>
-  <pubDate>2021-06-28</pubDate>
-  <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
-<p><strong>源于前端，但不止于前端</strong></p>
-<p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>
-<h2>推荐系列</h2>
-<ul>
-<li><a href="https://github.com/lencx/fzj/discussions/44" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/44/hovercard">阅读打卡</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/43" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/43/hovercard">Following 系列</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/22" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/22/hovercard">WebAssembly 系列</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/23" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/23/hovercard">macOS 系列</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/27" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/27/hovercard">终端命令行系列</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/8" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/8/hovercard">Web 开发指南</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/5/hovercard">CSS 系列</a></li>
-<li><a href="https://github.com/lencx/fzj/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/fzj/discussions/33/hovercard">JavaScript 系列</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[Following 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/43</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/43</guid>
-  <pubDate>2021-06-28</pubDate>
+  <title><![CDATA[Following Series]]></title>
+  <link>https://github.com/lencx/z/discussions/43</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/43</guid>
+  <pubDate>2021-07-01</pubDate>
   <description><![CDATA[<h2>GitHub</h2>
 <blockquote>
 <p>排名不分先后</p>
@@ -631,10 +672,10 @@ export default () =&gt; {
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[macOS 系列]]></title>
-  <link>https://github.com/lencx/fzj/discussions/23</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/23</guid>
-  <pubDate>2021-06-27</pubDate>
+  <title><![CDATA[macOS Series]]></title>
+  <link>https://github.com/lencx/z/discussions/23</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/23</guid>
+  <pubDate>2021-07-01</pubDate>
   <description><![CDATA[<h2>APP</h2>
 <ul>
 <li><a href="https://github.com/jaywcjlove/awesome-mac">Awesome Mac</a> -  Now we have become very big, Different from the original idea. Collect premium software in various categories.</li>
@@ -693,29 +734,6 @@ export default () =&gt; {
 </tr>
 </tbody>
 </table>]]></description>
-</item>
-<item>
-  <title><![CDATA[TODO]]></title>
-  <link>https://github.com/lencx/fzj/discussions/20</link>
-  <guid isPermaLink="false">https://github.com/lencx/fzj/discussions/20</guid>
-  <pubDate>2021-06-25</pubDate>
-  <description><![CDATA[<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
-</ul>
-</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API" rel="nofollow">WebRTC 学习</a></li>
-</ul>
-<h3>开源</h3>
-<ul class="contains-task-list">
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://github.com/Privoce/SocialRSS">SocialRSS</a> 开发</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>xc-app</code> - <a href="https://github.com/lencx/create-xc-app/issues/1" data-hovercard-type="issue" data-hovercard-url="/lencx/create-xc-app/issues/1/hovercard">#1 脚手架优化</a></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
-</ul>]]></description>
 </item>
 
 </channel>
