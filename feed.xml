@@ -5,14 +5,25 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
-  <title><![CDATA[Web 开发指南]]></title>
+  <title><![CDATA[Programming Series]]></title>
+  <link>https://github.com/lencx/z/discussions/46</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/46</guid>
+  <pubDate>2021-07-04</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="http://paulgraham.com/" rel="nofollow">Paul Graham</a></li>
+<li><a href="https://xn--2-umb.com/" rel="nofollow">Math &amp; Engineering</a> - Random collections of my notes and articles over the years, mostly about maths and/or engineering.</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[Web Development Guide]]></title>
   <link>https://github.com/lencx/z/discussions/8</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/8</guid>
-  <pubDate>2021-07-03</pubDate>
+  <pubDate>2021-07-04</pubDate>
   <description><![CDATA[<h2>Guide</h2>
 <ul>
 <li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
 <li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
+<li><a href="https://developers.google.com/web" rel="nofollow">Web  |  Google Developers</a> - Build the next generation of web experiences.</li>
 <li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
 <li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
 <li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
@@ -25,6 +36,8 @@
 <li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
 <li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
 <li><a href="https://github.com/dexteryy/spellbook-of-modern-webdev">Spellbook of Modern Web Dev</a> - A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development</li>
+<li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript Series</a></li>
+<li><a href="https://github.com/lencx/z/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/5/hovercard">CSS Series</a></li>
 </ul>
 <h2>Frame</h2>
 <ul>
@@ -67,7 +80,33 @@
 <li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
 <li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
 <li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
+<li><a href="https://lea.verou.me/" rel="nofollow">Lea Verou – Life at the bleeding edge (of web standards)</a></li>
+<li><a href="https://chriscoyier.net/" rel="nofollow">Blog - Chris Coyier</a></li>
 </ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[JavaScript Series]]></title>
+  <link>https://github.com/lencx/z/discussions/33</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
+  <pubDate>2021-07-04</pubDate>
+  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
+<hr>
+<h2>JavaScript</h2>
+<ul>
+<li><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
+<li><a href="https://github.com/denysdovhan/wtfjs">What the f*ck JavaScript?</a>
+<ul>
+<li><a href="https://jsisweird.com/" rel="nofollow">That JavaScript quiz you found on Reddit</a> - JS is weird: A fun and tricky JavaScript quiz</li>
+</ul>
+</li>
+<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
+</ul>
+<h2>TypeScript</h2>
+<ul>
+<li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" rel="nofollow">The TypeScript Handbook</a></li>
+<li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
+</ul>
+]]></description>
 </item>
 <item>
   <title><![CDATA[WebAssembly Series]]></title>
@@ -310,29 +349,6 @@
 <ul>
 <li><a href="https://github.com/ETCExtensions/Edit-This-Cookie">EditThisCookie</a> - EditThisCookie is the famous Google Chrome/Chromium extension for editing cookies</li>
 </ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript Series]]></title>
-  <link>https://github.com/lencx/z/discussions/33</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
-  <pubDate>2021-07-01</pubDate>
-  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
-<hr>
-<h2>JavaScript</h2>
-<ul>
-<li><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
-<li><a href="https://github.com/denysdovhan/wtfjs">What the f*ck JavaScript?</a>
-<ul>
-<li><a href="https://jsisweird.com/" rel="nofollow">That JavaScript quiz you found on Reddit</a> - JS is weird: A fun and tricky JavaScript quiz</li>
-</ul>
-</li>
-<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
-</ul>
-<h2>TypeScript</h2>
-<ul>
-<li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
-</ul>
-]]></description>
 </item>
 <item>
   <title><![CDATA[组件解耦的一些思考]]></title>
@@ -679,70 +695,6 @@ export default () =&gt; {
 <li><a href="https://github.com/peng-zhihui">稚晖</a> - 野生钢铁侠本侠。</li>
 <li><a href="https://github.com/phodal">Phodal Huang</a> - 待我代码编成，娶你为妻可好</li>
 </ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[macOS Series]]></title>
-  <link>https://github.com/lencx/z/discussions/23</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/23</guid>
-  <pubDate>2021-07-01</pubDate>
-  <description><![CDATA[<h2>APP</h2>
-<ul>
-<li><a href="https://github.com/jaywcjlove/awesome-mac">Awesome Mac</a> -  Now we have become very big, Different from the original idea. Collect premium software in various categories.</li>
-<li><a href="https://github.com/serhii-londar/open-source-mac-os-apps">Awesome macOS open source applications</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Awesome list of open source applications for macOS.</li>
-<li><a href="https://www.mediaatelier.com/CheatSheet" rel="nofollow">CheatSheet</a> - Know your short cuts</li>
-<li><a href="https://xnipapp.com/" rel="nofollow">Xnip</a> - Handy Screenshot App for Mac</li>
-<li><a href="https://github.com/ripperhe/Bob">Bob</a> - Bob 是一款 Mac 端翻译软件，支持划词翻译、截图翻译以及手动输入翻译。</li>
-<li><a href="https://github.com/gbammc/Thor">thor</a> - Switch the right application ASAP.</li>
-<li><a href="https://getkap.co" rel="nofollow">Kap</a> - An open-source screen recorder built with web technology</li>
-<li><a href="https://imageoptim.com/mac" rel="nofollow">ImageOptim</a> - Removes bloated metadata. Saves disk space &amp; bandwidth by compressing images without losing quality.</li>
-<li><a href="https://setapp.com/apps/istat-menus" rel="nofollow">iStat Menus</a> - An advanced system monitor for your menubar.</li>
-<li><a href="https://iterm2.com/" rel="nofollow">iTerm2</a> - iTerm2 is a replacement for Terminal and the successor to iTerm.</li>
-<li><a href="https://maccy.app/" rel="nofollow">Maccy</a> - Clipboard manager for macOS which does one job - keep your copy history at hand. Period.</li>
-<li><a href="https://github.com/dwarvesf/hidden">Hidden Bar</a> - An ultra-light MacOS utility that helps hide menu bar icons</li>
-<li><a href="https://github.com/rxhanson/Rectangle">Rectangle</a> - Move and resize windows on macOS with keyboard shortcuts and snap areas.</li>
-<li><a href="https://dropoverapp.com/" rel="nofollow">Dropover</a> - Dropover is a utility that makes it easier to manage and move content between folders, applications, windows and workspaces using Drag and Drop.</li>
-<li><a href="https://github.com/sindresorhus/System-Color-Picker">System Color Picker</a> - The macOS color picker as an app with more features</li>
-<li><a href="https://iina.io" rel="nofollow">IINA</a> - The modern media player for macOS.</li>
-<li><a href="https://github.com/pock/pock">Pock</a> - Widgets manager for MacBook Touch Bar</li>
-<li><a href="https://github.com/mas-cli/mas">mas</a> - <g-emoji class="g-emoji" alias="package" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji> Mac App Store command line interface</li>
-</ul>
-<h2>Keyboard Shortcuts</h2>
-<table role="table">
-<thead>
-<tr>
-<th>键名</th>
-<th>符号</th>
-<th>键名</th>
-<th>符号</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Command</td>
-<td>⌘</td>
-<td>Option</td>
-<td>⌥</td>
-</tr>
-<tr>
-<td>Ctrl</td>
-<td>⌃</td>
-<td>Shift</td>
-<td>⇧</td>
-</tr>
-<tr>
-<td>Tab</td>
-<td>⇥</td>
-<td>Delete</td>
-<td>⌫</td>
-</tr>
-<tr>
-<td>Enter</td>
-<td>⏎</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>]]></description>
 </item>
 
 </channel>
