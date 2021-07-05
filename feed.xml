@@ -5,6 +5,122 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[技术名词解释 - 云服务]]></title>
+  <link>https://github.com/lencx/z/discussions/31</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/31</guid>
+  <pubDate>2021-07-05</pubDate>
+  <description><![CDATA[<h2>云计算</h2>
+<p>云计算（英语：cloud computing），也被意译为网络计算，是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机各种终端和其他设备，使用服务商提供的电脑基建作计算和资源。</p>
+<p>云计算是指在云中运行工作负载，而云是一种能够抽象、汇集和共享整个网络中的可扩展资源的 IT 环境。云计算和云本身都不属于技术的范畴。</p>
+<ul>
+<li>云计算是指在云中运行工作负载的功能。</li>
+<li>而云是一种环境，是运行应用的地方。</li>
+<li>技术则是指用于构建和使用云的软件和硬件。</li>
+</ul>
+<h3>BFF</h3>
+<p>服务于前端的后端（英语：Backend-For-Frontend，缩写：BFF） 本质上是 API 网关模式的一个变体。它还在微服务和客户端之间提供了一个附加层。但它不是单个入口点，而是为每个客户端引入了多个网关。 使用 BFF，您可以添加针对每个客户端的需求量身定制的 API，从而消除因将所有内容集中在一个地方而导致的大量臃肿。</p>
+<h3>SaaS</h3>
+<p>软件即服务（英语：Software as a Service，缩写：SaaS，发音：sæs或sɑs），亦可称为“按需即用软件”（即“一经要求，即可使用”），它是一种软件交付模式。在这种交付模式中，软件仅需通过网络，不须经过传统的安装步骤即可使用，软件及其相关的数据集中托管于云端服务。用户通常使用精简客户端，一般即经由网页浏览器来访问、访问软件即服务。SaaS 最大的特色在于软件本身并没有被下载到用户的硬盘，而是存储在提供商的云端或者服务器。对比传统软件需要花钱购买，下载。软件即服务只需要用户租用软件，在线使用，不但大大减少了用户购买风险, 也无需下载软件本身，无设备要求的限制。</p>
+<h3>IaaS</h3>
+<p>基础设施即服务（英语：Infrastructure as a Service，简称IaaS）是提供消费者处理、储存、网络以及各种基础运算资源，以部署与执行操作系统或应用程序等各种软件。</p>
+<p>IaaS 是云服务的最底层，主要提供一些基础资源。它与 PaaS 的区别是，用户需要自己控制底层，实现基础设施的使用逻辑。 客户端无须购买服务器、软件等网络设备，即可任意部署和运行处理、存储、网络和其它基本的计算资源，不能控管或控制底层的基础设施，但是可以控制操作系统、储存装置、已部署的应用程序，有时也可以有限度地控制特定的网络元件，像是主机端防火墙。</p>
+<h3>PaaS</h3>
+<p>平台即服务（英语：platform as a service，缩写：PaaS）是一种云计算服务，提供运算平台与解决方案服务。在云计算的典型层级中，PaaS层介于软件即服务与基础设施即服务之间。</p>
+<p>PaaS提供用户将云端基础设施部署与创建至客户端，或者借此获得使用编程语言、程序库与服务。用户不需要管理与控制云端基础设施（包含网络、服务器、操作系统或存储），但需要控制上层的应用程序部署与应用托管的环境。</p>
+<p>PaaS将软件研发的平台做为一种服务，以软件即服务（SaaS）模式交付给用户。因此，PaaS也是SaaS模式的一种应用。但是，PaaS的出现可以加快SaaS的发展，尤其是加快SaaS应用的开发速度。</p>
+<p>PaaS 提供软件部署平台（runtime），抽象掉了硬件和操作系统细节，可以无缝地扩展（scaling）。开发者只需要关注自己的业务逻辑，不需要关注底层。</p>
+<h3>BaaS</h3>
+<p>后端即服务 (BaaS) 使开发人员可以专注于应用程序的前端，无需构建或维护后端服务即可利用。BaaS 和无服务器计算有一些相似之处，许多提供商都提供两者，但是两种模型有一些差异。</p>
+<h3>FaaS</h3>
+<p>功能即服务 (FaaS) 是一类云计算服务，它提供了一个平台，允许客户开发、运行和管理应用程序功能，而无需构建和维护通常与开发和启动应用程序相关的基础设施。按照此模型构建应用程序是实现“无服务器”架构的一种方式，通常用于构建微服务应用程序。</p>
+<h3>DaaS</h3>
+<p>在计算领域，数据即服务（Data as a service，简称DaaS）是指在线数据服务，开发者将开发用的数据保存在互联网上并随时访问，而无需使用保存在本地计算机上的数据库。</p>
+<hr>
+<ul>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97" rel="nofollow">[wiki] 云计算</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud" rel="nofollow">什么是云计算？</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-serverless" rel="nofollow">什么是无服务器？</a></li>
+<li><a href="https://microservices.io/patterns/apigateway.html" rel="nofollow">Pattern: API Gateway / Backends for Frontends Context</a></li>
+<li><a href="https://samnewman.io/patterns/architectural/bff/" rel="nofollow">Pattern: Backends For Frontends</a></li>
+<li><a href="https://tsh.io/blog/design-patterns-in-microservices-api-gateway-bff-and-more/" rel="nofollow">Microservices design patterns for CTOs: API Gateway, Backend for Frontend and more</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 软件即服务</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 平台即服务</a></li>
+<li><a href="https://azure.microsoft.com/zh-cn/overview/what-is-paas" rel="nofollow">什么是 PaaS？</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud-computing/what-is-paas" rel="nofollow">什么是平台即服务（PaaS）？PaaS SaaS IaaS 区别解析</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mobile_backend_as_a_service" rel="nofollow">[wiki] Mobile backend as a service</a></li>
+<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/backend-as-a-service-baas/" rel="nofollow">什么是 BaaS？|后端即服务与无服务器</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Function_as_a_service" rel="nofollow">Function as a service</a></li>
+<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/function-as-a-service-faas/" rel="nofollow">什么功能即服务 (FaaS)？</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-faas" rel="nofollow">什么是功能即服务（FaaS）？</a></li>
+<li><a href="https://aws.amazon.com/cn/blogs/china/iaas-faas-serverless/" rel="nofollow">从IaaS到FaaS—— Serverless架构的前世今生</a></li>
+<li><a href="https://www.ibm.com/cloud/learn/faas" rel="nofollow">FaaS (Function-as-a-Service)</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E5%8D%B3%E6%9C%8D%E5%8B%99" rel="nofollow">[wiki] 数据即服务</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/z/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
+  <pubDate>2021-07-05</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
+<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
+<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
+<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[JavaScript Series]]></title>
+  <link>https://github.com/lencx/z/discussions/33</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
+  <pubDate>2021-07-05</pubDate>
+  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
+<hr>
+<h2>Weekly</h2>
+<ul>
+<li><a href="https://javascriptweekly.com/" rel="nofollow">JavaScript Weekly</a> - A newsletter of JavaScript articles, news and cool projects</li>
+<li><a href="https://nodeweekly.com/" rel="nofollow">Node Weekly</a> - A free, once–weekly e-mail round-up of Node.js news and articles</li>
+<li><a href="https://reactjs.org/" rel="nofollow">React</a> - A JavaScript library for building user interfaces
+<ul>
+<li><a href="https://react.statuscode.com/" rel="nofollow">React Status</a> - A weekly roundup of the latest React and React Native links and tutorials.</li>
+<li><a href="https://reactnewsletter.com/" rel="nofollow">React Newsletter</a> - Stay up to date on the latest React news, tutorials, resources, and more. Delivered every Tuesday, for free.</li>
+<li><a href="https://reactdigest.net/" rel="nofollow">React Digest</a> - React Digest is a weekly newsletter with the five most interesting stories in front-end React development <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji>.</li>
+</ul>
+</li>
+<li><a href="https://vuejs.org/" rel="nofollow">Vue</a> - The Progressive JavaScript Framework
+<ul>
+<li><a href="https://www.vueweekly.dev/" rel="nofollow">VueWeekly .dev</a> - <g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> A free, weekly email digest of Vue.js news and articles.</li>
+<li><a href="https://vuejsdevelopers.com/newsletter/" rel="nofollow">Vue.js Developers Newsletter</a> - The best Vue articles in your inbox, weekly</li>
+</ul>
+</li>
+</ul>
+<h2>JavaScript</h2>
+<ul>
+<li><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
+<li><a href="https://github.com/denysdovhan/wtfjs">What the f*ck JavaScript?</a>
+<ul>
+<li><a href="https://jsisweird.com/" rel="nofollow">That JavaScript quiz you found on Reddit</a> - JS is weird: A fun and tricky JavaScript quiz</li>
+</ul>
+</li>
+<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
+</ul>
+<h2>TypeScript</h2>
+<ul>
+<li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" rel="nofollow">The TypeScript Handbook</a></li>
+<li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
+</ul>
+]]></description>
+</item>
+<item>
   <title><![CDATA[Programming Series]]></title>
   <link>https://github.com/lencx/z/discussions/46</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/46</guid>
@@ -83,30 +199,6 @@
 <li><a href="https://lea.verou.me/" rel="nofollow">Lea Verou – Life at the bleeding edge (of web standards)</a></li>
 <li><a href="https://chriscoyier.net/" rel="nofollow">Blog - Chris Coyier</a></li>
 </ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript Series]]></title>
-  <link>https://github.com/lencx/z/discussions/33</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
-  <pubDate>2021-07-04</pubDate>
-  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
-<hr>
-<h2>JavaScript</h2>
-<ul>
-<li><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
-<li><a href="https://github.com/denysdovhan/wtfjs">What the f*ck JavaScript?</a>
-<ul>
-<li><a href="https://jsisweird.com/" rel="nofollow">That JavaScript quiz you found on Reddit</a> - JS is weird: A fun and tricky JavaScript quiz</li>
-</ul>
-</li>
-<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
-</ul>
-<h2>TypeScript</h2>
-<ul>
-<li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" rel="nofollow">The TypeScript Handbook</a></li>
-<li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
-</ul>
-]]></description>
 </item>
 <item>
   <title><![CDATA[WebAssembly Series]]></title>
@@ -309,26 +401,6 @@
 <li>Dates (<code>Date</code>)</li>
 <li>Creating and parsing JSON (<code>JSON</code>)</li>
 </ol>]]></description>
-</item>
-<item>
-  <title><![CDATA[阅读打卡]]></title>
-  <link>https://github.com/lencx/z/discussions/44</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
-  <pubDate>2021-07-01</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
-<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
-<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
-<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
-<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
-<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
-<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
-<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
-<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
-<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
-</ul>]]></description>
 </item>
 <item>
   <title><![CDATA[在线编辑器系列]]></title>
@@ -640,61 +712,6 @@ export default () =&gt; {
 <span class="pl-kos">}</span></pre></div>
 <h2>总结</h2>
 <p>数据与 UI 的解耦，其实就意味着业务逻辑与 UI 组件视图的解耦。当组件要跨平台，或者 UI 大换肤时，我们只需要实现标准的数据接收组件就可以了。业务功能对应的其实就是一个个数据处理函数和 UI 组件的组合，通过事件去触发或者绑定一些状态。当数据处理或组件不满足需求的时候，我们只需要去扩展对应的函数或组件。</p>]]></description>
-</item>
-<item>
-  <title><![CDATA[Following Series]]></title>
-  <link>https://github.com/lencx/z/discussions/43</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/43</guid>
-  <pubDate>2021-07-01</pubDate>
-  <description><![CDATA[<h2>GitHub</h2>
-<blockquote>
-<p>排名不分先后</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/torvalds">Linus Torvalds</a></li>
-<li><a href="https://github.com/BrendanEich">Brendan Eich</a> - Founder &amp; CEO, Brave Software. Created JavaScript. Co-founded Mozilla and Firefox.</li>
-<li><a href="https://github.com/sindresorhus">Sindre Sorhus</a> - Full-Time Open-Sourcerer. Wants more empathy &amp; kindness in open source. Focuses on Swift &amp; JavaScript. Makes macOS apps, CLI tools, npm packages. Likes unicorns</li>
-<li><a href="https://github.com/tj">TJ Holowaychuk</a> - I'm the founder and solo developer of Apex Software. I've written hundreds of open-source projects for the JavaScript and Go communities.</li>
-<li><a href="https://github.com/LeaVerou">Lea Verou</a> - Elected <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/w3ctag/hovercard" href="https://github.com/w3ctag">@w3ctag</a> member, CSS WG Invited Expert, HCI researcher at MIT CSAIL. Founder of many open source projects, PrismJS probably being the most popular one.</li>
-<li><a href="https://github.com/gaearon">Dan Abramov</a></li>
-<li><a href="https://github.com/ry">Ryan Dahl</a></li>
-<li><a href="https://github.com/linclark">Lin Clark</a></li>
-<li><a href="https://github.com/isaacs">isaacs</a> - Principal Engineer at GitHub npm inventor, founder npm, Inc. Former Node BDFL. All opinions are my own. Literally all of them. I own them all. He/him</li>
-<li><a href="https://github.com/wesbos">Wes Bos</a> - I create courses that make learning things like JavaScript easy and fun <g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji></li>
-<li><a href="https://github.com/zeke">Zeke Sikelianos</a> - Friendly open-source person localizing <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/github/hovercard" href="https://github.com/github">@github</a>, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/nodejs/hovercard" href="https://github.com/nodejs">@nodejs</a>, and <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/electron/hovercard" href="https://github.com/electron">@electron</a>. Previously <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/npm/hovercard" href="https://github.com/npm">@npm</a> and <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/heroku/hovercard" href="https://github.com/heroku">@heroku</a></li>
-<li><a href="https://github.com/sdras">Sarah Drasner</a> - I make tools for developers, projects, and am on the Vue.js core team.</li>
-<li><a href="https://github.com/sokra">Tobias Koppers</a> - Author of webpack</li>
-<li><a href="https://github.com/TheLarkInn">Sean Larkin</a> - Technical Program Manager <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/microsoft/hovercard" href="https://github.com/microsoft">@microsoft</a> for <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/MicrosoftEdge/hovercard" href="https://github.com/MicrosoftEdge">@MicrosoftEdge</a>. Javascript, webpack, Typescript. <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/webpack/hovercard" href="https://github.com/webpack">@webpack</a> core team. <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/angular/hovercard" href="https://github.com/angular">@angular</a> cli core team.</li>
-<li><a href="https://github.com/jlord">Jessica Lord</a> - Urban designer turned open source developer. Shared knowledge champion <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji></li>
-<li><a href="https://github.com/toddmotto">Todd Motto</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> UltimateCourses.com <g-emoji class="g-emoji" alias="bug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png">🐛</g-emoji> Google Developer Expert <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji></li>
-<li><a href="https://github.com/addyosmani">Addy Osmani</a> - Engineering Manager at Google working on Chrome &amp; Web Platform</li>
-<li><a href="https://github.com/getify">Kyle Simpson</a> - I like to explore JS and FP techniques. Helping build a culture of engineering excellence for my employer.</li>
-<li><a href="https://github.com/douglascrockford">Douglas Crockford</a> - I was born in Frostbite Falls, Minnesota. I left when I was 6 months old because it was too damn cold. My latest book is <em>How JavaScript Works</em>.</li>
-<li><a href="https://github.com/jeresig">John Resig</a> - Chief Architect at <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/Khan/hovercard" href="https://github.com/Khan">@Khan</a></li>
-<li><a href="https://github.com/developit">Jason Miller</a> - Making the web faster at <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/google/hovercard" href="https://github.com/google">@google</a>. Creator of <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/preactjs/hovercard" href="https://github.com/preactjs">@preactjs</a>.</li>
-<li><a href="https://github.com/FezVrasta">Federico Zivolo</a> - UX Engineer/Front-End Engineer. Creator of bootstrap-material-design and Popper.js. Open Source addicted.</li>
-<li><a href="https://github.com/jwasham">John Washam</a> - Software Development Engineer at Amazon</li>
-<li><a href="https://github.com/mxstbr">Max Stoiber</a> - Co-Founder, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/graphcdn/hovercard" href="https://github.com/graphcdn">@graphcdn</a> <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Previously <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/gatsbyjs/hovercard" href="https://github.com/gatsbyjs">@gatsbyjs</a>, before that <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/github/hovercard" href="https://github.com/github">@github</a> after they acquired <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/withspectrum/hovercard" href="https://github.com/withspectrum">@withspectrum</a>. <g-emoji class="g-emoji" alias="v" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/270c.png">✌️</g-emoji> Speciality coffee geek, boulderer and skier</li>
-<li><a href="https://github.com/posva">Eduardo San Martin Morote</a> - Member of the <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/vuejs/hovercard" href="https://github.com/vuejs">@vuejs</a> core team Speaker, trainer. From <g-emoji class="g-emoji" alias="es" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ea-1f1f8.png">🇪🇸</g-emoji>, lives in <g-emoji class="g-emoji" alias="fr" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1eb-1f1f7.png">🇫🇷</g-emoji></li>
-<li><a href="https://github.com/nzakas">Nicholas C. Zakas</a></li>
-<li><a href="https://github.com/rauschma">Axel Rauschmayer</a></li>
-<li><a href="https://github.com/crnacura">Mary Lou</a></li>
-<li><a href="https://github.com/alexcrichton"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Alex Crichton</a></li>
-<li><a href="https://github.com/BurntSushi"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Andrew Gallant</a></li>
-<li><a href="https://github.com/yoshuawuyts"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Yoshua Wuyts</a> - calm computing. he/they</li>
-<li><a href="https://github.com/kornelski"><g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji> Kornel</a> - Rust, image compression, web performance.</li>
-</ul>
-<hr>
-<ul>
-<li><a href="https://github.com/ruanyf">Ruan YiFeng</a> - Stay Focused, Keep Shipping. Build Early, Build Always. Improve yourself, Write solid/simple/stupid code.</li>
-<li><a href="https://github.com/justjavac">迷渡</a> - Creator of vscode-deno. Currently a contributor to Deno <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/denoland/hovercard" href="https://github.com/denoland">@denoland</a>.</li>
-<li><a href="https://github.com/yyx990803">Evan You</a></li>
-<li><a href="https://github.com/haoel">Hao Chen</a> - 芝兰生于空谷，不以无人而不芳。</li>
-<li><a href="https://github.com/afc163">afc163</a> - Life is a box of chaos</li>
-<li><a href="https://github.com/sorrycc">chencheng (云谦)</a> - Front-end developer at alipay, creator of <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/umijs/hovercard" href="https://github.com/umijs">@umijs</a>, <a class="user-mention" data-hovercard-type="organization" data-hovercard-url="/orgs/dvajs/hovercard" href="https://github.com/dvajs">@dvajs</a>, father, roadhog, babel-plugin-import...</li>
-<li><a href="https://github.com/peng-zhihui">稚晖</a> - 野生钢铁侠本侠。</li>
-<li><a href="https://github.com/phodal">Phodal Huang</a> - 待我代码编成，娶你为妻可好</li>
-</ul>]]></description>
 </item>
 
 </channel>
