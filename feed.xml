@@ -5,209 +5,14 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
-  <title><![CDATA[技术名词解释 - 云服务]]></title>
-  <link>https://github.com/lencx/z/discussions/31</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/31</guid>
-  <pubDate>2021-07-05</pubDate>
-  <description><![CDATA[<h2>云计算</h2>
-<p>云计算（英语：cloud computing），也被意译为网络计算，是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机各种终端和其他设备，使用服务商提供的电脑基建作计算和资源。</p>
-<p>云计算是指在云中运行工作负载，而云是一种能够抽象、汇集和共享整个网络中的可扩展资源的 IT 环境。云计算和云本身都不属于技术的范畴。</p>
-<ul>
-<li>云计算是指在云中运行工作负载的功能。</li>
-<li>而云是一种环境，是运行应用的地方。</li>
-<li>技术则是指用于构建和使用云的软件和硬件。</li>
-</ul>
-<h3>BFF</h3>
-<p>服务于前端的后端（英语：Backend-For-Frontend，缩写：BFF） 本质上是 API 网关模式的一个变体。它还在微服务和客户端之间提供了一个附加层。但它不是单个入口点，而是为每个客户端引入了多个网关。 使用 BFF，您可以添加针对每个客户端的需求量身定制的 API，从而消除因将所有内容集中在一个地方而导致的大量臃肿。</p>
-<h3>SaaS</h3>
-<p>软件即服务（英语：Software as a Service，缩写：SaaS，发音：sæs或sɑs），亦可称为“按需即用软件”（即“一经要求，即可使用”），它是一种软件交付模式。在这种交付模式中，软件仅需通过网络，不须经过传统的安装步骤即可使用，软件及其相关的数据集中托管于云端服务。用户通常使用精简客户端，一般即经由网页浏览器来访问、访问软件即服务。SaaS 最大的特色在于软件本身并没有被下载到用户的硬盘，而是存储在提供商的云端或者服务器。对比传统软件需要花钱购买，下载。软件即服务只需要用户租用软件，在线使用，不但大大减少了用户购买风险, 也无需下载软件本身，无设备要求的限制。</p>
-<h3>IaaS</h3>
-<p>基础设施即服务（英语：Infrastructure as a Service，简称IaaS）是提供消费者处理、储存、网络以及各种基础运算资源，以部署与执行操作系统或应用程序等各种软件。</p>
-<p>IaaS 是云服务的最底层，主要提供一些基础资源。它与 PaaS 的区别是，用户需要自己控制底层，实现基础设施的使用逻辑。 客户端无须购买服务器、软件等网络设备，即可任意部署和运行处理、存储、网络和其它基本的计算资源，不能控管或控制底层的基础设施，但是可以控制操作系统、储存装置、已部署的应用程序，有时也可以有限度地控制特定的网络元件，像是主机端防火墙。</p>
-<h3>PaaS</h3>
-<p>平台即服务（英语：platform as a service，缩写：PaaS）是一种云计算服务，提供运算平台与解决方案服务。在云计算的典型层级中，PaaS层介于软件即服务与基础设施即服务之间。</p>
-<p>PaaS提供用户将云端基础设施部署与创建至客户端，或者借此获得使用编程语言、程序库与服务。用户不需要管理与控制云端基础设施（包含网络、服务器、操作系统或存储），但需要控制上层的应用程序部署与应用托管的环境。</p>
-<p>PaaS将软件研发的平台做为一种服务，以软件即服务（SaaS）模式交付给用户。因此，PaaS也是SaaS模式的一种应用。但是，PaaS的出现可以加快SaaS的发展，尤其是加快SaaS应用的开发速度。</p>
-<p>PaaS 提供软件部署平台（runtime），抽象掉了硬件和操作系统细节，可以无缝地扩展（scaling）。开发者只需要关注自己的业务逻辑，不需要关注底层。</p>
-<h3>BaaS</h3>
-<p>后端即服务 (BaaS) 使开发人员可以专注于应用程序的前端，无需构建或维护后端服务即可利用。BaaS 和无服务器计算有一些相似之处，许多提供商都提供两者，但是两种模型有一些差异。</p>
-<h3>FaaS</h3>
-<p>功能即服务 (FaaS) 是一类云计算服务，它提供了一个平台，允许客户开发、运行和管理应用程序功能，而无需构建和维护通常与开发和启动应用程序相关的基础设施。按照此模型构建应用程序是实现“无服务器”架构的一种方式，通常用于构建微服务应用程序。</p>
-<h3>DaaS</h3>
-<p>在计算领域，数据即服务（Data as a service，简称DaaS）是指在线数据服务，开发者将开发用的数据保存在互联网上并随时访问，而无需使用保存在本地计算机上的数据库。</p>
-<hr>
-<ul>
-<li><a href="https://zh.wikipedia.org/wiki/%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97" rel="nofollow">[wiki] 云计算</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud" rel="nofollow">什么是云计算？</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-serverless" rel="nofollow">什么是无服务器？</a></li>
-<li><a href="https://microservices.io/patterns/apigateway.html" rel="nofollow">Pattern: API Gateway / Backends for Frontends Context</a></li>
-<li><a href="https://samnewman.io/patterns/architectural/bff/" rel="nofollow">Pattern: Backends For Frontends</a></li>
-<li><a href="https://tsh.io/blog/design-patterns-in-microservices-api-gateway-bff-and-more/" rel="nofollow">Microservices design patterns for CTOs: API Gateway, Backend for Frontend and more</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 软件即服务</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 平台即服务</a></li>
-<li><a href="https://azure.microsoft.com/zh-cn/overview/what-is-paas" rel="nofollow">什么是 PaaS？</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud-computing/what-is-paas" rel="nofollow">什么是平台即服务（PaaS）？PaaS SaaS IaaS 区别解析</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mobile_backend_as_a_service" rel="nofollow">[wiki] Mobile backend as a service</a></li>
-<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/backend-as-a-service-baas/" rel="nofollow">什么是 BaaS？|后端即服务与无服务器</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Function_as_a_service" rel="nofollow">Function as a service</a></li>
-<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/function-as-a-service-faas/" rel="nofollow">什么功能即服务 (FaaS)？</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-faas" rel="nofollow">什么是功能即服务（FaaS）？</a></li>
-<li><a href="https://aws.amazon.com/cn/blogs/china/iaas-faas-serverless/" rel="nofollow">从IaaS到FaaS—— Serverless架构的前世今生</a></li>
-<li><a href="https://www.ibm.com/cloud/learn/faas" rel="nofollow">FaaS (Function-as-a-Service)</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E5%8D%B3%E6%9C%8D%E5%8B%99" rel="nofollow">[wiki] 数据即服务</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[阅读打卡]]></title>
-  <link>https://github.com/lencx/z/discussions/44</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
-  <pubDate>2021-07-05</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
-<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
-<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
-<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
-<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
-<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
-<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
-<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
-<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
-<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
-<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript Series]]></title>
-  <link>https://github.com/lencx/z/discussions/33</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
-  <pubDate>2021-07-05</pubDate>
-  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
-<hr>
-<h2>Weekly</h2>
-<ul>
-<li><a href="https://javascriptweekly.com/" rel="nofollow">JavaScript Weekly</a> - A newsletter of JavaScript articles, news and cool projects</li>
-<li><a href="https://nodeweekly.com/" rel="nofollow">Node Weekly</a> - A free, once–weekly e-mail round-up of Node.js news and articles</li>
-<li><a href="https://reactjs.org/" rel="nofollow">React</a> - A JavaScript library for building user interfaces
-<ul>
-<li><a href="https://react.statuscode.com/" rel="nofollow">React Status</a> - A weekly roundup of the latest React and React Native links and tutorials.</li>
-<li><a href="https://reactnewsletter.com/" rel="nofollow">React Newsletter</a> - Stay up to date on the latest React news, tutorials, resources, and more. Delivered every Tuesday, for free.</li>
-<li><a href="https://reactdigest.net/" rel="nofollow">React Digest</a> - React Digest is a weekly newsletter with the five most interesting stories in front-end React development <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji>.</li>
-</ul>
-</li>
-<li><a href="https://vuejs.org/" rel="nofollow">Vue</a> - The Progressive JavaScript Framework
-<ul>
-<li><a href="https://www.vueweekly.dev/" rel="nofollow">VueWeekly .dev</a> - <g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> A free, weekly email digest of Vue.js news and articles.</li>
-<li><a href="https://vuejsdevelopers.com/newsletter/" rel="nofollow">Vue.js Developers Newsletter</a> - The best Vue articles in your inbox, weekly</li>
-</ul>
-</li>
-</ul>
-<h2>JavaScript</h2>
-<ul>
-<li><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
-<li><a href="https://github.com/denysdovhan/wtfjs">What the f*ck JavaScript?</a>
-<ul>
-<li><a href="https://jsisweird.com/" rel="nofollow">That JavaScript quiz you found on Reddit</a> - JS is weird: A fun and tricky JavaScript quiz</li>
-</ul>
-</li>
-<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
-</ul>
-<h2>TypeScript</h2>
-<ul>
-<li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" rel="nofollow">The TypeScript Handbook</a></li>
-<li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
-</ul>
-]]></description>
-</item>
-<item>
-  <title><![CDATA[Programming Series]]></title>
-  <link>https://github.com/lencx/z/discussions/46</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/46</guid>
-  <pubDate>2021-07-04</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="http://paulgraham.com/" rel="nofollow">Paul Graham</a></li>
-<li><a href="https://xn--2-umb.com/" rel="nofollow">Math &amp; Engineering</a> - Random collections of my notes and articles over the years, mostly about maths and/or engineering.</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[Web Development Guide]]></title>
-  <link>https://github.com/lencx/z/discussions/8</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/8</guid>
-  <pubDate>2021-07-04</pubDate>
-  <description><![CDATA[<h2>Guide</h2>
-<ul>
-<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
-<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
-<li><a href="https://developers.google.com/web" rel="nofollow">Web  |  Google Developers</a> - Build the next generation of web experiences.</li>
-<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
-<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
-<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
-<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
-<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
-<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
-<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
-<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
-<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
-<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
-<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
-<li><a href="https://github.com/dexteryy/spellbook-of-modern-webdev">Spellbook of Modern Web Dev</a> - A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development</li>
-<li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript Series</a></li>
-<li><a href="https://github.com/lencx/z/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/5/hovercard">CSS Series</a></li>
-</ul>
-<h2>Frame</h2>
-<ul>
-<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces
-<ul>
-<li><a href="https://github.com/preactjs/preact">Preact</a> - <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> Fast 3kB React alternative with the same modern API. Components &amp; Virtual DOM.</li>
-</ul>
-</li>
-<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework
-<ul>
-<li><a href="https://github.com/vuejs/petite-vue">petite-vue</a> - 5kb subset of Vue optimized for progressive enhancement</li>
-</ul>
-</li>
-<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
-<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
-<li><a href="https://www.solidjs.com" rel="nofollow">Solid</a> - Solid is a purely reactive library. It was designed from the ground up with a reactive core. It's influenced by reactive principles developed by previous libraries.</li>
-<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
-</ul>
-<h2>UI</h2>
-<h3>React</h3>
-<ul>
-<li><a href="https://github.com/mui-org/material-ui">Material-UI</a> - Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.</li>
-<li><a href="https://github.com/ant-design/ant-design">Ant Design</a> - An enterprise-class UI design language and React UI library.</li>
-<li><a href="https://github.com/chakra-ui/chakra-ui">Chakra UI</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Simple, Modular &amp; Accessible UI Components for your React Applications</li>
-</ul>
-<h3>Vue</h3>
-<ul>
-<li><a href="https://github.com/vuetifyjs/vuetify">Vuetify</a> - <g-emoji class="g-emoji" alias="dragon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f409.png">🐉</g-emoji> Material Component Framework for Vue</li>
-<li><a href="https://github.com/youzan/vant">Vant</a> - Lightweight Mobile UI Components built on Vue</li>
-</ul>
-<h2>Surveys</h2>
-<ul>
-<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
-</ul>
-<h2>Blog</h2>
-<ul>
-<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
-<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
-<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
-<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
-<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
-<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
-<li><a href="https://lea.verou.me/" rel="nofollow">Lea Verou – Life at the bleeding edge (of web standards)</a></li>
-<li><a href="https://chriscoyier.net/" rel="nofollow">Blog - Chris Coyier</a></li>
-</ul>]]></description>
-</item>
-<item>
   <title><![CDATA[WebAssembly Series]]></title>
   <link>https://github.com/lencx/z/discussions/22</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/22</guid>
-  <pubDate>2021-07-03</pubDate>
+  <pubDate>2021-07-06</pubDate>
   <description><![CDATA[<h2>Guide</h2>
 <ul>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/WebAssembly" rel="nofollow">MDN WebAssembly</a></li>
+<li><a href="https://hacks.mozilla.org/category/webassembly/" rel="nofollow">[Mozilla Hacks] WebAssembly Articles</a> - Articles posted in WebAssembly</li>
 <li><a href="https://webassembly.org" rel="nofollow">webassembly.org</a> - WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.</li>
 <li><a href="https://rustwasm.github.io/docs/book" rel="nofollow">Rust <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>   and WebAssembly <g-emoji class="g-emoji" alias="spider_web" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f578.png">🕸</g-emoji>   </a> - This small book describes how to use Rust and WebAssembly together.</li>
 <li><a href="https://github.com/appcypher/awesome-wasm-langs">Awesome WebAssembly Languages</a> - <g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji>  A curated list of languages that compile directly to or have their VMs in WebAssembly</li>
@@ -273,20 +78,476 @@
 <li><a href="https://www.edx.org/course/webassembly-actors-from-cloud-to-edge" rel="nofollow">WebAssembly Actors: From Cloud to Edge</a> - Embrace the actor model to build portable, secure, lightweight WebAssembly modules that thrive in the cloud, at the edge, and anywhere in between.</li>
 <li><a href="https://blog.ttulka.com/learning-webassembly-series" rel="nofollow">Learning WebAssembly Series</a> - A series of learning texts covering the first steps with WebAssembly for complete beginners.</li>
 <li><a href="https://blog.scottlogic.com/2020/11/23/ffmpeg-webassembly.html" rel="nofollow">In-browser transcoding of video files with FFmpeg and WebAssembly</a></li>
-<li>[Standardizing WASI: A system interface to run WebAssembly outside the web] - (<a href="https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface" rel="nofollow">https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface</a>)</li>
+<li><a href="https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface" rel="nofollow">Standardizing WASI: A system interface to run WebAssembly outside the web</a></li>
 <li><a href="https://paulbutler.org/2020/the-webassembly-app-gap" rel="nofollow">The WebAssembly App Gap</a></li>
 <li><a href="https://developer.ibm.com/articles/why-webassembly-and-rust-together-improve-nodejs-performance" rel="nofollow">Why using WebAssembly and Rust together improves Node.js performance</a></li>
 <li><a href="https://v8.dev/docs/wasm-compilation-pipeline" rel="nofollow">[V8] WebAssembly compilation pipeline</a></li>
 <li><a href="https://pspdfkit.com/blog/2018/optimize-webassembly-startup-performance/" rel="nofollow">Optimizing WebAssembly Startup Time</a></li>
 <li><a href="https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/wasm/" rel="nofollow">Bringing You Up to Speed on How Compiling WebAssembly is Faster</a></li>
 <li><a href="https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html#getting-the-code" rel="nofollow">Maybe you don't need Rust and WASM to speed up your JS</a></li>
+<li><a href="https://thenewstack.io/using-web-assembly-written-in-rust-on-the-server-side/" rel="nofollow">Using WebAssembly Written in Rust on the Server-Side</a></li>
+<li><a href="https://thenewstack.io/the-pain-of-debugging-webassembly/" rel="nofollow">The Pain of Debugging WebAssembly</a></li>
+<li><a href="https://thenewstack.io/kubecon-eu-why-webassembly-is-more-than-a-javascript-replacement/" rel="nofollow">KubeCon EU: WebAssembly Is More Than a JavaScript Replacement</a></li>
+<li><a href="https://thenewstack.io/why-webassembly-modules-could-be-the-new-de-facto-unit-of-compute/" rel="nofollow">Why WebAssembly Modules Could Be the New de Facto Unit of Compute</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[js 中的语句 & 表达式 & 分号]]></title>
+  <link>https://github.com/lencx/z/discussions/48</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/48</guid>
+  <pubDate>2021-07-06</pubDate>
+  <description><![CDATA[<ul>
+<li>语句是一段可以执行并执行某种操作的代码</li>
+<li>表达式是一段代码，可以对其进行求值以产生一个值</li>
+<li>表达式可以用作语句，被称为表达式语句。反之则不然：当上下文需要表达式时，不能使用语句</li>
+<li>每条语句都以分号结尾</li>
+<li>以块结尾的语句
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="function foo() {
+  // ...
+}
+if (x &gt; 0) {
+  // ...  
+}
+"><pre><span class="pl-k">function</span> <span class="pl-en">foo</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-c">// ...</span>
+<span class="pl-kos">}</span>
+<span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-s1">x</span> <span class="pl-c1">&gt;</span> <span class="pl-c1">0</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-c">// ...  </span>
+<span class="pl-kos">}</span></pre></div>
+</li>
+<li>控制语句的主体本身就是一个语句
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="while (condition)
+  statement
+"><pre><span class="pl-k">while</span> <span class="pl-kos">(</span><span class="pl-s1">condition</span><span class="pl-kos">)</span>
+  <span class="pl-s1">statement</span></pre></div>
+</li>
+</ul>
+<hr>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 表达式 `bar()` 可以是表达式或语句——这取决于上下文
+function foo() {
+  console.log(bar()) // bar() 是表达式
+  bar(); // bar(); 是表达式语句
+}
+"><pre><span class="pl-c">// 表达式 `bar()` 可以是表达式或语句——这取决于上下文</span>
+<span class="pl-k">function</span> <span class="pl-en">foo</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-en">bar</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">)</span> <span class="pl-c">// bar() 是表达式</span>
+  <span class="pl-en">bar</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">;</span> <span class="pl-c">// bar(); 是表达式语句</span>
+<span class="pl-kos">}</span></pre></div>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 函数声明
+function foo(x) {
+  return x;
+}
+
+// 函数表达式（=右侧）
+const fooo = function bar(x) {
+  return x;
+}
+"><pre><span class="pl-c">// 函数声明</span>
+<span class="pl-k">function</span> <span class="pl-en">foo</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-k">return</span> <span class="pl-s1">x</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span>
+
+<span class="pl-c">// 函数表达式（=右侧）</span>
+<span class="pl-k">const</span> <span class="pl-en">fooo</span> <span class="pl-c1">=</span> <span class="pl-k">function</span> <span class="pl-en">bar</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
+  <span class="pl-k">return</span> <span class="pl-s1">x</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span></pre></div>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 对象字面量
+const obj = {};
+
+// 空代码块
+{
+}
+"><pre><span class="pl-c">// 对象字面量</span>
+<span class="pl-k">const</span> <span class="pl-s1">obj</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-kos">}</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// 空代码块</span>
+<span class="pl-kos">{</span>
+<span class="pl-kos">}</span></pre></div>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 整个 const 声明（一个语句）以分号结尾，但在它里面，有一个箭头函数表达式。
+// 也就是说，它本身并不是以花括号结尾的语句；
+// 它是嵌入的箭头函数表达式。 这就是为什么末尾有一个分号。
+const foo = () =&gt; {}; 
+"><pre><span class="pl-c">// 整个 const 声明（一个语句）以分号结尾，但在它里面，有一个箭头函数表达式。</span>
+<span class="pl-c">// 也就是说，它本身并不是以花括号结尾的语句；</span>
+<span class="pl-c">// 它是嵌入的箭头函数表达式。 这就是为什么末尾有一个分号。</span>
+<span class="pl-k">const</span> <span class="pl-en">foo</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span><span class="pl-kos">}</span><span class="pl-kos">;</span> </pre></div>
+<h2>消除歧异</h2>
+<p>歧义只是语句上下文中的问题：如果 JavaScript 解析器遇到歧义语法，它不知道它是普通语句还是表达式语句。 例如：</p>
+<ul>
+<li>如果语句以函数开头：它是函数声明还是函数表达式？</li>
+<li>如果语句以 <code>{</code> 开头：它是对象字面量还是代码块？</li>
+</ul>
+<p>为了解决歧义，以 <code>function</code> 或 <code>{</code> 开头的语句永远不会被解释为表达式。如果希望表达式语句以这些标记之一开头，则必须将其括在括号中。</p>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// -------- (a) 创建函数 -------- | (b) 调用函数
+(function (x) { console.log(x) })('abc');
+
+// (a) 中的代码片段被解释为表达式，因为将其包裹在括号中。
+// 如果不这样做，会得到一个语法错误，因为 JavaScript 需要一个函数声明并抱怨缺少函数名。
+// 此外，不能在函数声明之后立即进行函数调用。
+// Uncaught SyntaxError: Function statements require a function name
+"><pre><span class="pl-c">// -------- (a) 创建函数 -------- | (b) 调用函数</span>
+<span class="pl-kos">(</span><span class="pl-k">function</span> <span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">)</span> <span class="pl-kos">{</span> <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">log</span><span class="pl-kos">(</span><span class="pl-s1">x</span><span class="pl-kos">)</span> <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">(</span><span class="pl-s">'abc'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
+
+<span class="pl-c">// (a) 中的代码片段被解释为表达式，因为将其包裹在括号中。</span>
+<span class="pl-c">// 如果不这样做，会得到一个语法错误，因为 JavaScript 需要一个函数声明并抱怨缺少函数名。</span>
+<span class="pl-c">// 此外，不能在函数声明之后立即进行函数调用。</span>
+<span class="pl-c">// Uncaught SyntaxError: Function statements require a function name</span></pre></div>
+<h2>自动插入分号</h2>
+<blockquote>
+<p>Automatic semicolon insertion (ASI)</p>
+</blockquote>
+<p>ASI 的工作原理如下。语句的解析继续进行，直到出现以下任一情况：</p>
+<ul>
+<li>分号</li>
+<li>行终止符后跟非法标记</li>
+</ul>
+<p>换句话说，ASI 可以看作是在换行符处插入分号。</p>
+<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="return
+{
+	name: 'lencx'
+};
+
+
+// 解析后
+return;
+{
+  name: 'lencx';
+}
+;
+
+// 1. 不带操作数的返回语句：return;
+// 2. 代码块的开始：{
+// 3. 表达式语句 'lencx'，标签 name
+// 4. 代码块结束：}
+// 5. 空语句：;
+// 为什么 JavaScript 会这样做？ 它可以防止在返回后意外返回一行中的值。
+"><pre><span class="pl-k">return</span>
+<span class="pl-kos">{</span>
+	<span class="pl-c1">name</span>: <span class="pl-s">'lencx'</span>
+<span class="pl-kos">}</span><span class="pl-kos">;</span>
+
+
+<span class="pl-c">// 解析后</span>
+<span class="pl-k">return</span><span class="pl-kos">;</span>
+<span class="pl-kos">{</span>
+  name: <span class="pl-s">'lencx'</span><span class="pl-kos">;</span>
+<span class="pl-kos">}</span>
+<span class="pl-kos">;</span>
+
+<span class="pl-c">// 1. 不带操作数的返回语句：return;</span>
+<span class="pl-c">// 2. 代码块的开始：{</span>
+<span class="pl-c">// 3. 表达式语句 'lencx'，标签 name</span>
+<span class="pl-c">// 4. 代码块结束：}</span>
+<span class="pl-c">// 5. 空语句：;</span>
+<span class="pl-c">// 为什么 JavaScript 会这样做？ 它可以防止在返回后意外返回一行中的值。</span></pre></div>
+<hr>
+<ul>
+<li><a href="https://exploringjs.com/impatient-js/ch_syntax.html#statement-vs-expression" rel="nofollow">Statement vs. expression</a></li>
+<li><a href="https://exploringjs.com/impatient-js/ch_control-flow.html#labels" rel="nofollow">break plus label: leaving any labeled statement</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[技术词汇表 - 中英文]]></title>
+  <link>https://github.com/lencx/z/discussions/34</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/34</guid>
+  <pubDate>2021-07-06</pubDate>
+  <description><![CDATA[<table role="table">
+<thead>
+<tr>
+<th>中文</th>
+<th>英文</th>
+<th>缩写</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>应用程序接口</td>
+<td>Application Programming Interfaces</td>
+<td>API</td>
+</tr>
+<tr>
+<td>用户界面</td>
+<td>User Interface</td>
+<td></td>
+</tr>
+<tr>
+<td>解释</td>
+<td>interpret</td>
+<td></td>
+</tr>
+<tr>
+<td>编译</td>
+<td>compile</td>
+<td></td>
+</tr>
+<tr>
+<td>即时编译</td>
+<td>just-in-time compiling</td>
+<td></td>
+</tr>
+<tr>
+<td>服务器端</td>
+<td>server-side</td>
+<td></td>
+</tr>
+<tr>
+<td>客户端</td>
+<td>client-side</td>
+<td></td>
+</tr>
+<tr>
+<td>表达式</td>
+<td>expression</td>
+<td></td>
+</tr>
+<tr>
+<td>语句</td>
+<td>statements</td>
+<td></td>
+</tr>
+<tr>
+<td>句法</td>
+<td>syntax</td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></description>
+</item>
+<item>
+  <title><![CDATA[Web Development Guide]]></title>
+  <link>https://github.com/lencx/z/discussions/8</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/8</guid>
+  <pubDate>2021-07-06</pubDate>
+  <description><![CDATA[<h2>Guide</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
+<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
+<li><a href="https://developers.google.com/web" rel="nofollow">Web  |  Google Developers</a> - Build the next generation of web experiences.</li>
+<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
+<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
+<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
+<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
+<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
+<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
+<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
+<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
+<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
+<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
+<li><a href="https://github.com/dexteryy/spellbook-of-modern-webdev">Spellbook of Modern Web Dev</a> - A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development</li>
+<li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript Series</a></li>
+<li><a href="https://github.com/lencx/z/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/5/hovercard">CSS Series</a></li>
+</ul>
+<h2>Frame</h2>
+<ul>
+<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces
+<ul>
+<li><a href="https://github.com/preactjs/preact">Preact</a> - <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> Fast 3kB React alternative with the same modern API. Components &amp; Virtual DOM.</li>
+</ul>
+</li>
+<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework
+<ul>
+<li><a href="https://github.com/vuejs/petite-vue">petite-vue</a> - 5kb subset of Vue optimized for progressive enhancement</li>
+</ul>
+</li>
+<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
+<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
+<li><a href="https://www.solidjs.com" rel="nofollow">Solid</a> - Solid is a purely reactive library. It was designed from the ground up with a reactive core. It's influenced by reactive principles developed by previous libraries.</li>
+<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
+</ul>
+<h2>UI</h2>
+<h3>React</h3>
+<ul>
+<li><a href="https://github.com/mui-org/material-ui">Material-UI</a> - Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.</li>
+<li><a href="https://github.com/ant-design/ant-design">Ant Design</a> - An enterprise-class UI design language and React UI library.</li>
+<li><a href="https://github.com/chakra-ui/chakra-ui">Chakra UI</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Simple, Modular &amp; Accessible UI Components for your React Applications</li>
+</ul>
+<h3>Vue</h3>
+<ul>
+<li><a href="https://github.com/vuetifyjs/vuetify">Vuetify</a> - <g-emoji class="g-emoji" alias="dragon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f409.png">🐉</g-emoji> Material Component Framework for Vue</li>
+<li><a href="https://github.com/youzan/vant">Vant</a> - Lightweight Mobile UI Components built on Vue</li>
+</ul>
+<h2>Surveys</h2>
+<ul>
+<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
+</ul>
+<h2>Blog</h2>
+<ul>
+<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
+<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
+<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
+<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
+<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
+<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
+<li><a href="https://lea.verou.me/" rel="nofollow">Lea Verou – Life at the bleeding edge (of web standards)</a></li>
+<li><a href="https://chriscoyier.net/" rel="nofollow">Blog - Chris Coyier</a></li>
+<li><a href="https://flaviocopes.com/" rel="nofollow">Flavio Copes</a> - JavaScript and Web Development Tutorials</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[解决 mac 中使用 npm 命令必须要加 sudo]]></title>
+  <link>https://github.com/lencx/z/discussions/47</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/47</guid>
+  <pubDate>2021-07-06</pubDate>
+  <description><![CDATA[<p>npm 包安装应该在没有 <code>sudo</code> 的情况下完成。除非修改系统范围的权限，否则永远不应使用 <code>sudo</code>。 Node 将 npm 包放在一个特定的文件夹中，通常是 <code>/usr/local/lib/node_modules</code>。但问题是你需要 <code>sudo</code> 权限才能在这里写。这会导致无休止地使用非必需的 <code>sudo</code> 权限。这个位置是我们需要改变的。我们可以通过以下方式来做到：</p>
+<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="mkdir ~/.npm
+
+npm config set prefix ~/.npm
+
+vi ~/.bashrc
+
+export PATH=&quot;$PATH:$HOME/.npm/bin&quot;
+
+source ~/.bashrc
+"><pre>mkdir <span class="pl-k">~</span>/.npm
+
+npm config <span class="pl-c1">set</span> prefix <span class="pl-k">~</span>/.npm
+
+vi <span class="pl-k">~</span>/.bashrc
+
+<span class="pl-k">export</span> PATH=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$PATH</span>:<span class="pl-smi">$HOME</span>/.npm/bin<span class="pl-pds">"</span></span>
+
+<span class="pl-c1">source</span> <span class="pl-k">~</span>/.bashrc</pre></div>
+<p>如果使用了 <a href="https://ohmyz.sh/" rel="nofollow">Oh My Zsh</a>，则编辑 <code>~/.zshrc</code></p>
+<p><a href="https://github.com/nvm-sh/nvm">NVM（Node 版本管理器）</a>允许你在没有 root 权限的情况下安装 Node，还允许安装多个版本的 Node，非常适合开发。</p>
+<hr>
+<ul>
+<li><a href="https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally" rel="nofollow">Resolving EACCES permissions errors when installing packages globally</a></li>
+<li><a href="https://stackoverflow.com/questions/16151018/how-to-fix-npm-throwing-error-without-sudo" rel="nofollow">How to fix npm throwing error without sudo</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/z/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
+  <pubDate>2021-07-06</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://github.com/hieunc229/copilot-clone">Captain Stack — Code suggestion for VSCode</a> - This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow answers and autocompletes them for you.</li>
+<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
+<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
+<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
+<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[技术名词解释 - 云服务]]></title>
+  <link>https://github.com/lencx/z/discussions/31</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/31</guid>
+  <pubDate>2021-07-05</pubDate>
+  <description><![CDATA[<h2>云计算</h2>
+<p>云计算（英语：cloud computing），也被意译为网络计算，是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机各种终端和其他设备，使用服务商提供的电脑基建作计算和资源。</p>
+<p>云计算是指在云中运行工作负载，而云是一种能够抽象、汇集和共享整个网络中的可扩展资源的 IT 环境。云计算和云本身都不属于技术的范畴。</p>
+<ul>
+<li>云计算是指在云中运行工作负载的功能。</li>
+<li>而云是一种环境，是运行应用的地方。</li>
+<li>技术则是指用于构建和使用云的软件和硬件。</li>
+</ul>
+<h3>BFF</h3>
+<p>服务于前端的后端（英语：Backend-For-Frontend，缩写：BFF） 本质上是 API 网关模式的一个变体。它还在微服务和客户端之间提供了一个附加层。但它不是单个入口点，而是为每个客户端引入了多个网关。 使用 BFF，您可以添加针对每个客户端的需求量身定制的 API，从而消除因将所有内容集中在一个地方而导致的大量臃肿。</p>
+<h3>SaaS</h3>
+<p>软件即服务（英语：Software as a Service，缩写：SaaS，发音：sæs或sɑs），亦可称为“按需即用软件”（即“一经要求，即可使用”），它是一种软件交付模式。在这种交付模式中，软件仅需通过网络，不须经过传统的安装步骤即可使用，软件及其相关的数据集中托管于云端服务。用户通常使用精简客户端，一般即经由网页浏览器来访问、访问软件即服务。SaaS 最大的特色在于软件本身并没有被下载到用户的硬盘，而是存储在提供商的云端或者服务器。对比传统软件需要花钱购买，下载。软件即服务只需要用户租用软件，在线使用，不但大大减少了用户购买风险, 也无需下载软件本身，无设备要求的限制。</p>
+<h3>IaaS</h3>
+<p>基础设施即服务（英语：Infrastructure as a Service，简称IaaS）是提供消费者处理、储存、网络以及各种基础运算资源，以部署与执行操作系统或应用程序等各种软件。</p>
+<p>IaaS 是云服务的最底层，主要提供一些基础资源。它与 PaaS 的区别是，用户需要自己控制底层，实现基础设施的使用逻辑。 客户端无须购买服务器、软件等网络设备，即可任意部署和运行处理、存储、网络和其它基本的计算资源，不能控管或控制底层的基础设施，但是可以控制操作系统、储存装置、已部署的应用程序，有时也可以有限度地控制特定的网络元件，像是主机端防火墙。</p>
+<h3>PaaS</h3>
+<p>平台即服务（英语：platform as a service，缩写：PaaS）是一种云计算服务，提供运算平台与解决方案服务。在云计算的典型层级中，PaaS层介于软件即服务与基础设施即服务之间。</p>
+<p>PaaS提供用户将云端基础设施部署与创建至客户端，或者借此获得使用编程语言、程序库与服务。用户不需要管理与控制云端基础设施（包含网络、服务器、操作系统或存储），但需要控制上层的应用程序部署与应用托管的环境。</p>
+<p>PaaS将软件研发的平台做为一种服务，以软件即服务（SaaS）模式交付给用户。因此，PaaS也是SaaS模式的一种应用。但是，PaaS的出现可以加快SaaS的发展，尤其是加快SaaS应用的开发速度。</p>
+<p>PaaS 提供软件部署平台（runtime），抽象掉了硬件和操作系统细节，可以无缝地扩展（scaling）。开发者只需要关注自己的业务逻辑，不需要关注底层。</p>
+<h3>BaaS</h3>
+<p>后端即服务 (BaaS) 使开发人员可以专注于应用程序的前端，无需构建或维护后端服务即可利用。BaaS 和无服务器计算有一些相似之处，许多提供商都提供两者，但是两种模型有一些差异。</p>
+<h3>FaaS</h3>
+<p>功能即服务 (FaaS) 是一类云计算服务，它提供了一个平台，允许客户开发、运行和管理应用程序功能，而无需构建和维护通常与开发和启动应用程序相关的基础设施。按照此模型构建应用程序是实现“无服务器”架构的一种方式，通常用于构建微服务应用程序。</p>
+<h3>DaaS</h3>
+<p>在计算领域，数据即服务（Data as a service，简称DaaS）是指在线数据服务，开发者将开发用的数据保存在互联网上并随时访问，而无需使用保存在本地计算机上的数据库。</p>
+<hr>
+<ul>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97" rel="nofollow">[wiki] 云计算</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud" rel="nofollow">什么是云计算？</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-serverless" rel="nofollow">什么是无服务器？</a></li>
+<li><a href="https://microservices.io/patterns/apigateway.html" rel="nofollow">Pattern: API Gateway / Backends for Frontends Context</a></li>
+<li><a href="https://samnewman.io/patterns/architectural/bff/" rel="nofollow">Pattern: Backends For Frontends</a></li>
+<li><a href="https://tsh.io/blog/design-patterns-in-microservices-api-gateway-bff-and-more/" rel="nofollow">Microservices design patterns for CTOs: API Gateway, Backend for Frontend and more</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 软件即服务</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 平台即服务</a></li>
+<li><a href="https://azure.microsoft.com/zh-cn/overview/what-is-paas" rel="nofollow">什么是 PaaS？</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud-computing/what-is-paas" rel="nofollow">什么是平台即服务（PaaS）？PaaS SaaS IaaS 区别解析</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mobile_backend_as_a_service" rel="nofollow">[wiki] Mobile backend as a service</a></li>
+<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/backend-as-a-service-baas/" rel="nofollow">什么是 BaaS？|后端即服务与无服务器</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Function_as_a_service" rel="nofollow">Function as a service</a></li>
+<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/function-as-a-service-faas/" rel="nofollow">什么功能即服务 (FaaS)？</a></li>
+<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-faas" rel="nofollow">什么是功能即服务（FaaS）？</a></li>
+<li><a href="https://aws.amazon.com/cn/blogs/china/iaas-faas-serverless/" rel="nofollow">从IaaS到FaaS—— Serverless架构的前世今生</a></li>
+<li><a href="https://www.ibm.com/cloud/learn/faas" rel="nofollow">FaaS (Function-as-a-Service)</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E5%8D%B3%E6%9C%8D%E5%8B%99" rel="nofollow">[wiki] 数据即服务</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[JavaScript Series]]></title>
+  <link>https://github.com/lencx/z/discussions/33</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
+  <pubDate>2021-07-05</pubDate>
+  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
+<hr>
+<h2>Weekly</h2>
+<ul>
+<li><a href="https://javascriptweekly.com/" rel="nofollow">JavaScript Weekly</a> - A newsletter of JavaScript articles, news and cool projects</li>
+<li><a href="https://nodeweekly.com/" rel="nofollow">Node Weekly</a> - A free, once–weekly e-mail round-up of Node.js news and articles</li>
+<li><a href="https://reactjs.org/" rel="nofollow">React</a> - A JavaScript library for building user interfaces
+<ul>
+<li><a href="https://react.statuscode.com/" rel="nofollow">React Status</a> - A weekly roundup of the latest React and React Native links and tutorials.</li>
+<li><a href="https://reactnewsletter.com/" rel="nofollow">React Newsletter</a> - Stay up to date on the latest React news, tutorials, resources, and more. Delivered every Tuesday, for free.</li>
+<li><a href="https://reactdigest.net/" rel="nofollow">React Digest</a> - React Digest is a weekly newsletter with the five most interesting stories in front-end React development <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji>.</li>
+</ul>
+</li>
+<li><a href="https://vuejs.org/" rel="nofollow">Vue</a> - The Progressive JavaScript Framework
+<ul>
+<li><a href="https://www.vueweekly.dev/" rel="nofollow">VueWeekly .dev</a> - <g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> A free, weekly email digest of Vue.js news and articles.</li>
+<li><a href="https://vuejsdevelopers.com/newsletter/" rel="nofollow">Vue.js Developers Newsletter</a> - The best Vue articles in your inbox, weekly</li>
+</ul>
+</li>
+</ul>
+<h2>JavaScript</h2>
+<ul>
+<li><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
+<li><a href="https://github.com/denysdovhan/wtfjs">What the f*ck JavaScript?</a>
+<ul>
+<li><a href="https://jsisweird.com/" rel="nofollow">That JavaScript quiz you found on Reddit</a> - JS is weird: A fun and tricky JavaScript quiz</li>
+</ul>
+</li>
+<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
+</ul>
+<h2>TypeScript</h2>
+<ul>
+<li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" rel="nofollow">The TypeScript Handbook</a></li>
+<li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
+</ul>
+]]></description>
+</item>
+<item>
+  <title><![CDATA[Programming Series]]></title>
+  <link>https://github.com/lencx/z/discussions/46</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/46</guid>
+  <pubDate>2021-07-04</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="http://paulgraham.com/" rel="nofollow">Paul Graham</a></li>
+<li><a href="https://xn--2-umb.com/" rel="nofollow">Math &amp; Engineering</a> - Random collections of my notes and articles over the years, mostly about maths and/or engineering.</li>
 </ul>]]></description>
 </item>
 <item>
   <title><![CDATA[欢迎来到《浮之静》社区]]></title>
   <link>https://github.com/lencx/z/discussions/2</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/2</guid>
-  <pubDate>2021-07-01</pubDate>
+  <pubDate>2021-07-06</pubDate>
   <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
 <p><strong>学无止境</strong></p>
 <p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
@@ -319,399 +580,6 @@
 <li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript 系列</a></li>
 <li><a href="https://github.com/lencx/z/discussions/16" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/16/hovercard">在线编辑器系列</a></li>
 </ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript for impatient programmers (ES2021 edition)]]></title>
-  <link>https://github.com/lencx/z/discussions/42</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/42</guid>
-  <pubDate>2021-07-01</pubDate>
-  <description><![CDATA[<blockquote>
-<p>读书笔记: 创作不易，推荐购买作者正版书籍，<a href="https://exploringjs.com/impatient-js/" rel="nofollow">Buy the book</a></p>
-</blockquote>
-<h2><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">目录 (Table of contents)</a></h2>
-<p><code>I BACKGROUND</code></p>
-<ol>
-<li>Before you buy the book</li>
-<li>FAQ: book and supplementary material</li>
-<li><a href="https://github.com/lencx/z/discussions/42#discussioncomment-924178" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/42/hovercard?comment_id=924178">History and evolution of JavaScript</a></li>
-<li>New JavaScript features</li>
-<li><a href="https://github.com/lencx/z/discussions/42#discussioncomment-932038" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/42/hovercard?comment_id=932038">FAQ: JavaScript</a></li>
-</ol>
-<p><code>II FIRST STEPS</code></p>
-<ol start="6">
-<li><a href="https://github.com/lencx/z/discussions/42#discussioncomment-932104" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/42/hovercard?comment_id=932104">Using JavaScript: the big picture</a></li>
-<li>Syntax</li>
-<li>Consoles: interactive JavaScript command lines</li>
-<li>Assertion API</li>
-<li>Getting started with quizzes and exercises</li>
-</ol>
-<p><code>III VARIABLES AND VALUES</code></p>
-<ol start="11">
-<li>Variables and assignment</li>
-<li>Values</li>
-<li>Operators</li>
-</ol>
-<p><code>IV PRIMITIVE VALUES</code></p>
-<ol start="14">
-<li>The non-values <code>undefined</code> and <code>null</code></li>
-<li>Booleans</li>
-<li>Numbers</li>
-<li>Math</li>
-<li>Bigints – arbitrary-precision integers [ES2020] (advanced)</li>
-<li>Unicode – a brief introduction (advanced)</li>
-<li>Strings</li>
-<li>Using template literals and tagged templates</li>
-<li>Symbols</li>
-</ol>
-<p><code>V CONTROL FLOW AND DATA FLOW</code></p>
-<ol start="23">
-<li>Control flow statements</li>
-<li>Exception handling</li>
-<li>Callable values</li>
-<li>Evaluating code dynamically: <code>eval()</code>, <code>new Function()</code> (advanced)</li>
-</ol>
-<p><code>VI MODULARITY</code></p>
-<ol start="27">
-<li>Modules</li>
-<li>Single objects</li>
-<li>Prototype chains and classes</li>
-</ol>
-<p><code>VII COLLECTIONS</code></p>
-<ol start="30">
-<li>Synchronous iteration</li>
-<li>Arrays (<code>Array</code>)</li>
-<li>Typed Arrays: handling binary data (advanced)</li>
-<li>Maps (<code>Map</code>)</li>
-<li>WeakMaps (<code>WeakMap</code>) (advanced)</li>
-<li>Sets (<code>Set</code>)</li>
-<li>WeakSets (<code>WeakSet</code>) (advanced)</li>
-<li>Destructuring</li>
-<li>Synchronous generators (advanced)</li>
-</ol>
-<p><code>VIII ASYNCHRONICITY</code></p>
-<ol start="39">
-<li>Asynchronous programming in JavaScript</li>
-<li>Promises for asynchronous programming [ES6]</li>
-<li>Async functions</li>
-<li>Asynchronous iteration</li>
-</ol>
-<p><code>IX MORE STANDARD LIBRARY</code></p>
-<ol start="43">
-<li>Regular expressions (<code>RegExp</code>)</li>
-<li>Dates (<code>Date</code>)</li>
-<li>Creating and parsing JSON (<code>JSON</code>)</li>
-</ol>]]></description>
-</item>
-<item>
-  <title><![CDATA[在线编辑器系列]]></title>
-  <link>https://github.com/lencx/z/discussions/16</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/16</guid>
-  <pubDate>2021-07-01</pubDate>
-  <description><![CDATA[<h2>Editor</h2>
-<ul>
-<li><a href="https://copilot.github.com/">Copilot</a> - Your AI pair programmer. With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.</li>
-<li><a href="https://codesandbox.io/" rel="nofollow">CodeSandbox: Online Code Editor and IDE for Rapid Web Development</a> - CodeSandbox is an online code editor and prototyping tool that makes creating and sharing web apps faster</li>
-<li><a href="https://codepen.io/" rel="nofollow">CodePen</a> - An online code editor, learning environment, and community for front-end web development using HTML, CSS and JavaScript code snippets, projects, and web applications.</li>
-<li><a href="https://utopia.app/" rel="nofollow">Utopia</a> - Utopia is a production-grade online coding and design tool for React that reads and writes code you’ll want to commit.</li>
-<li><a href="https://jsbin.com/" rel="nofollow">JS Bin - Collaborative JavaScript Debugging</a> - A live pastebin for HTML, CSS &amp; JavaScript and a range of processors, including SCSS, CoffeeScript, Jade and more...</li>
-<li><a href="https://jsfiddle.net/" rel="nofollow">JSFiddle - Code Playground</a> - Test your JavaScript, CSS, HTML or CoffeeScript online with JSFiddle code editor.</li>
-<li><a href="https://stackblitz.com/" rel="nofollow">StackBlitz</a> - The online code editor for web apps. Powered by Visual Studio Code.</li>
-</ul>
-<h2>Browser Cookie</h2>
-<ul>
-<li><a href="https://github.com/ETCExtensions/Edit-This-Cookie">EditThisCookie</a> - EditThisCookie is the famous Google Chrome/Chromium extension for editing cookies</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[组件解耦的一些思考]]></title>
-  <link>https://github.com/lencx/z/discussions/45</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/45</guid>
-  <pubDate>2021-06-28</pubDate>
-  <description><![CDATA[<blockquote>
-<p>自前端三大框架 ( <a href="https://vuejs.org" rel="nofollow">Vue</a> , <a href="https://reactjs.org" rel="nofollow">React</a> , <a href="https://angular.io" rel="nofollow">Angular</a> ) 以及后起之秀 <a href="https://svelte.dev" rel="nofollow">Svelte</a> 出现之后，各种组件，轮子。大家都没少造过，一些大公司或者有精力的人，在研究 <code>LowCode</code> 或 <code>NoCode</code>，也有一些落地或者具体方案。</p>
-</blockquote>
-<h2>背景</h2>
-<p>但就我自身经历及接触项目而言，项目还是停留在如何编写组件的层次上，简单的实现一些复用。一些历史项目因为需求的迭代，功能在不断增加，写代码的人员也在不断更替，交接。就会导致最后的接手项目的人痛苦不堪，<del>重构？不现实，时间不够，之前的需求也不清楚。继续保持？就面临着怎么去在原项目之上继续迭代。</del> 进退两难...</p>
-<p>在之前的需求毫不知情的情况下，如何完成需求功能的迭代，UI 改版？只能通过全局搜索一些关键词，关键字去一步步向上 debug 源码。如果代码中牵扯过多的业务逻辑，就完全懵逼了，没人知道之前的需求是什么?_?!!!</p>
-<p>以 React 为例，因为每个人都有自己对组件的理解，不同的人站在不同的维度去封装，就导致最后的项目结构，代码结构也是千差万别。</p>
-<ul>
-<li><code>无状态组件</code>: 不涉及过多状态交互，很容易实现，大家的思路都差不多。</li>
-<li><code>有状态组件</code>: 一旦涉及到状态，业务逻辑，交互。一个组件就变得不再可控。每个人的风格也都体现的淋漓尽致！
-<ul>
-<li>组件内发起请求，各种请求，大量接口相互依赖。如果涉及到多个接口并行，后一个接口依赖上一个接口的返回值，写法又是各有特色。</li>
-<li>出现大量的业务逻辑分支，根据业务 <code>return</code> 出不同的组件 ╥﹏╥</li>
-<li>直接在组件内实现一个或多个子组件 (ノへ￣、)</li>
-<li>子组件上挂载着大量的 <code>props</code>，属性有时候多到令人发指，有数据，方法，状态，自定义的 xxx，各种传递。 o(╥﹏╥)o</li>
-<li>欢迎大家继续补充吐槽...</li>
-</ul>
-</li>
-</ul>
-<h2>思考</h2>
-<p>我对数据的理解，它既贴近于业务层，也耦合着交互层，如果不能很好的分离组织这三层，很可能牵一发而动全身。所以数据是核心，既是业务的核心，也是组件的核心。</p>
-<ul>
-<li>数据，业务逻辑，交互都会影响最终需要渲染的UI视图。</li>
-<li>编写组件时，首先分析业务需求，对组件进行分层。大致分为<code>数据 (DataSource)</code>，<code>交互 (Action)</code>，<code>UI视图 (View)</code>三层。
-<ul>
-<li><strong>数据处理 (Handle)</strong>: 承载着核心业务逻辑，对数据进行格式化输出，供 UI 组件进行标准化接收，一般以 <code>function</code> 形式存在。</li>
-<li><strong>副作用 (Effect)</strong>: 以我目前接触到的场景，主要还是以事件修改组件状态，更新数据及UI视图为主。所以事件及状态变更可能会同时出现在 <code>数据处理</code> 和 <code>UI 视图</code> 中。在数据处理中，<code>调用 (Call)</code> 方法；在 UI 中，<code>绑定 (Bind)</code> 事件及状态。UI 层尽量不直接处理或少处理源数据。</li>
-</ul>
-</li>
-</ul>
-<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/123594281-16ec3a80-d822-11eb-91e1-b2510590e26d.png"><img width="420" src="https://user-images.githubusercontent.com/16164244/123594281-16ec3a80-d822-11eb-91e1-b2510590e26d.png" alt="组件拆分原则" style="max-width:100%;"></a></p>
-<h2>举例</h2>
-<ul>
-<li>业务中常会有这样一种需求，用户可以动态的新增删除一个列表，因为每次需要处理的数据，和展示的 UI 形式都是不确定的。可能我们每次做需求时都实现一次代码，或者把新增和删除方法提取出来，实现部分复用。以 <code>React Hook</code> 为例：</li>
-</ul>
-<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="/* hooks/useDataOP.js */
-import { useState, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
-import cloneDeep from 'lodash/cloneDeep';
-
-// 使用Symbol作为数据的唯一key
-const safeKey = Symbol('tid');
-
-// 格式化源数据
-const opFmtData = (data) =&gt; {
-  return cloneDeep(data).map((i) =&gt; {
-    i[safeKey] = uuidv4();
-    return i;
-  });
-};
-
-/**
- * useDataOP
- * @author lencx
- * @param rawData - 源数据
- */
-export default function useDataOP(rawData = []) {
-  const [opData, setData] = useState([]);
-  const [opType, setType] = useState(null);
-  const [isOk, setOk] = useState(true);
-
-  // 数据初始化
-  useEffect(() =&gt; {
-    if (Array.isArray(rawData)) {
-      if (rawData.length &gt; 0) {
-        const data = opFmtData(rawData);
-        setData(data);
-      }
-      setOk(true);
-    } else {
-      setOk(false);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  if (!isOk) return console.error('Parameter must be an array!');
-
-  /**
-   * 新增
-   * @param data - 新增的数据对象
-   */
-  const opAdd = (data = {}) =&gt; {
-    const result = [...opData, { [safeKey]: uuidv4(), ...data }];
-    setData(result);
-    setType('add');
-    return result;
-  };
-
-  /**
-   * 删除
-   * @param value - 需要删除的值，如果为字符串或数字时，需要配合key使用。
-   *   如果value为对象，则为需要删除的记录，通过safeKey查找删除。
-   * @param key - 默认为id，选填，可省略
-   */
-  const opRemove = (value, key = 'id') =&gt; {
-    let result;
-    if (typeof value === 'string' || typeof value === 'number') {
-      result = opData.filter((i) =&gt; i[key] !== value);
-    } else {
-      result = opData.filter((i) =&gt; i[safeKey] !== value[safeKey]);
-    }
-    setData(result);
-    setType('remove');
-    return result;
-  };
-
-  /**
-   * 排序
-   * @param startIndex - 当前位置
-   * @param endIndex - 目标位置
-   */
-  const opReorder = (startIndex, endIndex) =&gt; {
-    const result = Array.from(opData);
-    const [removed] = result.splice(startIndex, 1);
-    result.splice(endIndex, 0, removed);
-    setData(result);
-    setType('reorder');
-    return result;
-  };
-
-  return {
-    opData,
-    opType,
-    opAdd,
-    opRemove,
-    opReorder,
-    opRawData: rawData,
-    opSafeKey: safeKey,
-  };
-}
-"><pre><span class="pl-c">/* hooks/useDataOP.js */</span>
-<span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-s1">useState</span><span class="pl-kos">,</span> <span class="pl-s1">useEffect</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'react'</span><span class="pl-kos">;</span>
-<span class="pl-k">import</span> <span class="pl-kos">{</span> <span class="pl-s1">v4</span> <span class="pl-k">as</span> <span class="pl-s1">uuidv4</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'uuid'</span><span class="pl-kos">;</span>
-<span class="pl-k">import</span> <span class="pl-s1">cloneDeep</span> <span class="pl-k">from</span> <span class="pl-s">'lodash/cloneDeep'</span><span class="pl-kos">;</span>
-
-<span class="pl-c">// 使用Symbol作为数据的唯一key</span>
-<span class="pl-k">const</span> <span class="pl-s1">safeKey</span> <span class="pl-c1">=</span> <span class="pl-v">Symbol</span><span class="pl-kos">(</span><span class="pl-s">'tid'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-
-<span class="pl-c">// 格式化源数据</span>
-<span class="pl-k">const</span> <span class="pl-en">opFmtData</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">data</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-  <span class="pl-k">return</span> <span class="pl-en">cloneDeep</span><span class="pl-kos">(</span><span class="pl-s1">data</span><span class="pl-kos">)</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-    <span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">uuidv4</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-k">return</span> <span class="pl-s1">i</span><span class="pl-kos">;</span>
-  <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-<span class="pl-kos">}</span><span class="pl-kos">;</span>
-
-<span class="pl-c">/**</span>
-<span class="pl-c"> * useDataOP</span>
-<span class="pl-c"> * <span class="pl-k">@author</span> lencx</span>
-<span class="pl-c"> * <span class="pl-k">@param</span> rawData - 源数据</span>
-<span class="pl-c"> */</span>
-<span class="pl-k">export</span> <span class="pl-k">default</span> <span class="pl-k">function</span> <span class="pl-en">useDataOP</span><span class="pl-kos">(</span><span class="pl-s1">rawData</span> <span class="pl-c1">=</span> <span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
-  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">opData</span><span class="pl-kos">,</span> <span class="pl-s1">setData</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">opType</span><span class="pl-kos">,</span> <span class="pl-s1">setType</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-c1">null</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">isOk</span><span class="pl-kos">,</span> <span class="pl-s1">setOk</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-c1">true</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-
-  <span class="pl-c">// 数据初始化</span>
-  <span class="pl-en">useEffect</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-    <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-en">isArray</span><span class="pl-kos">(</span><span class="pl-s1">rawData</span><span class="pl-kos">)</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
-      <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-s1">rawData</span><span class="pl-kos">.</span><span class="pl-c1">length</span> <span class="pl-c1">&gt;</span> <span class="pl-c1">0</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
-        <span class="pl-k">const</span> <span class="pl-s1">data</span> <span class="pl-c1">=</span> <span class="pl-en">opFmtData</span><span class="pl-kos">(</span><span class="pl-s1">rawData</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-        <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">data</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-      <span class="pl-kos">}</span>
-      <span class="pl-s1">setOk</span><span class="pl-kos">(</span><span class="pl-c1">true</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-kos">}</span> <span class="pl-k">else</span> <span class="pl-kos">{</span>
-      <span class="pl-s1">setOk</span><span class="pl-kos">(</span><span class="pl-c1">false</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-kos">}</span>
-    <span class="pl-c">// eslint-disable-next-line react-hooks/exhaustive-deps</span>
-  <span class="pl-kos">}</span><span class="pl-kos">,</span> <span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-
-  <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-c1">!</span><span class="pl-s1">isOk</span><span class="pl-kos">)</span> <span class="pl-k">return</span> <span class="pl-smi">console</span><span class="pl-kos">.</span><span class="pl-en">error</span><span class="pl-kos">(</span><span class="pl-s">'Parameter must be an array!'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-
-  <span class="pl-c">/**</span>
-<span class="pl-c">   * 新增</span>
-<span class="pl-c">   * <span class="pl-k">@param</span> data - 新增的数据对象</span>
-<span class="pl-c">   */</span>
-  <span class="pl-k">const</span> <span class="pl-en">opAdd</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">data</span> <span class="pl-c1">=</span> <span class="pl-kos">{</span><span class="pl-kos">}</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-    <span class="pl-k">const</span> <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-kos">[</span>...<span class="pl-s1">opData</span><span class="pl-kos">,</span> <span class="pl-kos">{</span> <span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span>: <span class="pl-en">uuidv4</span><span class="pl-kos">(</span><span class="pl-kos">)</span><span class="pl-kos">,</span> ...<span class="pl-s1">data</span> <span class="pl-kos">}</span><span class="pl-kos">]</span><span class="pl-kos">;</span>
-    <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-s1">setType</span><span class="pl-kos">(</span><span class="pl-s">'add'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-k">return</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
-  <span class="pl-kos">}</span><span class="pl-kos">;</span>
-
-  <span class="pl-c">/**</span>
-<span class="pl-c">   * 删除</span>
-<span class="pl-c">   * <span class="pl-k">@param</span> value - 需要删除的值，如果为字符串或数字时，需要配合key使用。</span>
-<span class="pl-c">   *   如果value为对象，则为需要删除的记录，通过safeKey查找删除。</span>
-<span class="pl-c">   * <span class="pl-k">@param</span> key - 默认为id，选填，可省略</span>
-<span class="pl-c">   */</span>
-  <span class="pl-k">const</span> <span class="pl-en">opRemove</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">value</span><span class="pl-kos">,</span> <span class="pl-s1">key</span> <span class="pl-c1">=</span> <span class="pl-s">'id'</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-    <span class="pl-k">let</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
-    <span class="pl-k">if</span> <span class="pl-kos">(</span><span class="pl-k">typeof</span> <span class="pl-s1">value</span> <span class="pl-c1">===</span> <span class="pl-s">'string'</span> <span class="pl-c1">||</span> <span class="pl-k">typeof</span> <span class="pl-s1">value</span> <span class="pl-c1">===</span> <span class="pl-s">'number'</span><span class="pl-kos">)</span> <span class="pl-kos">{</span>
-      <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-s1">opData</span><span class="pl-kos">.</span><span class="pl-en">filter</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">key</span><span class="pl-kos">]</span> <span class="pl-c1">!==</span> <span class="pl-s1">value</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-kos">}</span> <span class="pl-k">else</span> <span class="pl-kos">{</span>
-      <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-s1">opData</span><span class="pl-kos">.</span><span class="pl-en">filter</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span> <span class="pl-c1">!==</span> <span class="pl-s1">value</span><span class="pl-kos">[</span><span class="pl-s1">safeKey</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-kos">}</span>
-    <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-s1">setType</span><span class="pl-kos">(</span><span class="pl-s">'remove'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-k">return</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
-  <span class="pl-kos">}</span><span class="pl-kos">;</span>
-
-  <span class="pl-c">/**</span>
-<span class="pl-c">   * 排序</span>
-<span class="pl-c">   * <span class="pl-k">@param</span> startIndex - 当前位置</span>
-<span class="pl-c">   * <span class="pl-k">@param</span> endIndex - 目标位置</span>
-<span class="pl-c">   */</span>
-  <span class="pl-k">const</span> <span class="pl-en">opReorder</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-s1">startIndex</span><span class="pl-kos">,</span> <span class="pl-s1">endIndex</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-    <span class="pl-k">const</span> <span class="pl-s1">result</span> <span class="pl-c1">=</span> <span class="pl-v">Array</span><span class="pl-kos">.</span><span class="pl-en">from</span><span class="pl-kos">(</span><span class="pl-s1">opData</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">removed</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-s1">result</span><span class="pl-kos">.</span><span class="pl-en">splice</span><span class="pl-kos">(</span><span class="pl-s1">startIndex</span><span class="pl-kos">,</span> <span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-s1">result</span><span class="pl-kos">.</span><span class="pl-en">splice</span><span class="pl-kos">(</span><span class="pl-s1">endIndex</span><span class="pl-kos">,</span> <span class="pl-c1">0</span><span class="pl-kos">,</span> <span class="pl-s1">removed</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-s1">setData</span><span class="pl-kos">(</span><span class="pl-s1">result</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-s1">setType</span><span class="pl-kos">(</span><span class="pl-s">'reorder'</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-k">return</span> <span class="pl-s1">result</span><span class="pl-kos">;</span>
-  <span class="pl-kos">}</span><span class="pl-kos">;</span>
-
-  <span class="pl-k">return</span> <span class="pl-kos">{</span>
-    opData<span class="pl-kos">,</span>
-    opType<span class="pl-kos">,</span>
-    opAdd<span class="pl-kos">,</span>
-    opRemove<span class="pl-kos">,</span>
-    opReorder<span class="pl-kos">,</span>
-    <span class="pl-c1">opRawData</span>: <span class="pl-s1">rawData</span><span class="pl-kos">,</span>
-    <span class="pl-c1">opSafeKey</span>: <span class="pl-s1">safeKey</span><span class="pl-kos">,</span>
-  <span class="pl-kos">}</span><span class="pl-kos">;</span>
-<span class="pl-kos">}</span></pre></div>
-<div class="highlight highlight-source-js position-relative" data-snippet-clipboard-copy-content="// 使用useDataOP
-import React, { useState } from 'react';
-import useDataOP from '@/hooks/useDataOP';
-
-export default () =&gt; {
-  const { opData, opAdd, opRemove, opReorder, opSafeKey } = useDataOP([]);
-  const [count, setCount] = useState(1);
-
-  const handleAdd = () =&gt; {
-    setCount(count+1);
-    opAdd({ name: `test${count}` });
-  }
-  return (
-    &lt;div&gt;
-      &lt;button onClick={handleAdd}&gt;Add&lt;/button&gt;
-      {opData.map((i, idx) =&gt; {
-        return (
-          &lt;div key={i[opSafeKey]}&gt;
-            &lt;span&gt;Name: {i.name}&lt;/span&gt;
-            {' '}
-            &lt;button onClick={() =&gt; opRemove(i)}&gt;Remove&lt;/button&gt;
-            &lt;button onClick={() =&gt; opReorder(idx, idx-1)}&gt;Up+1&lt;/button&gt;
-            &lt;button onClick={() =&gt; opReorder(idx, idx+1)}&gt;Down-1&lt;/button&gt;
-          &lt;/div&gt;
-        )
-      })}
-    &lt;/div&gt;
-  );
-}
-"><pre><span class="pl-c">// 使用useDataOP</span>
-<span class="pl-k">import</span> <span class="pl-v">React</span><span class="pl-kos">,</span> <span class="pl-kos">{</span> <span class="pl-s1">useState</span> <span class="pl-kos">}</span> <span class="pl-k">from</span> <span class="pl-s">'react'</span><span class="pl-kos">;</span>
-<span class="pl-k">import</span> <span class="pl-s1">useDataOP</span> <span class="pl-k">from</span> <span class="pl-s">'@/hooks/useDataOP'</span><span class="pl-kos">;</span>
-
-<span class="pl-k">export</span> <span class="pl-k">default</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-  <span class="pl-k">const</span> <span class="pl-kos">{</span> opData<span class="pl-kos">,</span> opAdd<span class="pl-kos">,</span> opRemove<span class="pl-kos">,</span> opReorder<span class="pl-kos">,</span> opSafeKey <span class="pl-kos">}</span> <span class="pl-c1">=</span> <span class="pl-en">useDataOP</span><span class="pl-kos">(</span><span class="pl-kos">[</span><span class="pl-kos">]</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-  <span class="pl-k">const</span> <span class="pl-kos">[</span><span class="pl-s1">count</span><span class="pl-kos">,</span> <span class="pl-s1">setCount</span><span class="pl-kos">]</span> <span class="pl-c1">=</span> <span class="pl-en">useState</span><span class="pl-kos">(</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-
-  <span class="pl-k">const</span> <span class="pl-en">handleAdd</span> <span class="pl-c1">=</span> <span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-    <span class="pl-s1">setCount</span><span class="pl-kos">(</span><span class="pl-s1">count</span><span class="pl-c1">+</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-    <span class="pl-en">opAdd</span><span class="pl-kos">(</span><span class="pl-kos">{</span> <span class="pl-c1">name</span>: <span class="pl-s">`test<span class="pl-s1"><span class="pl-kos">${</span><span class="pl-s1">count</span><span class="pl-kos">}</span></span>`</span> <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">;</span>
-  <span class="pl-kos">}</span>
-  <span class="pl-k">return</span> <span class="pl-kos">(</span>
-    <span class="pl-c1">&lt;</span><span class="pl-ent">div</span><span class="pl-c1">&gt;</span>
-      <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-en">handleAdd</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Add<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
-      <span class="pl-kos">{</span><span class="pl-s1">opData</span><span class="pl-kos">.</span><span class="pl-en">map</span><span class="pl-kos">(</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">,</span> <span class="pl-s1">idx</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
-        <span class="pl-k">return</span> <span class="pl-kos">(</span>
-          <span class="pl-c1">&lt;</span><span class="pl-ent">div</span> <span class="pl-c1">key</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-s1">i</span><span class="pl-kos">[</span><span class="pl-s1">opSafeKey</span><span class="pl-kos">]</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>
-            <span class="pl-c1">&lt;</span><span class="pl-ent">span</span><span class="pl-c1">&gt;</span>Name: <span class="pl-kos">{</span><span class="pl-s1">i</span><span class="pl-kos">.</span><span class="pl-c1">name</span><span class="pl-kos">}</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">span</span><span class="pl-c1">&gt;</span>
-            <span class="pl-kos">{</span><span class="pl-s">' '</span><span class="pl-kos">}</span>
-            <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-en">opRemove</span><span class="pl-kos">(</span><span class="pl-s1">i</span><span class="pl-kos">)</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Remove<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
-            <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-en">opReorder</span><span class="pl-kos">(</span><span class="pl-s1">idx</span><span class="pl-kos">,</span> <span class="pl-s1">idx</span><span class="pl-c1">-</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Up+1<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
-            <span class="pl-c1">&lt;</span><span class="pl-ent">button</span> <span class="pl-c1">onClick</span><span class="pl-c1">=</span><span class="pl-kos">{</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-c1">=&gt;</span> <span class="pl-en">opReorder</span><span class="pl-kos">(</span><span class="pl-s1">idx</span><span class="pl-kos">,</span> <span class="pl-s1">idx</span><span class="pl-c1">+</span><span class="pl-c1">1</span><span class="pl-kos">)</span><span class="pl-kos">}</span><span class="pl-c1">&gt;</span>Down-1<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">button</span><span class="pl-c1">&gt;</span>
-          <span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">div</span><span class="pl-c1">&gt;</span>
-        <span class="pl-kos">)</span>
-      <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">}</span>
-    <span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">div</span><span class="pl-c1">&gt;</span>
-  <span class="pl-kos">)</span><span class="pl-kos">;</span>
-<span class="pl-kos">}</span></pre></div>
-<h2>总结</h2>
-<p>数据与 UI 的解耦，其实就意味着业务逻辑与 UI 组件视图的解耦。当组件要跨平台，或者 UI 大换肤时，我们只需要实现标准的数据接收组件就可以了。业务功能对应的其实就是一个个数据处理函数和 UI 组件的组合，通过事件去触发或者绑定一些状态。当数据处理或组件不满足需求的时候，我们只需要去扩展对应的函数或组件。</p>]]></description>
 </item>
 
 </channel>
