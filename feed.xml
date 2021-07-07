@@ -5,6 +5,60 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[TODO]]></title>
+  <link>https://github.com/lencx/z/discussions/20</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/20</guid>
+  <pubDate>2021-07-07</pubDate>
+  <description><![CDATA[<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> rust  重构 rsw
+<ul>
+<li>文件热编译</li>
+<li>加载配置</li>
+<li>二进制包</li>
+<li>与 node 绑定</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> js 学习计划
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 移除 fzj token</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API" rel="nofollow">WebRTC 学习</a></li>
+</ul>
+<h3>开源</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> <a href="https://github.com/Privoce/SocialRSS">SocialRSS</a> 开发</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>xc-app</code> - <a href="https://github.com/lencx/create-xc-app/issues/1" data-hovercard-type="issue" data-hovercard-url="/lencx/create-xc-app/issues/1/hovercard">#1 脚手架优化</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/z/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
+  <pubDate>2021-07-07</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://www.sitepoint.com/building-webrtc-video-chat-applications/" rel="nofollow">Building WebRTC Video Chat Applications</a></li>
+<li><a href="https://github.com/hieunc229/copilot-clone">Captain Stack — Code suggestion for VSCode</a> - This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow answers and autocompletes them for you.</li>
+<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
+<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
+<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
+<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[WebAssembly Series]]></title>
   <link>https://github.com/lencx/z/discussions/22</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/22</guid>
@@ -417,28 +471,6 @@ vi <span class="pl-k">~</span>/.bashrc
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[阅读打卡]]></title>
-  <link>https://github.com/lencx/z/discussions/44</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
-  <pubDate>2021-07-06</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://github.com/hieunc229/copilot-clone">Captain Stack — Code suggestion for VSCode</a> - This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow answers and autocompletes them for you.</li>
-<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
-<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
-<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
-<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
-<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
-<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
-<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
-<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
-<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
-<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
-<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
-</ul>]]></description>
-</item>
-<item>
   <title><![CDATA[技术名词解释 - 云服务]]></title>
   <link>https://github.com/lencx/z/discussions/31</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/31</guid>
@@ -541,44 +573,6 @@ vi <span class="pl-k">~</span>/.bashrc
   <description><![CDATA[<ul>
 <li><a href="http://paulgraham.com/" rel="nofollow">Paul Graham</a></li>
 <li><a href="https://xn--2-umb.com/" rel="nofollow">Math &amp; Engineering</a> - Random collections of my notes and articles over the years, mostly about maths and/or engineering.</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[欢迎来到《浮之静》社区]]></title>
-  <link>https://github.com/lencx/z/discussions/2</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/2</guid>
-  <pubDate>2021-07-06</pubDate>
-  <description><![CDATA[<h2><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Welcome!</h2>
-<p><strong>学无止境</strong></p>
-<p>您可以访问网站，有更好的阅读体验: <a href="https://z.nofwl.com" rel="nofollow">浮之静</a></p>
-<h2>仓库历史</h2>
-<blockquote>
-<p>这个仓库经历过数次大改版，从换名到换技术栈...</p>
-</blockquote>
-<h3>2021.07.01 - 至今</h3>
-<p><strong><code>z</code></strong> -【<g-emoji class="g-emoji" alias="part_alternation_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/303d.png">〽️</g-emoji> 浮之静 - 学无止境】<br>
-取 <code>fzj</code> 的中间字母，<code>z</code> 是一个很有意思的字母，像弹簧，蓄力愈久，反弹的力量就愈大。很符合 «浮之静» 之本意。</p>
-<h3>2021.05.24 - 2021.07.01</h3>
-<p><strong><code>fzj</code></strong> - 【<g-emoji class="g-emoji" alias="ocean" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30a.png">🌊</g-emoji> 浮之静 - 源于前端，但不止于前端】<br>
-技术栈 - <code>vite + react + github discussions api</code></p>
-<h3>2021.05.23 - 2021.05.24</h3>
-<p><strong><code>sea</code></strong> -【<g-emoji class="g-emoji" alias="ocean" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30a.png">🌊</g-emoji> 学海无涯】<br>
-技术栈 - <code>vitepress</code></p>
-<h3>2020.08.23 - 2021.05.17</h3>
-<p><strong><code>mtc</code></strong> - 【<g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji> My tools &amp; config, and awesome lists】<br>
-技术栈 - <code>vuepress</code>，<code>v2.0</code> 基于 <code>vitepress</code></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png"><img src="https://user-images.githubusercontent.com/16164244/119298318-607bbf80-bc8f-11eb-98da-e8277efe3249.png" alt="image" style="max-width:100%;"></a></p>
-<h2>推荐系列</h2>
-<ul>
-<li><a href="https://github.com/lencx/z/discussions/44" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/44/hovercard">阅读打卡</a></li>
-<li><a href="https://github.com/lencx/z/discussions/43" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/43/hovercard">Following 系列</a></li>
-<li><a href="https://github.com/lencx/z/discussions/22" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/22/hovercard">WebAssembly 系列</a></li>
-<li><a href="https://github.com/lencx/z/discussions/23" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/23/hovercard">macOS 系列</a></li>
-<li><a href="https://github.com/lencx/z/discussions/27" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/27/hovercard">终端命令行系列</a></li>
-<li><a href="https://github.com/lencx/z/discussions/8" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/8/hovercard">Web 开发指南</a></li>
-<li><a href="https://github.com/lencx/z/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/5/hovercard">CSS 系列</a></li>
-<li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript 系列</a></li>
-<li><a href="https://github.com/lencx/z/discussions/16" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/16/hovercard">在线编辑器系列</a></li>
 </ul>]]></description>
 </item>
 
