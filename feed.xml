@@ -5,6 +5,95 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[macOS Series]]></title>
+  <link>https://github.com/lencx/z/discussions/23</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/23</guid>
+  <pubDate>2021-07-08</pubDate>
+  <description><![CDATA[<h2>APP</h2>
+<ul>
+<li><a href="https://github.com/jaywcjlove/awesome-mac">Awesome Mac</a> -  Now we have become very big, Different from the original idea. Collect premium software in various categories.</li>
+<li><a href="https://github.com/serhii-londar/open-source-mac-os-apps">Awesome macOS open source applications</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Awesome list of open source applications for macOS.</li>
+<li><a href="https://www.mediaatelier.com/CheatSheet" rel="nofollow">CheatSheet</a> - Know your short cuts</li>
+<li><a href="https://xnipapp.com/" rel="nofollow">Xnip</a> - Handy Screenshot App for Mac</li>
+<li><a href="https://github.com/ripperhe/Bob">Bob</a> - Bob 是一款 Mac 端翻译软件，支持划词翻译、截图翻译以及手动输入翻译。</li>
+<li><a href="https://github.com/gbammc/Thor">thor</a> - Switch the right application ASAP.</li>
+<li><a href="https://getkap.co" rel="nofollow">Kap</a> - An open-source screen recorder built with web technology</li>
+<li><a href="https://imageoptim.com/mac" rel="nofollow">ImageOptim</a> - Removes bloated metadata. Saves disk space &amp; bandwidth by compressing images without losing quality.</li>
+<li><a href="https://setapp.com/apps/istat-menus" rel="nofollow">iStat Menus</a> - An advanced system monitor for your menubar.</li>
+<li><a href="https://iterm2.com/" rel="nofollow">iTerm2</a> - iTerm2 is a replacement for Terminal and the successor to iTerm.</li>
+<li><a href="https://maccy.app/" rel="nofollow">Maccy</a> - Clipboard manager for macOS which does one job - keep your copy history at hand. Period.</li>
+<li><a href="https://github.com/dwarvesf/hidden">Hidden Bar</a> - An ultra-light MacOS utility that helps hide menu bar icons</li>
+<li><a href="https://github.com/rxhanson/Rectangle">Rectangle</a> - Move and resize windows on macOS with keyboard shortcuts and snap areas.</li>
+<li><a href="https://dropoverapp.com/" rel="nofollow">Dropover</a> - Dropover is a utility that makes it easier to manage and move content between folders, applications, windows and workspaces using Drag and Drop.</li>
+<li><a href="https://github.com/sindresorhus/System-Color-Picker">System Color Picker</a> - The macOS color picker as an app with more features</li>
+<li><a href="https://iina.io" rel="nofollow">IINA</a> - The modern media player for macOS.</li>
+<li><a href="https://github.com/pock/pock">Pock</a> - Widgets manager for MacBook Touch Bar</li>
+<li><a href="https://github.com/mas-cli/mas">mas</a> - <g-emoji class="g-emoji" alias="package" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji> Mac App Store command line interface</li>
+<li><a href="https://sindresorhus.com/plash" rel="nofollow">Plash</a> - Make any website your desktop wallpaper</li>
+</ul>
+<h2>Keyboard Shortcuts</h2>
+<table role="table">
+<thead>
+<tr>
+<th>键名</th>
+<th>符号</th>
+<th>键名</th>
+<th>符号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Command</td>
+<td>⌘</td>
+<td>Option</td>
+<td>⌥</td>
+</tr>
+<tr>
+<td>Ctrl</td>
+<td>⌃</td>
+<td>Shift</td>
+<td>⇧</td>
+</tr>
+<tr>
+<td>Tab</td>
+<td>⇥</td>
+<td>Delete</td>
+<td>⌫</td>
+</tr>
+<tr>
+<td>Enter</td>
+<td>⏎</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>]]></description>
+</item>
+<item>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/z/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
+  <pubDate>2021-07-08</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://research.protocol.ai/blog/2021/designing-a-dataflow-editor-with-typescript-and-react/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Designing a Dataflow Editor with TypeScript and React</a></li>
+<li><a href="https://www.sitepoint.com/building-webrtc-video-chat-applications/" rel="nofollow">Building WebRTC Video Chat Applications</a></li>
+<li><a href="https://github.com/hieunc229/copilot-clone">Captain Stack — Code suggestion for VSCode</a> - This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow answers and autocompletes them for you.</li>
+<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
+<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
+<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
+<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[TODO]]></title>
   <link>https://github.com/lencx/z/discussions/20</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/20</guid>
@@ -33,29 +122,6 @@
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[阅读打卡]]></title>
-  <link>https://github.com/lencx/z/discussions/44</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
-  <pubDate>2021-07-07</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://www.sitepoint.com/building-webrtc-video-chat-applications/" rel="nofollow">Building WebRTC Video Chat Applications</a></li>
-<li><a href="https://github.com/hieunc229/copilot-clone">Captain Stack — Code suggestion for VSCode</a> - This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow answers and autocompletes them for you.</li>
-<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
-<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
-<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
-<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
-<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
-<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
-<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
-<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
-<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
-<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
-<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
 </ul>]]></description>
 </item>
 <item>
@@ -564,16 +630,6 @@ vi <span class="pl-k">~</span>/.bashrc
 <li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
 </ul>
 ]]></description>
-</item>
-<item>
-  <title><![CDATA[Programming Series]]></title>
-  <link>https://github.com/lencx/z/discussions/46</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/46</guid>
-  <pubDate>2021-07-04</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="http://paulgraham.com/" rel="nofollow">Paul Graham</a></li>
-<li><a href="https://xn--2-umb.com/" rel="nofollow">Math &amp; Engineering</a> - Random collections of my notes and articles over the years, mostly about maths and/or engineering.</li>
-</ul>]]></description>
 </item>
 
 </channel>
