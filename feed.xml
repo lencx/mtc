@@ -5,6 +5,216 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[阅读打卡]]></title>
+  <link>https://github.com/lencx/z/discussions/44</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
+  <pubDate>2021-07-12</pubDate>
+  <description><![CDATA[<ul>
+<li><a href="https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d" rel="nofollow">How to design a system to scale to your first 100 million users</a></li>
+<li><a href="https://overreacted.io/npm-audit-broken-by-design/" rel="nofollow">npm audit: Broken by Design</a></li>
+<li><a href="https://research.protocol.ai/blog/2021/designing-a-dataflow-editor-with-typescript-and-react/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Designing a Dataflow Editor with TypeScript and React</a></li>
+<li><a href="https://www.sitepoint.com/building-webrtc-video-chat-applications/" rel="nofollow">Building WebRTC Video Chat Applications</a></li>
+<li><a href="https://github.com/hieunc229/copilot-clone">Captain Stack — Code suggestion for VSCode</a> - This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow answers and autocompletes them for you.</li>
+<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
+<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
+<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
+<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
+<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
+<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
+<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
+<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
+<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
+<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
+<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
+<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
+<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[Terminal Series]]></title>
+  <link>https://github.com/lencx/z/discussions/27</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/27</guid>
+  <pubDate>2021-07-12</pubDate>
+  <description><![CDATA[<ul>
+<li>
+<p><a href="https://github.com/microsoft/terminal">«win» Windows Terminal</a> - The new Windows Terminal and the original Windows console host, all in the same place!</p>
+</li>
+<li>
+<p><a href="https://github.com/ohmyzsh/ohmyzsh">ohmyzsh</a> - Oh My Zsh will not make you a 10x developer...but you may feel like one.</p>
+<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="# install
+sh -c &quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;
+# or
+sh -c &quot;$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)&quot;
+"><pre><span class="pl-c"><span class="pl-c">#</span> install</span>
+sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> or</span>
+sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
+<ul>
+<li><a href="https://github.com/zsh-users/antigen">antigen</a> - The plugin manager for zsh.</li>
+<li><a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a> - Fish-like autosuggestions for zsh.</li>
+<li><a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a> - Fish shell like syntax highlighting for Zsh.</li>
+<li><a href="https://github.com/zsh-users/zsh-history-substring-search">history-substring-search</a> - <g-emoji class="g-emoji" alias="tropical_fish" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f420.png">🐠</g-emoji> ZSH port of Fish history search (up arrow)</li>
+</ul>
+<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="# @see: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+# step1:
+# 1.
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# 2.
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# 3.
+git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+# step2: ~/.zshrc
+plugins=(
+  [plugins...]
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  history-substring-search
+)
+"><pre><span class="pl-c"><span class="pl-c">#</span> @see: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md</span>
+<span class="pl-c"><span class="pl-c">#</span> step1:</span>
+<span class="pl-c"><span class="pl-c">#</span> 1.</span>
+git clone https://github.com/zsh-users/zsh-autosuggestions <span class="pl-smi">${ZSH_CUSTOM<span class="pl-k">:-</span>~<span class="pl-k">/</span>.oh-my-zsh<span class="pl-k">/</span>custom}</span>/plugins/zsh-autosuggestions
+<span class="pl-c"><span class="pl-c">#</span> 2.</span>
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="pl-smi">${ZSH_CUSTOM<span class="pl-k">:-</span>~<span class="pl-k">/</span>.oh-my-zsh<span class="pl-k">/</span>custom}</span>/plugins/zsh-syntax-highlighting
+<span class="pl-c"><span class="pl-c">#</span> 3.</span>
+git clone https://github.com/zsh-users/zsh-history-substring-search <span class="pl-smi">${ZSH_CUSTOM<span class="pl-k">:-</span>~<span class="pl-k">/</span>.oh-my-zsh<span class="pl-k">/</span>custom}</span>/plugins/zsh-history-substring-search
+<span class="pl-c"><span class="pl-c">#</span> step2: ~/.zshrc</span>
+plugins=(
+  [plugins...]
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  history-substring-search
+)</pre></div>
+<ul>
+<li><a href="https://github.com/sobolevn/wakatime-zsh-plugin">wakatime</a> - <g-emoji class="g-emoji" alias="clock3" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f552.png">🕒</g-emoji>Track how much time you have spent in your terminal!</li>
+</ul>
+<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="# preinstall
+# step1:
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# step2:
+sudo python get-pip.py
+############
+# @see: https://wakatime.com/terminal
+# step1:
+sudo pip install wakatime
+# step2:
+cd ~/.oh-my-zsh/custom/plugins &amp;&amp; git clone https://github.com/sobolevn/wakatime-zsh-plugin.git wakatime
+# step3:
+# add `wakatime` to the list of `plugins` in your `~/.zshrc` file
+# step4:
+# Make sure your `API key` is in your `~/.wakatime.cfg` file.
+"><pre><span class="pl-c"><span class="pl-c">#</span> preinstall</span>
+<span class="pl-c"><span class="pl-c">#</span> step1:</span>
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+<span class="pl-c"><span class="pl-c">#</span> step2:</span>
+sudo python get-pip.py
+<span class="pl-c"><span class="pl-c">#</span>###########</span>
+<span class="pl-c"><span class="pl-c">#</span> @see: https://wakatime.com/terminal</span>
+<span class="pl-c"><span class="pl-c">#</span> step1:</span>
+sudo pip install wakatime
+<span class="pl-c"><span class="pl-c">#</span> step2:</span>
+<span class="pl-c1">cd</span> <span class="pl-k">~</span>/.oh-my-zsh/custom/plugins <span class="pl-k">&amp;&amp;</span> git clone https://github.com/sobolevn/wakatime-zsh-plugin.git wakatime
+<span class="pl-c"><span class="pl-c">#</span> step3:</span>
+<span class="pl-c"><span class="pl-c">#</span> add `wakatime` to the list of `plugins` in your `~/.zshrc` file</span>
+<span class="pl-c"><span class="pl-c">#</span> step4:</span>
+<span class="pl-c"><span class="pl-c">#</span> Make sure your `API key` is in your `~/.wakatime.cfg` file.</span></pre></div>
+</li>
+<li>
+<p><a href="https://github.com/rupa/z">z</a> - jump around.</p>
+</li>
+<li>
+<p><a href="https://github.com/cli/cli">GitHub CLI</a> - GitHub’s official command line tool.</p>
+</li>
+<li>
+<p><a href="https://asciinema.org" rel="nofollow">asciinema</a> - Record and share your terminal sessions, the right way.</p>
+</li>
+<li>
+<p><a href="https://github.com/sharkdp/bat">bat</a> - A cat(1) clone with wings.</p>
+</li>
+<li>
+<p><a href="https://github.com/dylanaraps/fff">fff</a> - <g-emoji class="g-emoji" alias="file_folder" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c1.png">📁</g-emoji> A simple file manager written in bash.</p>
+</li>
+<li>
+<p><a href="https://github.com/tmux/tmux">tmux</a> - is a terminal multiplexer.</p>
+</li>
+<li>
+<p><a href="https://github.com/jonas/tig">tig</a> - Text-mode interface for git.</p>
+</li>
+<li>
+<p><a href="https://github.com/starship/starship">starship</a> - <g-emoji class="g-emoji" alias="comet" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2604.png">☄</g-emoji><g-emoji class="g-emoji" alias="milky_way" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f30c.png">🌌️</g-emoji> The minimal, blazing-fast, and infinitely customizable prompt for any shell!</p>
+<div class="highlight highlight-source-shell position-relative" data-snippet-clipboard-copy-content="curl -fsSL https://starship.rs/install.sh | bash
+vi ~/.zshrc
+eval &quot;$(starship init zsh)&quot;
+"><pre>curl -fsSL https://starship.rs/install.sh <span class="pl-k">|</span> bash
+vi <span class="pl-k">~</span>/.zshrc
+<span class="pl-c1">eval</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>starship init zsh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
+</li>
+<li>
+<p><a href="https://github.com/kornelski/cavif">cavif</a> - PNG/JPEG to AVIF converter.</p>
+</li>
+<li>
+<p><a href="https://github.com/BurntSushi/ripgrep">ripgrep</a> - ripgrep recursively searches directories for a regex pattern.</p>
+</li>
+<li>
+<p><a href="https://github.com/sharkdp/fd">fd</a> - A simple, fast and user-friendly alternative to 'find'</p>
+</li>
+<li>
+<p><a href="https://github.com/ogham/exa">exa</a> - A modern version of ‘ls’.</p>
+</li>
+<li>
+<p><a href="https://github.com/Peltoche/lsd">lsd</a> - The next gen ls command.</p>
+</li>
+<li>
+<p><a href="https://github.com/sharkdp/hexyl">hexyl</a> - A command-line hex viewer.</p>
+</li>
+<li>
+<p><a href="https://github.com/BurntSushi/xsv">xsv</a> - A fast CSV command line toolkit written in Rust.</p>
+</li>
+<li>
+<p><a href="https://github.com/wfxr/csview">csview</a> - <g-emoji class="g-emoji" alias="fax" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e0.png">📠</g-emoji> A high performance csv viewer with cjk/emoji support.</p>
+</li>
+<li>
+<p><a href="https://github.com/nivekuil/rip">rip(Rm ImProved)</a> - A safe and ergonomic alternative to rm.</p>
+</li>
+<li>
+<p><a href="https://github.com/vmchale/tin-summer">The Tin Summer</a> - Find build artifacts that are taking up disk space.</p>
+</li>
+<li>
+<p><a href="https://github.com/saschagrunert/git-journal">git-journal</a> - <g-emoji class="g-emoji" alias="book" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png">📖</g-emoji> The Git Commit Message and Changelog Generation Framework.</p>
+</li>
+<li>
+<p><a href="https://gitlab.com/timvisee/ffsend" rel="nofollow">ffsend</a> - <g-emoji class="g-emoji" alias="mailbox_with_mail" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ec.png">📬</g-emoji> Easily and securely share files from the command line. A fully featured Firefox Send client.</p>
+</li>
+<li>
+<p><a href="https://github.com/XAMPPRocky/tokei">Tokei</a> - Count your code, quickly.</p>
+</li>
+<li>
+<p><a href="https://github.com/sharkdp/hyperfine">hyperfine</a> - A command-line benchmarking tool.</p>
+</li>
+<li>
+<p><a href="https://github.com/nerdypepper/eva">eva</a> - a calculator REPL, similar to bc(1)</p>
+</li>
+<li>
+<p><a href="https://github.com/RazrFalcon/svgcleaner">svgcleaner</a> - svgcleaner could help you to clean up your SVG files from the unnecessary data.</p>
+</li>
+<li>
+<p><a href="https://github.com/watchexec/watchexec">watchexec</a> - Executes commands in response to file modifications.</p>
+</li>
+<li>
+<p><a href="https://github.com/dalance/procs">procs</a> - A modern replacement for ps written in Rust.</p>
+</li>
+<li>
+<p><a href="https://github.com/cli/cli">GitHub CLI</a> - GitHub’s official command line tool.</p>
+</li>
+<li>
+<p><a href="https://github.com/alacritty/alacritty">Alacritty</a> - A cross-platform, GPU-accelerated terminal emulator.</p>
+</li>
+<li>
+<p><a href="https://github.com/willdoescode/nat">nat</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji>the 'ls' replacement you never knew you needed<g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji></p>
+</li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[Web Development Guide]]></title>
   <link>https://github.com/lencx/z/discussions/8</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/8</guid>
@@ -148,30 +358,6 @@
 </tr>
 </tbody>
 </table>]]></description>
-</item>
-<item>
-  <title><![CDATA[阅读打卡]]></title>
-  <link>https://github.com/lencx/z/discussions/44</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
-  <pubDate>2021-07-08</pubDate>
-  <description><![CDATA[<ul>
-<li><a href="https://research.protocol.ai/blog/2021/designing-a-dataflow-editor-with-typescript-and-react/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Designing a Dataflow Editor with TypeScript and React</a></li>
-<li><a href="https://www.sitepoint.com/building-webrtc-video-chat-applications/" rel="nofollow">Building WebRTC Video Chat Applications</a></li>
-<li><a href="https://github.com/hieunc229/copilot-clone">Captain Stack — Code suggestion for VSCode</a> - This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow answers and autocompletes them for you.</li>
-<li><a href="https://2ality.com/2021/06/temporal-api.html" rel="nofollow">Temporal: getting started with JavaScript’s new date time API</a></li>
-<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> 提問的智慧</a> - 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案</li>
-<li><a href="https://dev.to/ryansolid/solidjs-official-release-the-long-road-to-1-0-4ldd" rel="nofollow">SolidJS Official Release: The long road to 1.0</a></li>
-<li><a href="https://www.sitepoint.com/moving-backgrounds-when-why-how" rel="nofollow">Moving Backgrounds: When, Why, and How to Use Them</a></li>
-<li><a href="https://www.sitepoint.com/typing-versus-dynamic-typing/" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> Introduction to Data Types: Static, Dynamic, Strong &amp; Weak</a> - static doesn’t necessarily mean strong and dynamic doesn’t necessarily mean weak</li>
-<li><a href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/" rel="nofollow">Understanding Sorting Algorithms</a></li>
-<li><a href="https://hacks.mozilla.org/2021/06/implementing-private-fields-for-javascript/" rel="nofollow">Implementing Private Fields for JavaScript</a></li>
-<li><a href="https://utopia.app/" rel="nofollow">Introducing Utopia</a> - Design <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji> Code</li>
-<li><a href="https://michaelscodingspot.com/javascript-performance-apis/" rel="nofollow">New browser APIs to detect JavaScript performance problems in production</a></li>
-<li><a href="https://www.sitepoint.com/web3-new-web-new-world/?utm_medium=email&amp;utm_campaign=spw-28&amp;utm_source=sitepoint-weekly" rel="nofollow">Web3: A New Web for a New World</a></li>
-<li><a href="https://dev.to/mehmehmehlol/intro-to-asynchronous-javascript-g9e" rel="nofollow">Intro to Asynchronous JavaScript</a></li>
-<li><a href="https://cscalfani.medium.com/how-to-write-a-programming-book-76ab4f8a7071" rel="nofollow"><g-emoji class="g-emoji" alias="fire" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f525.png">🔥</g-emoji> How To Write a Programming Book</a></li>
-<li><a href="https://naruhodo.dev/what-is-vite-and-how-to-use-it-with-react/" rel="nofollow">What is Vite and how to use it with React</a></li>
-</ul>]]></description>
 </item>
 <item>
   <title><![CDATA[TODO]]></title>
@@ -597,48 +783,6 @@ vi <span class="pl-k">~</span>/.bashrc
 <li><a href="https://www.ibm.com/cloud/learn/faas" rel="nofollow">FaaS (Function-as-a-Service)</a></li>
 <li><a href="https://zh.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E5%8D%B3%E6%9C%8D%E5%8B%99" rel="nofollow">[wiki] 数据即服务</a></li>
 </ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[JavaScript Series]]></title>
-  <link>https://github.com/lencx/z/discussions/33</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/33</guid>
-  <pubDate>2021-07-05</pubDate>
-  <description><![CDATA[<p>JavaScript ( JS ) 是一种具有 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/First-class_Function" rel="nofollow">函数优先</a> 的轻量级，解释型或即时编译型的编程语言。JavaScript 是一种基于 <a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Prototype-based_programming" rel="nofollow">原型编程</a>、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
-<hr>
-<h2>Weekly</h2>
-<ul>
-<li><a href="https://javascriptweekly.com/" rel="nofollow">JavaScript Weekly</a> - A newsletter of JavaScript articles, news and cool projects</li>
-<li><a href="https://nodeweekly.com/" rel="nofollow">Node Weekly</a> - A free, once–weekly e-mail round-up of Node.js news and articles</li>
-<li><a href="https://reactjs.org/" rel="nofollow">React</a> - A JavaScript library for building user interfaces
-<ul>
-<li><a href="https://react.statuscode.com/" rel="nofollow">React Status</a> - A weekly roundup of the latest React and React Native links and tutorials.</li>
-<li><a href="https://reactnewsletter.com/" rel="nofollow">React Newsletter</a> - Stay up to date on the latest React news, tutorials, resources, and more. Delivered every Tuesday, for free.</li>
-<li><a href="https://reactdigest.net/" rel="nofollow">React Digest</a> - React Digest is a weekly newsletter with the five most interesting stories in front-end React development <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji>.</li>
-</ul>
-</li>
-<li><a href="https://vuejs.org/" rel="nofollow">Vue</a> - The Progressive JavaScript Framework
-<ul>
-<li><a href="https://www.vueweekly.dev/" rel="nofollow">VueWeekly .dev</a> - <g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> A free, weekly email digest of Vue.js news and articles.</li>
-<li><a href="https://vuejsdevelopers.com/newsletter/" rel="nofollow">Vue.js Developers Newsletter</a> - The best Vue articles in your inbox, weekly</li>
-</ul>
-</li>
-</ul>
-<h2>JavaScript</h2>
-<ul>
-<li><a href="https://exploringjs.com/impatient-js/toc.html" rel="nofollow">JavaScript for impatient programmers</a></li>
-<li><a href="https://github.com/denysdovhan/wtfjs">What the f*ck JavaScript?</a>
-<ul>
-<li><a href="https://jsisweird.com/" rel="nofollow">That JavaScript quiz you found on Reddit</a> - JS is weird: A fun and tricky JavaScript quiz</li>
-</ul>
-</li>
-<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
-</ul>
-<h2>TypeScript</h2>
-<ul>
-<li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" rel="nofollow">The TypeScript Handbook</a></li>
-<li><a href="https://github.com/type-challenges/type-challenges">type-challenges</a> - Collection of TypeScript type challenges with online judge</li>
-</ul>
-]]></description>
 </item>
 
 </channel>
