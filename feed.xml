@@ -5,6 +5,218 @@
   <link>https://z.nofwl.com</link>
   <description>浮之静 技术社区</description>
   <item>
+  <title><![CDATA[Web Development Guide]]></title>
+  <link>https://github.com/lencx/z/discussions/8</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/8</guid>
+  <pubDate>2021-07-13</pubDate>
+  <description><![CDATA[<h2>Guide</h2>
+<ul>
+<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
+<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
+<li><a href="https://developers.google.com/web" rel="nofollow">Web  |  Google Developers</a> - Build the next generation of web experiences.</li>
+<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
+<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
+<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
+<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
+<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
+<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
+<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
+<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
+<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
+<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
+<li><a href="https://github.com/dexteryy/spellbook-of-modern-webdev">Spellbook of Modern Web Dev</a> - A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development</li>
+<li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript Series</a></li>
+<li><a href="https://github.com/lencx/z/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/5/hovercard">CSS Series</a></li>
+</ul>
+<h2>Frame</h2>
+<ul>
+<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces
+<ul>
+<li><a href="https://github.com/preactjs/preact">Preact</a> - <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> Fast 3kB React alternative with the same modern API. Components &amp; Virtual DOM.</li>
+</ul>
+</li>
+<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework
+<ul>
+<li><a href="https://github.com/vuejs/petite-vue">petite-vue</a> - 5kb subset of Vue optimized for progressive enhancement</li>
+</ul>
+</li>
+<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
+<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
+<li><a href="https://www.solidjs.com" rel="nofollow">Solid</a> - Solid is a purely reactive library. It was designed from the ground up with a reactive core. It's influenced by reactive principles developed by previous libraries.</li>
+<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
+</ul>
+<h2>UI</h2>
+<h3>React</h3>
+<ul>
+<li><a href="https://github.com/mui-org/material-ui">Material-UI</a> - Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.</li>
+<li><a href="https://github.com/ant-design/ant-design">Ant Design</a> - An enterprise-class UI design language and React UI library.</li>
+<li><a href="https://github.com/chakra-ui/chakra-ui">Chakra UI</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Simple, Modular &amp; Accessible UI Components for your React Applications</li>
+</ul>
+<h3>Vue</h3>
+<ul>
+<li><a href="https://github.com/vuetifyjs/vuetify">Vuetify</a> - <g-emoji class="g-emoji" alias="dragon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f409.png">🐉</g-emoji> Material Component Framework for Vue</li>
+<li><a href="https://github.com/youzan/vant">Vant</a> - Lightweight Mobile UI Components built on Vue</li>
+<li><a href="https://github.com/vueComponent/ant-design-vue">Ant Design Vue</a> - <g-emoji class="g-emoji" alias="rainbow" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f308.png">🌈</g-emoji> An enterprise-class UI components based on Ant Design and Vue. <g-emoji class="g-emoji" alias="ant" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f41c.png">🐜</g-emoji></li>
+<li><a href="https://github.com/ElemeFE/element">Element</a> - A Vue.js 2.0 UI Toolkit for Web
+<ul>
+<li><a href="https://github.com/element-plus/element-plus">Element Plus</a> - <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji> A Vue.js 3.0 UI Library made by Element team</li>
+</ul>
+</li>
+<li><a href="https://github.com/jdf2e/nutui">NutUI 3</a> - 京东风格移动端 Vue2、Vue3 组件库 (A Vue.js UI Toolkit for Mobile Web)</li>
+<li><a href="https://github.com/pikax/vue-composable">vue-composable</a> - Vue composition-api composable components. i18n, validation, pagination, fetch, etc. +50 different composables</li>
+<li><a href="https://github.com/lusaxweb/vuesax">vuesax</a> - New Framework Components for Vue.js 2</li>
+</ul>
+<h2>Surveys</h2>
+<ul>
+<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
+</ul>
+<h2>RegExp</h2>
+<ul>
+<li><a href="https://regexper.com/" rel="nofollow">Regexper</a> - Regular expression visualizer using railroad diagrams</li>
+<li><a href="https://regexr.com/" rel="nofollow">RegExr: Learn, Build, &amp; Test RegEx</a> - RegExr is an online tool to learn, build, &amp; test Regular Expressions (RegEx / RegExp).</li>
+<li><a href="https://www.regular-expressions.info/" rel="nofollow">Regular-Expressions.info - Regex Tutorial, Examples and Reference - Regexp Patterns</a> - At Regular-Expressions.info you will find a wide range of in-depth information about a powerful search pattern language called regular expressions.</li>
+<li><a href="https://extendsclass.com/regex-tester.html" rel="nofollow">Online Regex tester and visualizer - Python, PHP, Ruby, JavaScript, Java</a> - Online regular expression tester for Python, PHP, Ruby, JS, Java and MySQL. Regex visualizer. Syntax highlighting. Cheatsheet. Generate string corresponding to a regex.</li>
+<li><a href="https://www.debuggex.com/" rel="nofollow">Debuggex: Online visual regex tester. JavaScript, Python, and PCRE.</a> - Test your regex by visualizing it with a live editor. JavaScript, Python, and PCRE.</li>
+<li><a href="https://www.freeformatter.com/regex-tester.html" rel="nofollow">Free Online Regular Expression Tester - FreeFormatter.com</a> - Free online regular expression tester with cheatsheet and most common solutions to common problems</li>
+</ul>
+<h2>Blog</h2>
+<ul>
+<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
+<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
+<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
+<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
+<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
+<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
+<li><a href="https://lea.verou.me/" rel="nofollow">Lea Verou – Life at the bleeding edge (of web standards)</a></li>
+<li><a href="https://chriscoyier.net/" rel="nofollow">Blog - Chris Coyier</a></li>
+<li><a href="https://flaviocopes.com/" rel="nofollow">Flavio Copes</a> - JavaScript and Web Development Tutorials</li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[WebAssembly Series]]></title>
+  <link>https://github.com/lencx/z/discussions/22</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/22</guid>
+  <pubDate>2021-07-13</pubDate>
+  <description><![CDATA[<h2>Guide</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/WebAssembly" rel="nofollow">MDN WebAssembly</a></li>
+<li><a href="https://hacks.mozilla.org/category/webassembly/" rel="nofollow">[Mozilla Hacks] WebAssembly Articles</a> - Articles posted in WebAssembly</li>
+<li><a href="https://webassembly.org" rel="nofollow">webassembly.org</a> - WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.</li>
+<li><a href="https://bytecodealliance.org/articles/" rel="nofollow">Bytecode Alliance</a> - The Bytecode Alliance is a nonprofit organization dedicated to creating secure new software foundations, building on standards such as WebAssembly and WebAssembly System Interface (WASI).</li>
+<li><a href="https://rustwasm.github.io/docs/book" rel="nofollow">Rust <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>   and WebAssembly <g-emoji class="g-emoji" alias="spider_web" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f578.png">🕸</g-emoji>   </a> - This small book describes how to use Rust and WebAssembly together.</li>
+<li><a href="https://github.com/appcypher/awesome-wasm-langs">Awesome WebAssembly Languages</a> - <g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji>  A curated list of languages that compile directly to or have their VMs in WebAssembly</li>
+<li><a href="https://wasmweekly.news" rel="nofollow">WebAssembly Weekly</a> - A weekly newsletter for keeping on top of what's new in the world of WebAssembly, with tutorials, examples, articles, and more.</li>
+<li><a href="https://github.com/mbasso/awesome-wasm">Awesome Wasm</a> - <g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji>  Curated list of awesome things regarding WebAssembly (wasm) ecosystem.</li>
+<li><a href="https://wasmbyexample.dev/home.en-us.html" rel="nofollow">Wasm By Example</a> - A hands-on introduction into WebAssembly ( Wasm ). Containing simple wasm examples and wasm tutorials on how to implement concepts and various tasks using WebAssembly.</li>
+</ul>
+<h2>WASI &amp; VM &amp; VDOM</h2>
+<ul>
+<li><a href="https://github.com/bytecodealliance/wasmtime">wasmtime</a> - Standalone JIT-style runtime for WebAssembly, using Cranelift</li>
+<li><a href="https://github.com/wasm3/wasm3">Wasm3</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  The fastest WebAssembly interpreter, and the most universal runtime</li>
+<li><a href="https://github.com/wasmerio/wasmer">Wasmer</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  The leading WebAssembly Runtime supporting WASI and Emscripten.</li>
+<li><a href="https://github.com/bytecodealliance/lucet">Lucet</a> - Lucet, the Sandboxing WebAssembly Compiler.</li>
+<li><a href="https://github.com/WasmEdge/WasmEdge">WasmEdge</a> - WasmEdge Runtime is a high-performance, extensible, and hardware optimized WebAssembly Virtual Machine for automotive, cloud, AI, and blockchain applications.</li>
+<li><a href="https://github.com/mbasso/asm-dom">asm-dom</a> - A minimal WebAssembly virtual DOM to build C++ SPA (Single page applications)</li>
+</ul>
+<h2>Tools</h2>
+<ul>
+<li><a href="https://wapm.io" rel="nofollow">wapm</a> - <code>WAPM</code> is the WebAssembly Package Manager.</li>
+<li><a href="https://github.com/thedodd/trunk">trunk</a> - Build, bundle &amp; ship your Rust WASM application to the web.</li>
+<li><a href="https://github.com/bytecodealliance/wasm-tools">wasm-tools</a> - Rust tooling for low-level manipulation of WebAssembly modules.</li>
+<li><a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a> - <g-emoji class="g-emoji" alias="package" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji>  <g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji>  your favorite rust -&gt; wasm workflow tool!</li>
+</ul>
+<h2>Optimizing</h2>
+<ul>
+<li><a href="https://rustwasm.github.io/book/reference/code-size.html" rel="nofollow">Shrinking <code>.wasm</code> Code Size</a>
+<ul>
+<li><a href="https://github.com/WebAssembly/binaryen">Binaryen</a> - Binaryen is a compiler and toolchain infrastructure library for WebAssembly, written in C++. It aims to make compiling to WebAssembly easy, fast, and effective.</li>
+<li><a href="https://github.com/rustwasm/twiggy">Twiggy</a> - Twiggy <g-emoji class="g-emoji" alias="seedling" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f331.png">🌱</g-emoji>  is a code size profiler</li>
+</ul>
+</li>
+<li><a href="https://emscripten.org/docs/optimizing/Optimizing-Code.html" rel="nofollow">Optimizing Code (<code>cpp</code>)</a></li>
+<li><a href="https://arxiv.org/pdf/2002.10213.pdf" rel="nofollow">Superoptimization of WebAssembly Bytecode</a></li>
+</ul>
+<h2>Open Source</h2>
+<ul>
+<li><a href="https://github.com/lencx/vite-plugin-rsw">vite-plugin-rsw</a> - <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>  wasm-pack plugin for Vite</li>
+<li><a href="https://github.com/lencx/rsw-node">rsw-node</a> - <g-emoji class="g-emoji" alias="white_circle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26aa.png">⚪️</g-emoji>  <code>wasm-pack build</code> executed in remote deployment</li>
+<li><a href="https://github.com/GoogleChromeLabs/wasi-fs-access">wasi-fs-access</a> - This is a demo shell powered by WebAssembly, WASI, Asyncify and File System Access API.</li>
+<li><a href="https://ffmpegwasm.github.io" rel="nofollow">FFMPEG.WASM</a> - ffmpeg.wasm is a pure WebAssembly / JavaScript port of FFmpeg. It enables video &amp; audio record, convert and stream right inside browsers.</li>
+<li><a href="https://github.com/ColinEberhardt/wasm-rust-chip8">wasm-rust-chip8</a> - A WebAssembly CHIP-8 emulator written with Rust</li>
+<li><a href="https://bbodi.github.io/notecalc3" rel="nofollow">NoteCalc</a> -  is a handy notepad with a smart builtin calculator.</li>
+<li><a href="https://github.com/PaddiM8/kalker">Kalker/kalk</a> - is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals</li>
+<li><a href="https://github.com/torch2424/wasmboy">wasmboy</a> - Game Boy / Game Boy Color Emulator Library, <g-emoji class="g-emoji" alias="video_game" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ae.png">🎮</g-emoji>   written for WebAssembly using AssemblyScript. <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  Demos built with Preact and Svelte. <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji></li>
+<li><a href="https://github.com/38/plotters">Plotters</a> - A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>   <g-emoji class="g-emoji" alias="chart_with_upwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c8.png">📈</g-emoji>  <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji></li>
+<li><a href="https://github.com/tomaka/redshirt">redshirt</a> - The redshirt operating system is an experiment to build some kind of operating-system-like environment where executables are all in Wasm and are loaded from an IPFS-like decentralized network.</li>
+<li><a href="https://github.com/silvia-odwyer/photon">Photon</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji>  Rust/WebAssembly image processing library</li>
+<li><a href="https://github.com/rsms/markdown-wasm">markdown-wasm</a> - Markdown parser and HTML generator implemented in WebAssembly, based on md4c.</li>
+<li><a href="https://github.com/Daninet/hash-wasm">hash-wasm</a> - Hash-WASM is a <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji>  lightning fast<g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji>  hash function library for browsers and Node.js. It is using hand-tuned WebAssembly binaries to calculate the hash faster than other libraries.</li>
+<li><a href="https://github.com/cloudflare/serde-wasm-bindgen">serde-wasm-bindgen</a> - Native integration of <a href="https://serde.rs" rel="nofollow">Serde</a> with <a href="https://github.com/rustwasm/wasm-bindgen">wasm-bindgen</a></li>
+<li><a href="https://github.com/sycamore-rs/sycamore">sycamore</a> - A reactive DOM library for Rust in WASM.</li>
+<li><a href="https://github.com/samthor/gumnut">gumnut</a> - JS parser in Web Assembly / C.</li>
+<li><a href="https://github.com/Birch-san/box2d-wasm">box2d-wasm</a> - Box2D physics engine compiled to WebAssembly. Supports TypeScript and ES modules.</li>
+<li><a href="https://github.com/tensorflow/tfjs">TensorFlow.js</a> - A WebGL accelerated JavaScript library for training and deploying ML models.</li>
+</ul>
+<h2>Article</h2>
+<ul>
+<li><a href="https://lencx.github.io/book/wasm/rust_wasm_frontend.html" rel="nofollow">WebAssembly入门</a></li>
+<li><a href="https://www.yuque.com/kiwenlau/blog/zg3349" rel="nofollow">十年磨一剑，WebAssembly是如何诞生的？</a></li>
+<li><a href="https://blog.scottlogic.com/2021/06/21/state-of-wasm.html" rel="nofollow">The State of WebAssembly 2021</a></li>
+<li><a href="https://wasmbook.com/" rel="nofollow">WasmBook</a> - Rick Battagline's WebAssembly Playground</li>
+<li><a href="https://surma.dev/things/js-to-asc/" rel="nofollow">Is WebAssembly magic performance pixie dust?</a></li>
+<li><a href="https://www.edx.org/course/webassembly-actors-from-cloud-to-edge" rel="nofollow">WebAssembly Actors: From Cloud to Edge</a> - Embrace the actor model to build portable, secure, lightweight WebAssembly modules that thrive in the cloud, at the edge, and anywhere in between.</li>
+<li><a href="https://blog.ttulka.com/learning-webassembly-series" rel="nofollow">Learning WebAssembly Series</a> - A series of learning texts covering the first steps with WebAssembly for complete beginners.</li>
+<li><a href="https://blog.scottlogic.com/2020/11/23/ffmpeg-webassembly.html" rel="nofollow">In-browser transcoding of video files with FFmpeg and WebAssembly</a></li>
+<li><a href="https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface" rel="nofollow">Standardizing WASI: A system interface to run WebAssembly outside the web</a></li>
+<li><a href="https://paulbutler.org/2020/the-webassembly-app-gap" rel="nofollow">The WebAssembly App Gap</a></li>
+<li><a href="https://developer.ibm.com/articles/why-webassembly-and-rust-together-improve-nodejs-performance" rel="nofollow">Why using WebAssembly and Rust together improves Node.js performance</a></li>
+<li><a href="https://v8.dev/docs/wasm-compilation-pipeline" rel="nofollow">[V8] WebAssembly compilation pipeline</a></li>
+<li><a href="https://pspdfkit.com/blog/2018/optimize-webassembly-startup-performance/" rel="nofollow">Optimizing WebAssembly Startup Time</a></li>
+<li><a href="https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/wasm/" rel="nofollow">Bringing You Up to Speed on How Compiling WebAssembly is Faster</a></li>
+<li><a href="https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html#getting-the-code" rel="nofollow">Maybe you don't need Rust and WASM to speed up your JS</a></li>
+<li><a href="https://thenewstack.io/using-web-assembly-written-in-rust-on-the-server-side/" rel="nofollow">Using WebAssembly Written in Rust on the Server-Side</a></li>
+<li><a href="https://thenewstack.io/the-pain-of-debugging-webassembly/" rel="nofollow">The Pain of Debugging WebAssembly</a></li>
+<li><a href="https://thenewstack.io/kubecon-eu-why-webassembly-is-more-than-a-javascript-replacement/" rel="nofollow">KubeCon EU: WebAssembly Is More Than a JavaScript Replacement</a></li>
+<li><a href="https://thenewstack.io/why-webassembly-modules-could-be-the-new-de-facto-unit-of-compute/" rel="nofollow">Why WebAssembly Modules Could Be the New de Facto Unit of Compute</a></li>
+</ul>]]></description>
+</item>
+<item>
+  <title><![CDATA[文章推荐]]></title>
+  <link>https://github.com/lencx/z/discussions/49</link>
+  <guid isPermaLink="false">https://github.com/lencx/z/discussions/49</guid>
+  <pubDate>2021-07-13</pubDate>
+  <description><![CDATA[<h2>准则</h2>
+<p>自己维护了一个技术群，希望将其打造成一个高质量的技术交流群，如果放开权限，很快就会沦为推文群。完全禁止技术文章分享，似乎也并不合理。故开辟此处，为群之外的延伸阅读，此链接将更新至群公告。 好的社区需要大家共同努力来建设 <g-emoji class="g-emoji" alias="pray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png">🙏</g-emoji>。<br>
+要推荐文章，需要提供：</p>
+<ul>
+<li><g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji> markdown 格式排版：<a href="https://guides.github.com/features/mastering-markdown/">学习文档</a></li>
+<li><g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji> <code>推荐人</code> + <code>文章链接及标题</code> + <code>推荐理由</code>
+<ul>
+<li>推荐人：<code>昵称</code>或常用<code>社区 ID</code>，可以附加个人链接： <code>[`推荐人`](个人链接)</code></li>
+<li>推荐理由：文章截取或自身思考</li>
+</ul>
+</li>
+<li><g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji> 文章列表时间排序由近及远（最新推荐放在第一条）</li>
+<li><g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji> 号主可以自己开一个评论，然后在评论里更新每天的推文列表</li>
+<li><g-emoji class="g-emoji" alias="white_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2705.png">✅</g-emoji> 非号主的可以放置在公共推荐区</li>
+<li><g-emoji class="g-emoji" alias="u7981" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f232.png">🈲</g-emoji> 推荐文章夹带<code>卖课</code>及<code>广告</code></li>
+<li><g-emoji class="g-emoji" alias="u7981" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f232.png">🈲</g-emoji> 敏感话题</li>
+</ul>
+<hr>
+<p>示例：</p>
+<div class="highlight highlight-source-gfm position-relative" data-snippet-clipboard-copy-content="- `推荐人` [文章标题](文章链接) - 推荐理由
+- [`推荐人`](个人链接) [文章标题](文章链接) - 推荐理由
+- [`lencx`](https://github.com/lencx) [技术是什么？](https://mp.weixin.qq.com/s/DHeayzVwF_K9Oi9w_ae1lQ) -  技术就是问题的解决方案，与...
+"><pre><span class="pl-v">-</span> <span class="pl-c1">`推荐人`</span> [<span class="pl-e">文章标题</span>](文章链接) - 推荐理由
+<span class="pl-v">-</span> [<span class="pl-e">`推荐人`</span>](个人链接) [<span class="pl-e">文章标题</span>](文章链接) - 推荐理由
+<span class="pl-v">-</span> [<span class="pl-e">`lencx`</span>](https://github.com/lencx) [<span class="pl-e">技术是什么？</span>](https://mp.weixin.qq.com/s/DHeayzVwF_K9Oi9w_ae1lQ) -  技术就是问题的解决方案，与...</pre></div>
+<p>效果预览：</p>
+<ul>
+<li><a href="https://github.com/lencx"><code>lencx</code></a> <a href="https://mp.weixin.qq.com/s/DHeayzVwF_K9Oi9w_ae1lQ" rel="nofollow">技术是什么？</a> - 技术就是问题的解决方案，与编程语言无关，与人无关，当遇到的问题无法解决时，能够把这个问题解决掉的东西，就是技术。概括成一个流程就是：<code>遇到问题 -&gt; 分析问题 -&gt; 抽象描述 -&gt; 提供步骤 -&gt; 解决问题</code>。当问题被解决后，技术本身也就产生了价值。能解决问题越多的技术，其影响力也就越大。</li>
+</ul>]]></description>
+</item>
+<item>
   <title><![CDATA[阅读打卡]]></title>
   <link>https://github.com/lencx/z/discussions/44</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/44</guid>
@@ -215,86 +427,6 @@ vi <span class="pl-k">~</span>/.zshrc
 </ul>]]></description>
 </item>
 <item>
-  <title><![CDATA[Web Development Guide]]></title>
-  <link>https://github.com/lencx/z/discussions/8</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/8</guid>
-  <pubDate>2021-07-11</pubDate>
-  <description><![CDATA[<h2>Guide</h2>
-<ul>
-<li><a href="https://www.freecodecamp.org" rel="nofollow">Learn to Code — For Free — Coding Courses for Busy People</a> - Learn to Code — For Free.</li>
-<li><a href="https://developer.mozilla.org" rel="nofollow">MDN Web Docs</a> - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.</li>
-<li><a href="https://developers.google.com/web" rel="nofollow">Web  |  Google Developers</a> - Build the next generation of web experiences.</li>
-<li><a href="https://github.com/microsoft/Web-Dev-For-Beginners">Web Development for Beginners - A Curriculum</a> - 24 Lessons, 12 Weeks, Get Started as a Web Developer</li>
-<li><a href="https://javascript.info/" rel="nofollow">The Modern JavaScript Tutorial</a> - Modern JavaScript Tutorial: simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.</li>
-<li><a href="https://caniuse.com" rel="nofollow">Can I use... Support tables for HTML5, CSS3, etc</a> - "Can I use" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
-<li><a href="https://www.w3schools.com" rel="nofollow">W3Schools Online Web Tutorials</a> - Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more.</li>
-<li><a href="https://dev.to" rel="nofollow">DEV Community <g-emoji class="g-emoji" alias="woman_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f469-1f4bb.png">👩‍💻</g-emoji><g-emoji class="g-emoji" alias="man_technologist" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f468-1f4bb.png">👨‍💻</g-emoji></a> - A constructive and inclusive social network for software developers. With you every step of your journey.</li>
-<li><a href="https://medium.com" rel="nofollow">Medium</a> - Every idea needs a Medium.</li>
-<li><a href="https://www.sitepoint.com" rel="nofollow">Sitepoint</a> - Stay at the cutting edge of tech</li>
-<li><a href="https://fireship.io" rel="nofollow">Fireship.io</a> - Training and Consulting for App Developers | Full Courses, Video Lessons, Chat, and More.</li>
-<li><a href="https://ui.dev" rel="nofollow">Master the JavaScript Ecosystem - ui.dev</a> - Comprehensive learning resources for mastering the JavaScript ecosystem.</li>
-<li><a href="https://reacttraining.com" rel="nofollow">React Training</a> - React Corporate Workshops, Training, and Consulting.</li>
-<li><a href="https://github.com/taowen/awesome-lowcode">awesome-lowcode</a> - 国内低代码平台从业者交流</li>
-<li><a href="https://github.com/dexteryy/spellbook-of-modern-webdev">Spellbook of Modern Web Dev</a> - A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development</li>
-<li><a href="https://github.com/lencx/z/discussions/33" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/33/hovercard">JavaScript Series</a></li>
-<li><a href="https://github.com/lencx/z/discussions/5" data-hovercard-type="discussion" data-hovercard-url="/lencx/z/discussions/5/hovercard">CSS Series</a></li>
-</ul>
-<h2>Frame</h2>
-<ul>
-<li><a href="https://reactjs.org" rel="nofollow">React</a> - A JavaScript library for building user interfaces
-<ul>
-<li><a href="https://github.com/preactjs/preact">Preact</a> - <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji> Fast 3kB React alternative with the same modern API. Components &amp; Virtual DOM.</li>
-</ul>
-</li>
-<li><a href="https://vuejs.org" rel="nofollow">Vue.js</a> - The Progressive JavaScript Framework
-<ul>
-<li><a href="https://github.com/vuejs/petite-vue">petite-vue</a> - 5kb subset of Vue optimized for progressive enhancement</li>
-</ul>
-</li>
-<li><a href="https://angular.io" rel="nofollow">Angular</a> - The modern web developer's platform</li>
-<li><a href="https://svelte.dev" rel="nofollow">Svelte</a> - Cybernetically enhanced web apps</li>
-<li><a href="https://www.solidjs.com" rel="nofollow">Solid</a> - Solid is a purely reactive library. It was designed from the ground up with a reactive core. It's influenced by reactive principles developed by previous libraries.</li>
-<li><a href="https://lit.dev" rel="nofollow">Lit</a> - Simple. Fast. Web Components.</li>
-</ul>
-<h2>UI</h2>
-<h3>React</h3>
-<ul>
-<li><a href="https://github.com/mui-org/material-ui">Material-UI</a> - Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.</li>
-<li><a href="https://github.com/ant-design/ant-design">Ant Design</a> - An enterprise-class UI design language and React UI library.</li>
-<li><a href="https://github.com/chakra-ui/chakra-ui">Chakra UI</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡️</g-emoji> Simple, Modular &amp; Accessible UI Components for your React Applications</li>
-</ul>
-<h3>Vue</h3>
-<ul>
-<li><a href="https://github.com/vuetifyjs/vuetify">Vuetify</a> - <g-emoji class="g-emoji" alias="dragon" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f409.png">🐉</g-emoji> Material Component Framework for Vue</li>
-<li><a href="https://github.com/youzan/vant">Vant</a> - Lightweight Mobile UI Components built on Vue</li>
-</ul>
-<h2>Surveys</h2>
-<ul>
-<li><a href="https://w3techs.com" rel="nofollow">W3Techs - extensive and reliable web technology surveys</a> - W3Techs provides information about the usage of various types of technologies on the web.</li>
-</ul>
-<h2>RegExp</h2>
-<ul>
-<li><a href="https://regexper.com/" rel="nofollow">Regexper</a> - Regular expression visualizer using railroad diagrams</li>
-<li><a href="https://regexr.com/" rel="nofollow">RegExr: Learn, Build, &amp; Test RegEx</a> - RegExr is an online tool to learn, build, &amp; test Regular Expressions (RegEx / RegExp).</li>
-<li><a href="https://www.regular-expressions.info/" rel="nofollow">Regular-Expressions.info - Regex Tutorial, Examples and Reference - Regexp Patterns</a> - At Regular-Expressions.info you will find a wide range of in-depth information about a powerful search pattern language called regular expressions.</li>
-<li><a href="https://extendsclass.com/regex-tester.html" rel="nofollow">Online Regex tester and visualizer - Python, PHP, Ruby, JavaScript, Java</a> - Online regular expression tester for Python, PHP, Ruby, JS, Java and MySQL. Regex visualizer. Syntax highlighting. Cheatsheet. Generate string corresponding to a regex.</li>
-<li><a href="https://www.debuggex.com/" rel="nofollow">Debuggex: Online visual regex tester. JavaScript, Python, and PCRE.</a> - Test your regex by visualizing it with a live editor. JavaScript, Python, and PCRE.</li>
-<li><a href="https://www.freeformatter.com/regex-tester.html" rel="nofollow">Free Online Regular Expression Tester - FreeFormatter.com</a> - Free online regular expression tester with cheatsheet and most common solutions to common problems</li>
-</ul>
-<h2>Blog</h2>
-<ul>
-<li><a href="https://2ality.com" rel="nofollow">2ality</a> – JavaScript and more</li>
-<li><a href="https://alligator.io" rel="nofollow">Front-end Web Development, Chewed Up ← Alligator.io</a> - Learn Angular 2+, Vue.js, React, TypeScript, Ionic, JavaScript (ES6/ES2015+) &amp; CSS with short, straightforward posts.</li>
-<li><a href="https://overreacted.io" rel="nofollow">Overreacted</a> - Personal blog by Dan Abramov. I explain with words and code.</li>
-<li><a href="https://www.robinwieruch.de" rel="nofollow">RWieruch</a> - Software Engineer for React.js, Node.js, GraphQL and JavaScript. Based in Berlin, German/English speaking. Consulting/Freelancing for Web Development project: Code Audits/Reviews, Workshops, Training, Implementation ...</li>
-<li><a href="https://daveceddia.com" rel="nofollow">Dave Ceddia</a> - Articles to help you learn and master frontend development with React.</li>
-<li><a href="https://charliegerard.dev" rel="nofollow">Charlie Gerard | Senior frontend developer &amp; Creative Technologist</a> - Collection of side projects, conference talks and blog posts experimenting with frontend technologies and human-computer interaction.</li>
-<li><a href="https://lea.verou.me/" rel="nofollow">Lea Verou – Life at the bleeding edge (of web standards)</a></li>
-<li><a href="https://chriscoyier.net/" rel="nofollow">Blog - Chris Coyier</a></li>
-<li><a href="https://flaviocopes.com/" rel="nofollow">Flavio Copes</a> - JavaScript and Web Development Tutorials</li>
-</ul>]]></description>
-</item>
-<item>
   <title><![CDATA[macOS Series]]></title>
   <link>https://github.com/lencx/z/discussions/23</link>
   <guid isPermaLink="false">https://github.com/lencx/z/discussions/23</guid>
@@ -388,93 +520,6 @@ vi <span class="pl-k">~</span>/.zshrc
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - 如果包名重复，启动会报错 <code>npm -g unlink &lt;pkg&gt;</code></li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <code>rsw</code> - <a href="https://github.com/lencx/vite-plugin-rsw/issues/9" data-hovercard-type="issue" data-hovercard-url="/lencx/vite-plugin-rsw/issues/9/hovercard">#9 rsw插件模板生成</a></li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <a href="https://github.com/lencx/rgd">https://github.com/lencx/rgd</a> - github discussions 生成 RSS</li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[WebAssembly Series]]></title>
-  <link>https://github.com/lencx/z/discussions/22</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/22</guid>
-  <pubDate>2021-07-06</pubDate>
-  <description><![CDATA[<h2>Guide</h2>
-<ul>
-<li><a href="https://developer.mozilla.org/zh-CN/docs/WebAssembly" rel="nofollow">MDN WebAssembly</a></li>
-<li><a href="https://hacks.mozilla.org/category/webassembly/" rel="nofollow">[Mozilla Hacks] WebAssembly Articles</a> - Articles posted in WebAssembly</li>
-<li><a href="https://webassembly.org" rel="nofollow">webassembly.org</a> - WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.</li>
-<li><a href="https://rustwasm.github.io/docs/book" rel="nofollow">Rust <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>   and WebAssembly <g-emoji class="g-emoji" alias="spider_web" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f578.png">🕸</g-emoji>   </a> - This small book describes how to use Rust and WebAssembly together.</li>
-<li><a href="https://github.com/appcypher/awesome-wasm-langs">Awesome WebAssembly Languages</a> - <g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji>  A curated list of languages that compile directly to or have their VMs in WebAssembly</li>
-<li><a href="https://wasmweekly.news" rel="nofollow">WebAssembly Weekly</a> - A weekly newsletter for keeping on top of what's new in the world of WebAssembly, with tutorials, examples, articles, and more.</li>
-<li><a href="https://github.com/mbasso/awesome-wasm">Awesome Wasm</a> - <g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji>  Curated list of awesome things regarding WebAssembly (wasm) ecosystem.</li>
-<li><a href="https://wasmbyexample.dev/home.en-us.html" rel="nofollow">Wasm By Example</a> - A hands-on introduction into WebAssembly ( Wasm ). Containing simple wasm examples and wasm tutorials on how to implement concepts and various tasks using WebAssembly.</li>
-</ul>
-<h2>WASI &amp; VM &amp; VDOM</h2>
-<ul>
-<li><a href="https://github.com/bytecodealliance/wasmtime">wasmtime</a> - Standalone JIT-style runtime for WebAssembly, using Cranelift</li>
-<li><a href="https://github.com/wasm3/wasm3">Wasm3</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  The fastest WebAssembly interpreter, and the most universal runtime</li>
-<li><a href="https://github.com/wasmerio/wasmer">Wasmer</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  The leading WebAssembly Runtime supporting WASI and Emscripten.</li>
-<li><a href="https://github.com/bytecodealliance/lucet">Lucet</a> - Lucet, the Sandboxing WebAssembly Compiler.</li>
-<li><a href="https://github.com/WasmEdge/WasmEdge">WasmEdge</a> - WasmEdge Runtime is a high-performance, extensible, and hardware optimized WebAssembly Virtual Machine for automotive, cloud, AI, and blockchain applications.</li>
-<li><a href="https://github.com/mbasso/asm-dom">asm-dom</a> - A minimal WebAssembly virtual DOM to build C++ SPA (Single page applications)</li>
-</ul>
-<h2>Tools</h2>
-<ul>
-<li><a href="https://wapm.io" rel="nofollow">wapm</a> - <code>WAPM</code> is the WebAssembly Package Manager.</li>
-<li><a href="https://github.com/thedodd/trunk">trunk</a> - Build, bundle &amp; ship your Rust WASM application to the web.</li>
-<li><a href="https://github.com/bytecodealliance/wasm-tools">wasm-tools</a> - Rust tooling for low-level manipulation of WebAssembly modules.</li>
-<li><a href="https://github.com/rustwasm/wasm-pack">wasm-pack</a> - <g-emoji class="g-emoji" alias="package" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji>  <g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji>  your favorite rust -&gt; wasm workflow tool!</li>
-</ul>
-<h2>Optimizing</h2>
-<ul>
-<li><a href="https://rustwasm.github.io/book/reference/code-size.html" rel="nofollow">Shrinking <code>.wasm</code> Code Size</a>
-<ul>
-<li><a href="https://github.com/WebAssembly/binaryen">Binaryen</a> - Binaryen is a compiler and toolchain infrastructure library for WebAssembly, written in C++. It aims to make compiling to WebAssembly easy, fast, and effective.</li>
-<li><a href="https://github.com/rustwasm/twiggy">Twiggy</a> - Twiggy <g-emoji class="g-emoji" alias="seedling" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f331.png">🌱</g-emoji>  is a code size profiler</li>
-</ul>
-</li>
-<li><a href="https://emscripten.org/docs/optimizing/Optimizing-Code.html" rel="nofollow">Optimizing Code (<code>cpp</code>)</a></li>
-<li><a href="https://arxiv.org/pdf/2002.10213.pdf" rel="nofollow">Superoptimization of WebAssembly Bytecode</a></li>
-</ul>
-<h2>Open Source</h2>
-<ul>
-<li><a href="https://github.com/lencx/vite-plugin-rsw">vite-plugin-rsw</a> - <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>  wasm-pack plugin for Vite</li>
-<li><a href="https://github.com/lencx/rsw-node">rsw-node</a> - <g-emoji class="g-emoji" alias="white_circle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26aa.png">⚪️</g-emoji>  <code>wasm-pack build</code> executed in remote deployment</li>
-<li><a href="https://github.com/GoogleChromeLabs/wasi-fs-access">wasi-fs-access</a> - This is a demo shell powered by WebAssembly, WASI, Asyncify and File System Access API.</li>
-<li><a href="https://ffmpegwasm.github.io" rel="nofollow">FFMPEG.WASM</a> - ffmpeg.wasm is a pure WebAssembly / JavaScript port of FFmpeg. It enables video &amp; audio record, convert and stream right inside browsers.</li>
-<li><a href="https://github.com/ColinEberhardt/wasm-rust-chip8">wasm-rust-chip8</a> - A WebAssembly CHIP-8 emulator written with Rust</li>
-<li><a href="https://bbodi.github.io/notecalc3" rel="nofollow">NoteCalc</a> -  is a handy notepad with a smart builtin calculator.</li>
-<li><a href="https://github.com/PaddiM8/kalker">Kalker/kalk</a> - is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals</li>
-<li><a href="https://github.com/torch2424/wasmboy">wasmboy</a> - Game Boy / Game Boy Color Emulator Library, <g-emoji class="g-emoji" alias="video_game" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ae.png">🎮</g-emoji>   written for WebAssembly using AssemblyScript. <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji>  Demos built with Preact and Svelte. <g-emoji class="g-emoji" alias="atom_symbol" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/269b.png">⚛️</g-emoji></li>
-<li><a href="https://github.com/38/plotters">Plotters</a> - A rust drawing library for high quality data plotting for both WASM and native, statically and realtimely <g-emoji class="g-emoji" alias="crab" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f980.png">🦀</g-emoji>   <g-emoji class="g-emoji" alias="chart_with_upwards_trend" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c8.png">📈</g-emoji>  <g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji></li>
-<li><a href="https://github.com/tomaka/redshirt">redshirt</a> - The redshirt operating system is an experiment to build some kind of operating-system-like environment where executables are all in Wasm and are loaded from an IPFS-like decentralized network.</li>
-<li><a href="https://github.com/silvia-odwyer/photon">Photon</a> - <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji>  Rust/WebAssembly image processing library</li>
-<li><a href="https://github.com/rsms/markdown-wasm">markdown-wasm</a> - Markdown parser and HTML generator implemented in WebAssembly, based on md4c.</li>
-<li><a href="https://github.com/Daninet/hash-wasm">hash-wasm</a> - Hash-WASM is a <g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji>  lightning fast<g-emoji class="g-emoji" alias="zap" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png">⚡</g-emoji>  hash function library for browsers and Node.js. It is using hand-tuned WebAssembly binaries to calculate the hash faster than other libraries.</li>
-<li><a href="https://github.com/cloudflare/serde-wasm-bindgen">serde-wasm-bindgen</a> - Native integration of <a href="https://serde.rs" rel="nofollow">Serde</a> with <a href="https://github.com/rustwasm/wasm-bindgen">wasm-bindgen</a></li>
-<li><a href="https://github.com/sycamore-rs/sycamore">sycamore</a> - A reactive DOM library for Rust in WASM.</li>
-<li><a href="https://github.com/samthor/gumnut">gumnut</a> - JS parser in Web Assembly / C.</li>
-<li><a href="https://github.com/Birch-san/box2d-wasm">box2d-wasm</a> - Box2D physics engine compiled to WebAssembly. Supports TypeScript and ES modules.</li>
-<li><a href="https://github.com/tensorflow/tfjs">TensorFlow.js</a> - A WebGL accelerated JavaScript library for training and deploying ML models.</li>
-</ul>
-<h2>Article</h2>
-<ul>
-<li><a href="https://lencx.github.io/book/wasm/rust_wasm_frontend.html" rel="nofollow">WebAssembly入门</a></li>
-<li><a href="https://www.yuque.com/kiwenlau/blog/zg3349" rel="nofollow">十年磨一剑，WebAssembly是如何诞生的？</a></li>
-<li><a href="https://blog.scottlogic.com/2021/06/21/state-of-wasm.html" rel="nofollow">The State of WebAssembly 2021</a></li>
-<li><a href="https://wasmbook.com/" rel="nofollow">WasmBook</a> - Rick Battagline's WebAssembly Playground</li>
-<li><a href="https://surma.dev/things/js-to-asc/" rel="nofollow">Is WebAssembly magic performance pixie dust?</a></li>
-<li><a href="https://www.edx.org/course/webassembly-actors-from-cloud-to-edge" rel="nofollow">WebAssembly Actors: From Cloud to Edge</a> - Embrace the actor model to build portable, secure, lightweight WebAssembly modules that thrive in the cloud, at the edge, and anywhere in between.</li>
-<li><a href="https://blog.ttulka.com/learning-webassembly-series" rel="nofollow">Learning WebAssembly Series</a> - A series of learning texts covering the first steps with WebAssembly for complete beginners.</li>
-<li><a href="https://blog.scottlogic.com/2020/11/23/ffmpeg-webassembly.html" rel="nofollow">In-browser transcoding of video files with FFmpeg and WebAssembly</a></li>
-<li><a href="https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface" rel="nofollow">Standardizing WASI: A system interface to run WebAssembly outside the web</a></li>
-<li><a href="https://paulbutler.org/2020/the-webassembly-app-gap" rel="nofollow">The WebAssembly App Gap</a></li>
-<li><a href="https://developer.ibm.com/articles/why-webassembly-and-rust-together-improve-nodejs-performance" rel="nofollow">Why using WebAssembly and Rust together improves Node.js performance</a></li>
-<li><a href="https://v8.dev/docs/wasm-compilation-pipeline" rel="nofollow">[V8] WebAssembly compilation pipeline</a></li>
-<li><a href="https://pspdfkit.com/blog/2018/optimize-webassembly-startup-performance/" rel="nofollow">Optimizing WebAssembly Startup Time</a></li>
-<li><a href="https://www.cs.cornell.edu/courses/cs6120/2019fa/blog/wasm/" rel="nofollow">Bringing You Up to Speed on How Compiling WebAssembly is Faster</a></li>
-<li><a href="https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html#getting-the-code" rel="nofollow">Maybe you don't need Rust and WASM to speed up your JS</a></li>
-<li><a href="https://thenewstack.io/using-web-assembly-written-in-rust-on-the-server-side/" rel="nofollow">Using WebAssembly Written in Rust on the Server-Side</a></li>
-<li><a href="https://thenewstack.io/the-pain-of-debugging-webassembly/" rel="nofollow">The Pain of Debugging WebAssembly</a></li>
-<li><a href="https://thenewstack.io/kubecon-eu-why-webassembly-is-more-than-a-javascript-replacement/" rel="nofollow">KubeCon EU: WebAssembly Is More Than a JavaScript Replacement</a></li>
-<li><a href="https://thenewstack.io/why-webassembly-modules-could-be-the-new-de-facto-unit-of-compute/" rel="nofollow">Why WebAssembly Modules Could Be the New de Facto Unit of Compute</a></li>
 </ul>]]></description>
 </item>
 <item>
@@ -729,59 +774,6 @@ vi <span class="pl-k">~</span>/.bashrc
 <ul>
 <li><a href="https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally" rel="nofollow">Resolving EACCES permissions errors when installing packages globally</a></li>
 <li><a href="https://stackoverflow.com/questions/16151018/how-to-fix-npm-throwing-error-without-sudo" rel="nofollow">How to fix npm throwing error without sudo</a></li>
-</ul>]]></description>
-</item>
-<item>
-  <title><![CDATA[技术名词解释 - 云服务]]></title>
-  <link>https://github.com/lencx/z/discussions/31</link>
-  <guid isPermaLink="false">https://github.com/lencx/z/discussions/31</guid>
-  <pubDate>2021-07-05</pubDate>
-  <description><![CDATA[<h2>云计算</h2>
-<p>云计算（英语：cloud computing），也被意译为网络计算，是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机各种终端和其他设备，使用服务商提供的电脑基建作计算和资源。</p>
-<p>云计算是指在云中运行工作负载，而云是一种能够抽象、汇集和共享整个网络中的可扩展资源的 IT 环境。云计算和云本身都不属于技术的范畴。</p>
-<ul>
-<li>云计算是指在云中运行工作负载的功能。</li>
-<li>而云是一种环境，是运行应用的地方。</li>
-<li>技术则是指用于构建和使用云的软件和硬件。</li>
-</ul>
-<h3>BFF</h3>
-<p>服务于前端的后端（英语：Backend-For-Frontend，缩写：BFF） 本质上是 API 网关模式的一个变体。它还在微服务和客户端之间提供了一个附加层。但它不是单个入口点，而是为每个客户端引入了多个网关。 使用 BFF，您可以添加针对每个客户端的需求量身定制的 API，从而消除因将所有内容集中在一个地方而导致的大量臃肿。</p>
-<h3>SaaS</h3>
-<p>软件即服务（英语：Software as a Service，缩写：SaaS，发音：sæs或sɑs），亦可称为“按需即用软件”（即“一经要求，即可使用”），它是一种软件交付模式。在这种交付模式中，软件仅需通过网络，不须经过传统的安装步骤即可使用，软件及其相关的数据集中托管于云端服务。用户通常使用精简客户端，一般即经由网页浏览器来访问、访问软件即服务。SaaS 最大的特色在于软件本身并没有被下载到用户的硬盘，而是存储在提供商的云端或者服务器。对比传统软件需要花钱购买，下载。软件即服务只需要用户租用软件，在线使用，不但大大减少了用户购买风险, 也无需下载软件本身，无设备要求的限制。</p>
-<h3>IaaS</h3>
-<p>基础设施即服务（英语：Infrastructure as a Service，简称IaaS）是提供消费者处理、储存、网络以及各种基础运算资源，以部署与执行操作系统或应用程序等各种软件。</p>
-<p>IaaS 是云服务的最底层，主要提供一些基础资源。它与 PaaS 的区别是，用户需要自己控制底层，实现基础设施的使用逻辑。 客户端无须购买服务器、软件等网络设备，即可任意部署和运行处理、存储、网络和其它基本的计算资源，不能控管或控制底层的基础设施，但是可以控制操作系统、储存装置、已部署的应用程序，有时也可以有限度地控制特定的网络元件，像是主机端防火墙。</p>
-<h3>PaaS</h3>
-<p>平台即服务（英语：platform as a service，缩写：PaaS）是一种云计算服务，提供运算平台与解决方案服务。在云计算的典型层级中，PaaS层介于软件即服务与基础设施即服务之间。</p>
-<p>PaaS提供用户将云端基础设施部署与创建至客户端，或者借此获得使用编程语言、程序库与服务。用户不需要管理与控制云端基础设施（包含网络、服务器、操作系统或存储），但需要控制上层的应用程序部署与应用托管的环境。</p>
-<p>PaaS将软件研发的平台做为一种服务，以软件即服务（SaaS）模式交付给用户。因此，PaaS也是SaaS模式的一种应用。但是，PaaS的出现可以加快SaaS的发展，尤其是加快SaaS应用的开发速度。</p>
-<p>PaaS 提供软件部署平台（runtime），抽象掉了硬件和操作系统细节，可以无缝地扩展（scaling）。开发者只需要关注自己的业务逻辑，不需要关注底层。</p>
-<h3>BaaS</h3>
-<p>后端即服务 (BaaS) 使开发人员可以专注于应用程序的前端，无需构建或维护后端服务即可利用。BaaS 和无服务器计算有一些相似之处，许多提供商都提供两者，但是两种模型有一些差异。</p>
-<h3>FaaS</h3>
-<p>功能即服务 (FaaS) 是一类云计算服务，它提供了一个平台，允许客户开发、运行和管理应用程序功能，而无需构建和维护通常与开发和启动应用程序相关的基础设施。按照此模型构建应用程序是实现“无服务器”架构的一种方式，通常用于构建微服务应用程序。</p>
-<h3>DaaS</h3>
-<p>在计算领域，数据即服务（Data as a service，简称DaaS）是指在线数据服务，开发者将开发用的数据保存在互联网上并随时访问，而无需使用保存在本地计算机上的数据库。</p>
-<hr>
-<ul>
-<li><a href="https://zh.wikipedia.org/wiki/%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97" rel="nofollow">[wiki] 云计算</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud" rel="nofollow">什么是云计算？</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-serverless" rel="nofollow">什么是无服务器？</a></li>
-<li><a href="https://microservices.io/patterns/apigateway.html" rel="nofollow">Pattern: API Gateway / Backends for Frontends Context</a></li>
-<li><a href="https://samnewman.io/patterns/architectural/bff/" rel="nofollow">Pattern: Backends For Frontends</a></li>
-<li><a href="https://tsh.io/blog/design-patterns-in-microservices-api-gateway-bff-and-more/" rel="nofollow">Microservices design patterns for CTOs: API Gateway, Backend for Frontend and more</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 软件即服务</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%8F%B0%E5%8D%B3%E6%9C%8D%E5%8A%A1" rel="nofollow">[wiki] 平台即服务</a></li>
-<li><a href="https://azure.microsoft.com/zh-cn/overview/what-is-paas" rel="nofollow">什么是 PaaS？</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud-computing/what-is-paas" rel="nofollow">什么是平台即服务（PaaS）？PaaS SaaS IaaS 区别解析</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Mobile_backend_as_a_service" rel="nofollow">[wiki] Mobile backend as a service</a></li>
-<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/backend-as-a-service-baas/" rel="nofollow">什么是 BaaS？|后端即服务与无服务器</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Function_as_a_service" rel="nofollow">Function as a service</a></li>
-<li><a href="https://www.cloudflare.com/zh-cn/learning/serverless/glossary/function-as-a-service-faas/" rel="nofollow">什么功能即服务 (FaaS)？</a></li>
-<li><a href="https://www.redhat.com/zh/topics/cloud-native-apps/what-is-faas" rel="nofollow">什么是功能即服务（FaaS）？</a></li>
-<li><a href="https://aws.amazon.com/cn/blogs/china/iaas-faas-serverless/" rel="nofollow">从IaaS到FaaS—— Serverless架构的前世今生</a></li>
-<li><a href="https://www.ibm.com/cloud/learn/faas" rel="nofollow">FaaS (Function-as-a-Service)</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/%E6%95%B8%E6%93%9A%E5%8D%B3%E6%9C%8D%E5%8B%99" rel="nofollow">[wiki] 数据即服务</a></li>
 </ul>]]></description>
 </item>
 
